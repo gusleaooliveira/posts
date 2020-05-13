@@ -1,19 +1,12 @@
-[!INCLUDE [Menu](../menu.md)]
-
-# Sumário
-
-[TOC]
+[Menu](../menu.md)
 
 # Design Patterns
-
-
 
 # Prototype e Singleton
 
 
 
 ## Prototype
-
 
 
 ## Singleton
@@ -26,7 +19,7 @@ Vamos criar o objeto **Banco**, que terá como atributos **tabela**, que vai sal
 
 Tendo isso em mente, ficamos com o seguinte uml:
 
-![Tela mostrando o uml da classe](/home/gustavo/Área de Trabalho/estudo/wordpress/materialEstudo/img/tela-classe.png)
+![Tela mostrando o uml da classe](img/tela-classe.png)
 
 #### Criando a estrutura do singleton
 
@@ -38,23 +31,23 @@ let Singlenton = (() => {
 })();
 ```
 
-Será utilizado aqui as **arrow functions**, no formato: 
+Será utilizado aqui as **arrow functions**, no formato:
 
 ```javascript
-( ) => { 
-	// Código a ser executado 
-} 
+( ) => {
+	// Código a ser executado
+}
 ```
 
 Isso será utilizado no lugar de fazer as **funções anonimas**, no formato:
 
 ```javascript
-function( ) { 
-	// Código a ser executado 
+function( ) {
+	// Código a ser executado
 }
 ```
 
-Dentro dessa **"closure"**, será colocada a váriavel, privada, que terá a instância unica do objeto que será criado. 
+Dentro dessa **"closure"**, será colocada a váriavel, privada, que terá a instância unica do objeto que será criado.
 
 ```javascript
 let Singlenton = (() => {
@@ -64,7 +57,7 @@ let Singlenton = (() => {
 
 Vamos criar nosso objeto, para isso iremos usar a **função construtora**, que ira ser rodada para criar o objeto em si:
 
-```javascript 
+```javascript
 let Singlenton = (() => {
   let instancia;
 
