@@ -1,3 +1,5 @@
+!INCLUDE "../menu.md"
+
 # Sumário
 
 [TOC]
