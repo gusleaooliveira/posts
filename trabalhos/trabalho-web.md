@@ -252,7 +252,17 @@ function Pessoa(nome, sobrenome, email, telefone){
 }
 ```
 
-> Foi utilizado uma função construtora, mas o ideal deve ser uma **"closure"**, tanto por ser um bom abto, quanto para deixar de maneira privada o que é necessário para o objeto. Foi escolhido apenas a função construtora, pois será mais fácil de demonstrar como criar um **prototype**.
+> Foi utilizado uma função construtora, mas o ideal deve ser uma **"closure"**, tanto por ser um bom abito, quanto para deixar de maneira privada o que é necessário para o objeto. Foi escolhido apenas a função construtora, pois será mais fácil de demonstrar como criar um **prototype**.
+
+
+Depois serão criados três objetos pessoa, a fim de exemplo, cada um com seus dados respectivos:
+
+```javascript
+let pessoa1 = new Pessoa("Eliane", "Francisca Ayla Moura", "elianefranciscaaylamoura_@focusnetworks.com.br");
+let pessoa2 = new Pessoa("Bryan", "Pedro Lopes", "bryanpedrolopes..bryanpedrolopes@gmailo.com");
+let pessoa3 = new Pessoa("Manuel", "Vinicius Baptista", "manuelviniciusbaptista-71@outlock.com.br");
+
+```
 
 ***
 
