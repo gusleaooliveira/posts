@@ -263,6 +263,7 @@ let pessoa2 = new Pessoa("Bryan", "Pedro Lopes", "bryanpedrolopes..bryanpedrolop
 let pessoa3 = new Pessoa("Manuel", "Vinicius Baptista", "manuelviniciusbaptista-71@outlock.com.br");
 ```
 
+
 Esses serão objeto que terão os métodos e atributos criados na função construtora criada anteriormente.
 
 Agora será criado um objeto pessoa4, só que esse herdará os metodos e atributos criados anteiormente na função construtora, e ainda, mais o atributo telefone:
@@ -277,7 +278,49 @@ pessoa4.telefone = "(51) 99999-9999";
 
 Por fim vamos ver como ficaram os objetos criados anteriormente, e poderemos notar que o objeto pessoa4 é o único que possui o telefone:
 
+```javascript
+console.log(pessoa1);
+console.log(pessoa2);
+console.log(pessoa3);
+console.log(pessoa4);
+console.log(pessoa4.telefone);
 
+/*
+Resposta:
+
+Pessoa {
+  nome: 'Eliane',
+  sobrenome: 'Francisca Ayla Moura',
+  email: 'elianefranciscaaylamoura_@focusnetworks.com.br',
+  listaEmails: [],
+  nomeCompleto: [Function],
+  mandarEmail: [Function],
+  listarEmails: [Function] }
+Pessoa {
+  nome: 'Bryan',
+  sobrenome: 'Pedro Lopes',
+  email: 'bryanpedrolopes..bryanpedrolopes@gmailo.com',
+  listaEmails: [],
+  nomeCompleto: [Function],
+  mandarEmail: [Function],
+  listarEmails: [Function] }
+Pessoa {
+  nome: 'Manuel',
+  sobrenome: 'Vinicius Baptista',
+  email: 'manuelviniciusbaptista-71@outlock.com.br',
+  listaEmails: [],
+  nomeCompleto: [Function],
+  mandarEmail: [Function],
+  listarEmails: [Function] }
+Function {
+  nome: 'Fabiana',
+  sobrenome: 'Melissa Marcela Moraes',
+  email: 'fabianamelissamarcelamoraes..fabianamelissamarcelamoraes@bsd.com.br',
+  telefone: '(51) 99999-9999' }
+(51) 99999-9999
+
+*/
+```
 
 
 ***

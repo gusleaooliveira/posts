@@ -34,8 +34,9 @@ pessoa4.telefone = "(51) 99999-9999";
 console.log(pessoa1);
 console.log(pessoa2);
 console.log(pessoa3);
-console.log(pessoa3.telefone);
+console.log(pessoa4);
+console.log(pessoa4.telefone);
 
-pessoa1.mandarEmail(pessoa2, "Boas Vindas", "Olá, seja bem-vinda, prazer!");
+// pessoa1.mandarEmail(pessoa2, "Boas Vindas", "Olá, seja bem-vinda, prazer!");
 
-console.log(pessoa2.listarEmails());
+// console.log(pessoa2.listarEmails());
