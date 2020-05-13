@@ -1,4 +1,4 @@
-!INCLUDE "../menu.mdpp"
+[!INCLUDE [Menu](../menu.md)]
 
 # Sumário
 
