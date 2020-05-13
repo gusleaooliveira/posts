@@ -2,4 +2,4 @@
 
 ## Posts
 
-!INCLUDE "menu.md"
+!INCLUDE "menu.mdpp"
