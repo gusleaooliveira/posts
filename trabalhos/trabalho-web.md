@@ -221,6 +221,39 @@ Banco2:
 
 O **Prototype** é usado para criar objetos com base em um modelo criado anteriormente através de clonagem. O objeto, que usa como base o objeto criado na função construtora, herda todos os seus métodos e atributos. Este **"design pattern"** é muito util quando utilizamos muito um objeto, e queremos apenas acrescentar mais metodos e atributos, criando assim um outro objeto, assim, não necessitando a criação de objetos excessiva.
 
+## Criando a estrutura do prototype
+
+Vamos criar um objeto **pessoa**, que terá os atributos **nome** e **sobrenome**, que salvam o nome do usuário, **email** e **listaEmails**, que recebem o email e a lista de emails recebidos do usuário.
+
+Teremos o método **nomeCompleto**, que simplesmente retorna o nome completo do usuário. Além desse, temos o método **mandarEmail**, que vai salvar na lista do usuário que vai receber o email o email contendo de quem foi mandado, a mensagem, e qual o conteúdo. Por fim, o método **listarEmails**, que lista os emails contidos no atributo **listaEmails** definido anteriormente.
+
+
+```javascript
+function Pessoa(nome, sobrenome, email, telefone){
+  this.nome = nome;
+  this.sobrenome = sobrenome;
+  this.email = email;
+  this.listaEmails = [];
+
+  this.nomeCompleto = () => {
+    return this.nome+' '+this.sobrenome;
+  }
+  this.mandarEmail = (pessoa, titulo, conteudo) => {
+    pessoa.listaEmails.push(
+      {
+        "email": this.email,
+        "titulo": titulo,
+        "conteudo": conteudo
+      });
+  }
+  this.listarEmails = () => {
+    return this.listaEmails;
+  }
+}
+```
+
+> Foi utilizado uma função construtora, mas o ideal deve ser uma **"closure"**, tanto por ser um bom abto, quanto para deixar de maneira privada o que é necessário para o objeto. Foi escolhido apenas a função construtora, pois será mais fácil de demonstrar como criar um **prototype**.
+
 ***
 
 # Criador
