@@ -2,4 +2,4 @@
 
 ## Posts
 
-[!INCLUDE [Menu](menu.md)]
+[Menu](../menu.md)

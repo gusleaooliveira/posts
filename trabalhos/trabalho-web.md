@@ -2,14 +2,8 @@
 
 # Design Patterns
 
-# Prototype e Singleton
 
-
-
-## Prototype
-
-
-## Singleton
+# Singleton
 
 O singleton é um que é usado para quando necessitamos de apenas uma instancia de um objeto, como por exemplo, quando temos um objeto que trabalha com um banco de dados, que desejamos que tenha apenas uma instancia criada. Utilizando esse padrão de desenvolvimento temos apenas uma instancia, que será criada na primeira vez que for chamada, e caso seja novamente chamada, retornará a instancia criada anteriormente.
 
@@ -23,7 +17,7 @@ Tendo isso em mente, ficamos com o seguinte uml:
 
 #### Criando a estrutura do singleton
 
-Para definirmos como será a estrutura do singlentom, em javascript, precisamos criar uma variável com *nome* **Singlenton**, que terá atribuido uma **"closure"** que transforma o conteúdo de dentro da função privado e inacessível fora da **"closure"**. Ficará assim:
+Para definirmos como será a estrutura do **Singlenton**, em javascript, precisamos criar uma variável com *nome* **Singlenton**, que terá atribuido uma **"closure"** que transforma o conteúdo de dentro da função privado e inacessível fora da **"closure"**. Ficará assim:
 
 ```javascript
 let Singlenton = (() => {
@@ -188,6 +182,8 @@ console.log(banco2.listarPessoas(0));
 // Resultado: { "nome" : "Gustavo Leão", "email": "gus.leaono@gmail.com"}
 ```
 
+
+
 Apagando uma pessoa utilizando qualquer uma das instancias:
 
 ```javascript
@@ -219,6 +215,11 @@ Banco2:
   { "nome" : "João Silva", "email": "joao_teste@gmail.com"} ]
  */
 ```
+
+
+# Prototype
+
+O **Prototype** é usado para criar objetos com base em um modelo criado anteriormente através de clonagem. O objeto, que usa como base o objeto criado na função construtora, herda todos os seus métodos e atributos. Este **"design pattern"** é muito util quando utilizamos muito um objeto, e queremos apenas acrescentar mais metodos e atributos, criando assim um outro objeto, assim, não necessitando a criação de objetos excessiva.
 
 ***
 
