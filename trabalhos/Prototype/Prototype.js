@@ -28,7 +28,7 @@ let pessoa4 = Object.create(Pessoa);
 pessoa4.nome = "Fabiana";
 pessoa4.sobrenome = "Melissa Marcela Moraes";
 pessoa4.email = "fabianamelissamarcelamoraes..fabianamelissamarcelamoraes@bsd.com.br";
-pessoa4.telefone = "(51) 99999-9999"
+pessoa4.telefone = "(51) 99999-9999";
 
 
 console.log(pessoa1);

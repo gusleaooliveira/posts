@@ -221,7 +221,7 @@ Banco2:
 
 O **Prototype** é usado para criar objetos com base em um modelo criado anteriormente através de clonagem. O objeto, que usa como base o objeto criado na função construtora, herda todos os seus métodos e atributos. Este **"design pattern"** é muito util quando utilizamos muito um objeto, e queremos apenas acrescentar mais metodos e atributos, criando assim um outro objeto, assim, não necessitando a criação de objetos excessiva.
 
-## Criando a estrutura do prototype
+## Criando e executando prototype
 
 Vamos criar um objeto **pessoa**, que terá os atributos **nome** e **sobrenome**, que salvam o nome do usuário, **email** e **listaEmails**, que recebem o email e a lista de emails recebidos do usuário.
 
@@ -261,8 +261,24 @@ Depois serão criados três objetos pessoa, a fim de exemplo, cada um com seus d
 let pessoa1 = new Pessoa("Eliane", "Francisca Ayla Moura", "elianefranciscaaylamoura_@focusnetworks.com.br");
 let pessoa2 = new Pessoa("Bryan", "Pedro Lopes", "bryanpedrolopes..bryanpedrolopes@gmailo.com");
 let pessoa3 = new Pessoa("Manuel", "Vinicius Baptista", "manuelviniciusbaptista-71@outlock.com.br");
-
 ```
+
+Esses serão objeto que terão os métodos e atributos criados na função construtora criada anteriormente.
+
+Agora será criado um objeto pessoa4, só que esse herdará os metodos e atributos criados anteiormente na função construtora, e ainda, mais o atributo telefone:
+
+```javascript
+let pessoa4 = Object.create(Pessoa);
+pessoa4.nome = "Fabiana";
+pessoa4.sobrenome = "Melissa Marcela Moraes";
+pessoa4.email = "fabianamelissamarcelamoraes..fabianamelissamarcelamoraes@bsd.com.br";
+pessoa4.telefone = "(51) 99999-9999";
+```
+
+Por fim vamos ver como ficaram os objetos criados anteriormente, e poderemos notar que o objeto pessoa4 é o único que possui o telefone:
+
+
+
 
 ***
 
