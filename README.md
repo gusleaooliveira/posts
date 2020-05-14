@@ -3,5 +3,5 @@
 ## Posts
 
 * [Trabalho de web](trabalhos/trabalho-web.md)
-* [Trabalho de web](trabalhos/o-que-eh-uma-api.md)
-* [Trabalho de web](trabalhos/regra-para-criar-api.md)
+* [Api parte 1](trabalhos/o-que-eh-uma-api.md)
+* [Api parte 2](trabalhos/regra-para-criar-api.md)
