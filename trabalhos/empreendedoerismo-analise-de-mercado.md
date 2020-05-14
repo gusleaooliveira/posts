@@ -1,4 +1,6 @@
-**Título:** Análise de Mercadológica, apreendendo com o exemplo  a criar estratégias para se destacar no mercado. 
+[Menu](../README.md)
+
+**Título:** Análise de Mercadológica, apreendendo com o exemplo  a criar estratégias para se destacar no mercado.
 
 **Aluno:** Gustavo Leão Nogueira de Oliveira
 
@@ -33,7 +35,7 @@ Baseada nas estratégias, anteriormente citadas, pode-se notar que a empresa uso
 
 * **Segmentação psicográfica**, onde eles escolheram produzir algo que todos almejavam e produtos conforme o estilo de vida. Por exemplo: A capa de chuva, que para quem mora no rio Grande do Sul, na época chuvosa é muito requisitada o que torna-se algo cultural e conforme o estilo de vida do riograndense, assim pegando essa cultura e fazendo o produto que os clientes precisavam.
 * Destaca-se a **segmentação comportamental**, que no caso pode ser exemplificada pela maneira de comprar que se modificou, fazendo o comportamento das pessoas mudar e tendo que, assim, migrar de só estabelecimentos físicos para virtuais. Outro comportamento que mudou o modo de vendas foi quando a empresa decidiu ter mais lojas fora de centros comerciais para vender para as pessoas que, cada vez menos, ocupadas como andam, vão a esses locais para fazer suas compras.
-* Já a **segmentação demográfica**, no caso da rede, foi quando a empresa por diversas vezes vendo as novas modas voltadas para os jovens, começou a pegar empresas mais atuais que criavam tendência para os adolescentes e colocando em suas lojas, assim analisando que era necessário atualizar-se para conseguir este novo público. 
+* Já a **segmentação demográfica**, no caso da rede, foi quando a empresa por diversas vezes vendo as novas modas voltadas para os jovens, começou a pegar empresas mais atuais que criavam tendência para os adolescentes e colocando em suas lojas, assim analisando que era necessário atualizar-se para conseguir este novo público.
 
 **Conclusão**
 

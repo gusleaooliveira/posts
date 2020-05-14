@@ -1,22 +1,22 @@
+[Menu](../README.md)
 
+# Laboratório – Comparar dados com um hash
 
-# Laboratório – Comparar dados com um hash 
+## Objetivos
 
-## Objetivos 
+Use um programa de hash para verificar a integridade dos dados.
 
-Use um programa de hash para verificar a integridade dos dados. 
+## Histórico/Cenário
 
-## Histórico/Cenário 
+É importante identificar quando os dados foram corrompidos ou adulterados. Um programa de hash pode ser usado para verificar se os dados foram alterados ou se permaneceram intocados. Um programa de hash executa uma função hash nos dados ou em um arquivo, o que gera um valor (geralmente mais curto). Há muitas funções hash diferentes, algumas muito simples e outras muito complexas. Quando o mesmo hash é realizado nos mesmos dados, o valor gerado é sempre o mesmo. Se for feita qualquer alteração nos dados, o valor de hash gerado será diferente.
 
-É importante identificar quando os dados foram corrompidos ou adulterados. Um programa de hash pode ser usado para verificar se os dados foram alterados ou se permaneceram intocados. Um programa de hash executa uma função hash nos dados ou em um arquivo, o que gera um valor (geralmente mais curto). Há muitas funções hash diferentes, algumas muito simples e outras muito complexas. Quando o mesmo hash é realizado nos mesmos dados, o valor gerado é sempre o mesmo. Se for feita qualquer alteração nos dados, o valor de hash gerado será diferente. 
+>  Observação: você precisará de privilégios de instalação e algum conhecimento do processo para instalar programas no Windows.
 
->  Observação: você precisará de privilégios de instalação e algum conhecimento do processo para instalar programas no Windows. 
+## Recursos necessários
 
-## Recursos necessários 
+* PC com acesso à Internet
 
-* PC com acesso à Internet 
-
-### Etapa 1: Crie um arquivo de texto 
+### Etapa 1: Crie um arquivo de texto
 
 - [x] Criar um arquivo
 
@@ -29,11 +29,11 @@ touch arquivo.txt
 ```bash
 $ nano arquivo.txt
 Exemplo de conteúdo:
-Antes do hash: 
-md5 => 
-sha1 => 
-sha256 => 
-crc32 => 
+Antes do hash:
+md5 =>
+sha1 =>
+sha256 =>
+crc32 =>
 ```
 
 ### Etapa 2: Instalar o GtkHash no ubuntu
@@ -57,7 +57,7 @@ sudo apt install gtkhash -y
 ```
 $ nano arquivo.txt
 Exemplo de conteúdo:
-Antes do hash: 
+Antes do hash:
 md5 => e71d67f9b08e8529ef791bfc2d150ce7
 sha1 => a6e7115956ccd567021b80dc826e63a60e5c11fd
 sha256 => 8f5360ec2e4fba0c0181f34af876d5fde50ff289a24437424889758be59a3094
@@ -73,7 +73,7 @@ crc32 => ce806bc0
 ```
 $ nano arquivo.txt
 Exemplo de conteúdo:
-Antes do hash: 
+Antes do hash:
 md5 => e71d67f9b08e8529ef791bfc2d150ce7
 sha1 => a6e7115956ccd567021b80dc826e63a60e5c11fd
 sha256 => 8f5360ec2e4fba0c0181f34af876d5fde50ff289a24437424889758be59a3094
@@ -98,7 +98,7 @@ Sim, são completamente diferentes.
 - [x] Comparando os tipos de **_hash's_** (**md5**, **sha1**, **sha256**, **crc32**) são diferentes? Por quê?
 
 ```
-Sim, pois cada um dos tipos de algoritimos de hash, que calcula o hash são diferentes, logo tendo as chaves de tamanhos diferentes. 
+Sim, pois cada um dos tipos de algoritimos de hash, que calcula o hash são diferentes, logo tendo as chaves de tamanhos diferentes.
 ```
 
 
