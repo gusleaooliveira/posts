@@ -2,8 +2,3 @@ theme: jekyll-theme-time-machine
 title: "Gustavo Leão, meus Posts"
 description: "Este é o um projeto com meus trabalhos e exercícos de programação."
 show_downloads: true
----
-layout: default
-comments: true
-# other options
----
