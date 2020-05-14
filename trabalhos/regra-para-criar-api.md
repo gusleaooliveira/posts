@@ -4,7 +4,7 @@
 
 > **Observação:**
 >
-> Caso não saiba o que é uma api, leia o seguinte sobre [aqui](api-parte1.pdf).
+> Caso não saiba o que é uma api, leia o seguinte sobre [aqui](o-que-eh-uma-api.md).
 
 
 ## Rest e RestFull
