@@ -29,14 +29,19 @@ pessoa4.nome = "Fabiana";
 pessoa4.sobrenome = "Melissa Marcela Moraes";
 pessoa4.email = "fabianamelissamarcelamoraes..fabianamelissamarcelamoraes@bsd.com.br";
 pessoa4.telefone = "(51) 99999-9999";
+pessoa4.listaEmails = new Array();
+pessoa4.listarEmails = () => {
+  return pessoa4.listaEmails;
+}
 
+// console.log(pessoa1);
+// console.log(pessoa2);
+// console.log(pessoa3);
+// console.log(pessoa4);
+// console.log(pessoa4.telefone);
 
-console.log(pessoa1);
-console.log(pessoa2);
-console.log(pessoa3);
-console.log(pessoa4);
-console.log(pessoa4.telefone);
+pessoa1.mandarEmail(pessoa2, "Boas Vindas", "Olá, seja bem-vinda, prazer!");
+pessoa3.mandarEmail(pessoa4, "Mensagem", "Olá, como vc tah?");
 
-// pessoa1.mandarEmail(pessoa2, "Boas Vindas", "Olá, seja bem-vinda, prazer!");
-
-// console.log(pessoa2.listarEmails());
+console.log(pessoa2.listarEmails());
+console.log(pessoa4.listarEmails());

@@ -278,6 +278,9 @@ pessoa4.nome = "Fabiana";
 pessoa4.sobrenome = "Melissa Marcela Moraes";
 pessoa4.email = "fabianamelissamarcelamoraes..fabianamelissamarcelamoraes@bsd.com.br";
 pessoa4.telefone = "(51) 99999-9999";
+pessoa4.listarEmails = () => {
+  return pessoa4.listaEmails;
+}
 ```
 
 Por fim vamos ver como ficaram os objetos criados anteriormente, e poderemos notar que o objeto pessoa4 é o único que possui o telefone:
@@ -326,6 +329,29 @@ Function {
 */
 ```
 
+Podemos também executar o método para enviar uma mensagem da **pessoa1** para para a **pessoa2** e da **pessoa3** para a **pessoa4**:
+
+```javascript
+pessoa1.mandarEmail(pessoa2, "Boas Vindas", "Olá, seja bem-vinda, prazer!");
+pessoa3.mandarEmail(pessoa4, "Mensagem", "Olá, como vc tah?");
+```
+
+E por fim, podemos mostrar as mensagens que ficaram assim:
+
+```javascript
+console.log(pessoa2.listarEmails());
+console.log(pessoa4.listarEmails());
+/*
+  Resposta:
+
+  [ { email: 'elianefranciscaaylamoura_@focusnetworks.com.br',
+      titulo: 'Boas Vindas',
+      conteudo: 'Olá, seja bem-vinda, prazer!' } ]
+  [ { email: 'manuelviniciusbaptista-71@outlock.com.br',
+      titulo: 'Mensagem',
+      conteudo: 'Olá, como vc tah?' } ]
+*/
+```
 
 ***
 
