@@ -1,5 +1,7 @@
 [Menu](../README.md)
 
+> Os exemplos estão localizados em: [Link](exemplos/)
+
 # Design Patterns
 ## O que são?
 
