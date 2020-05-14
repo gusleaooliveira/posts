@@ -278,6 +278,7 @@ pessoa4.nome = "Fabiana";
 pessoa4.sobrenome = "Melissa Marcela Moraes";
 pessoa4.email = "fabianamelissamarcelamoraes..fabianamelissamarcelamoraes@bsd.com.br";
 pessoa4.telefone = "(51) 99999-9999";
+pessoa4.listaEmails = new Array();
 pessoa4.listarEmails = () => {
   return pessoa4.listaEmails;
 }
