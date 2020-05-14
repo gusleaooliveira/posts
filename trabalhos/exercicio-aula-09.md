@@ -1,6 +1,6 @@
 [Menu](../README.md)
 
-![imagem](/home/gustavo/Documentos/wordpress/materialEstudo/cisco.png)
+![imagem](img/cisco.png)
 
 # Laboratório – Comparar dados com um hash
 
