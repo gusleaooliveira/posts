@@ -354,6 +354,9 @@ console.log(pessoa4.listarEmails());
 */
 ```
 
+
+> Os exemplos estão localizados em: [Link](exemplos/)
+
 ***
 
 # Criador
