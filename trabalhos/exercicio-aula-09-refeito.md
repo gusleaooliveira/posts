@@ -50,7 +50,7 @@ sudo apt install gtkhash -y
 
 - [x] Abra o arquivo e clique em gerar **hash**
 
-  ![tela1](tela01.gif)
+  ![tela1](img/tela01.gif)
 
 - [x] Anote os **_hash's_** dentro do arquivo, ficando:
 
@@ -66,7 +66,7 @@ crc32 => ce806bc0
 
 - [x] Com o arquivo alterado, abra e gere novamente o **hash**:
 
-![tela2](tela02.gif)
+![tela2](img/tela02.gif)
 
 - [x] Adicione os hashs no arquivo depois do conteúdo anterior, ficando:
 
@@ -103,7 +103,7 @@ Sim, pois cada um dos tipos de algoritimos de hash, que calcula o hash são dife
 
 
 
-> O arquivo de exemplo fica em: [Local](exemplos/arquivo.txt)
+> O arquivo de exemplo fica em: [Local](exemplos/seguranca/arquivo.txt)
 
 ***
 
