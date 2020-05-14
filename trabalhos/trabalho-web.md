@@ -1,6 +1,8 @@
 [Menu](../README.md)
 
-> Os exemplos estão localizados em: [Link](exemplos/)
+> Os exemplos estão localizados em:
+> - [Prototype](exemplos/Prototype/Prototype.js)
+> - [Singleton](exemplos/Singleton/Singleton.js)
 
 # Design Patterns
 ## O que são?
@@ -357,7 +359,9 @@ console.log(pessoa4.listarEmails());
 ```
 
 
-> Os exemplos estão localizados em: [Link](exemplos/)
+> Os exemplos estão localizados em:
+> - [Prototype](exemplos/Prototype/Prototype.js)
+> - [Singleton](exemplos/Singleton/Singleton.js)
 
 ***
 
