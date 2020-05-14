@@ -2,4 +2,4 @@
 
 ## Posts
 
-[Menu](../menu.md)
+[Menu](menu.md)

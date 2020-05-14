@@ -1,7 +1,11 @@
 [Menu](../menu.md)
 
 # Design Patterns
+## O que são?
 
+Padrões de projeto são arquiteturas testadas para construir softwares, de maneira que, quando aplicados, reduzem a complexidade do processo de design, construindo assim, softwares **orientados a objetos** flexíveis e sustentáveis.
+
+Por ser uma coleção de padrões de projetos de software, já contém soluções para **problemas conhecidos** e recorrentes descrevendo de maneira comprovada como  resolver determinado problema **recorrente**.
 
 # Singleton
 
