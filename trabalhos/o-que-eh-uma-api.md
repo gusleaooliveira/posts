@@ -1,4 +1,5 @@
 [Menu](../README.md)
+
 # Api
 
 Para te explicar o que é uma API, a maneira mais fácil é mostrando um exemplo de como usamos, vamos para um exemplo?
@@ -115,3 +116,5 @@ Olá me chamo Gustavo, e criei este material, para mais informações, clique no
 
 
 * Disponível em : [Repositório de exercícios](https://github.com/gusleaooliveira/materialEstudo)
+
+ {% if page.comments %}{% endif %}

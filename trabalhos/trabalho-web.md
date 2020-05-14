@@ -373,3 +373,5 @@ Olá me chamo Gustavo, e criei este material, para mais informações, clique no
 
 
 * Disponível em : [Repositório de exercícios](https://github.com/gusleaooliveira/materialEstudo)
+
+{% if page.comments %}{% endif %}
