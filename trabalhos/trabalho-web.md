@@ -138,8 +138,8 @@ Esse método, verifica se a instância foi criada anteriormente, e caso não cri
 Podemos criar dois objetos, e depois compararmos os dois, para exemplificar se são a mesma instância ou não. Gerando a instancia para os dois objetos:
 
 ```javascript
-let banco1 = Singleton.getInstancia('tbl_exemplo');
-let banco2 = Singleton.getInstancia('tbl_exemplo');
+let banco1 = Singlenton.getInstancia('tbl_exemplo');
+let banco2 = Singlenton.getInstancia('tbl_exemplo');
 ```
 
 Comparando se é apenas uma instância do produto:

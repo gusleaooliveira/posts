@@ -36,8 +36,8 @@ let Singlenton = (() => {
 })();
 
 
-let banco1 = Singleton.getInstancia('tbl_exemplo');
-let banco2 = Singleton.getInstancia('tbl_exemplo');
+let banco1 = Singlenton.getInstancia('tbl_exemplo');
+let banco2 = Singlenton.getInstancia('tbl_exemplo');
 
 banco1.inserirPessoa({ "nome" : "Gustavo Leão", "email": "gus.leaono@gmail.com"});
 banco2.inserirPessoa({ "nome" : "Sônia Nogueira", "email": "sonia_leoa69@hotmail.com"});
