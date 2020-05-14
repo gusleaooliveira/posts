@@ -1,4 +1,4 @@
-[Menu](../menu.md)
+[Menu](../README.md)
 
 # Design Patterns
 ## O que são?
