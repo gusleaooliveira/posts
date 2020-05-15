@@ -72,3 +72,13 @@ Disponível em [Analise o mercado antes de tomar decisões](https://www.sebrae.c
 Melo, Natallia: Disponível em [Segmentação psicográfica: entenda o seu cliente melhor do que ele mesmo](https://klickpages.com.br/blog/segmentacao-psicografica/) acesso dia 09 de maio de 2020.
 
 Zenvia: Disponível em [Segmentação de clientes: o que é, benefícios e como fazer](https://www.zenvia.com/blog/segmentacao-de-clientes-o-que-e-beneficios-e-como-fazer) acesso dia 09 de maio de 2020.
+
+***
+
+# Criador
+Olá me chamo Gustavo, e criei este material, para mais informações, clique nos links abaixo:
+
+* [LinkTree](https://www.linktree.com.br/gusleaooliveira)
+
+
+* Disponível em : [Repositório de exercícios](../README.md)
