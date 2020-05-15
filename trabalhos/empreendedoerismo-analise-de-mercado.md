@@ -67,7 +67,7 @@ Schincariol, Juliana: Disponível em [Lucro da Lojas Renner avança 15% no trime
 
 Freitas, de Camargo Renata: [Análise de Mercado em 10 passos: está na hora da sua empresa expandir?](Disponível em https://www.treasy.com.br/blog/analise-de-mercado/) acesso dia 07 de maio de 2020.
 
-Disponível em (Analise o mercado antes de tomar decisões)[https://www.sebrae.com.br/sites/PortalSebrae/artigos/analise-o-mercado-antes-de-tomar-decisoes,500d7e0805b1a410VgnVCM1000003b74010aRCRD] acesso dia 08 de maio de 2020.
+Disponível em [Analise o mercado antes de tomar decisões](https://www.sebrae.com.br/sites/PortalSebrae/artigos/analise-o-mercado-antes-de-tomar-decisoes,500d7e0805b1a410VgnVCM1000003b74010aRCRD) acesso dia 08 de maio de 2020.
 
 Melo, Natallia: Disponível em [Segmentação psicográfica: entenda o seu cliente melhor do que ele mesmo](https://klickpages.com.br/blog/segmentacao-psicografica/) acesso dia 09 de maio de 2020.
 
