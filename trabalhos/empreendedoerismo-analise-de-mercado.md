@@ -65,7 +65,7 @@ Disponível em  [Sobre as lojas Renner SA](http://www.lojasrenner.com.br/institu
 
 Schincariol, Juliana: Disponível em [Lucro da Lojas Renner avança 15% no trimestre, a R$ 251,5 milhões](http://g1.globo.com/economia/negocios/noticia/2016/02/lucro-da-lojas-renner-avanca-15-no-trimestre-r-2515-milhoes.html)  acesso dia 09 de maio de 2020.
 
-Freitas, de Camargo Renata: [Análise de Mercado em 10 passos: está na hora da sua empresa expandir?](Disponível em https://www.treasy.com.br/blog/analise-de-mercado/) acesso dia 07 de maio de 2020.
+Freitas, de Camargo Renata: Disponível em [Análise de Mercado em 10 passos: está na hora da sua empresa expandir?](https://www.treasy.com.br/blog/analise-de-mercado/) acesso dia 07 de maio de 2020.
 
 Disponível em [Analise o mercado antes de tomar decisões](https://www.sebrae.com.br/sites/PortalSebrae/artigos/analise-o-mercado-antes-de-tomar-decisoes,500d7e0805b1a410VgnVCM1000003b74010aRCRD) acesso dia 08 de maio de 2020.
 
