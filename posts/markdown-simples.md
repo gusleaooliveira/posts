@@ -258,10 +258,59 @@ Para adicionar imagens e gifs, basta colocar:
 ```
 
 Ficou:
-![Texto caso a imagem não carregue](https://www.google.com/url?sa=i&url=https%3A%2F%2Fsocientifica.com.br%2Fnova-imagem-do-hubble-e-a-maior-foto-do-universo-ja-vista%2F&psig=AOvVaw0ja45F_YU_wMxNKmxki8Rl&ust=1590002949319000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLC3l9rUwOkCFQAAAAAdAAAAABAN "Espaço")
+![Texto caso a imagem não carregue](https://i1.wp.com/socientifica.com.br/wp-content/uploads/2019/05/image_7150_1e-Hubble-Legacy-Field.jpg?fit=1920%2C1773&ssl=1 "Espaço")
 
 
 ![Texto caso a imagem não carregue](img/imagemFundo.jpg)
+
+#### Código
+
+Códigos podem ser em linha e devem estar contidos em ` `` `, também separando por um espaço do texto:
+
+```markdown
+Este é um código de exemplo, digite: `print("Hello, Cruel World!")`
+```
+Demonstrando fica:
+
+Este é um código de exemplo, digite: `print("Hello, Cruel World!")`
+
+Também são permitidos códigos em blocos, identados, que podem ter destaque de sintaxe, como:
+
+```markdown
+
+Javascript:
+```javascript
+  console.log('Hello, Cruel World!');
+```
+Python:
+```python
+  print("Hello, Cruel World!")
+```
+Java:
+```java
+  System.out.println("Hello, Cruel World!")
+```
+
+```
+
+Resultando em:
+
+
+Javascript:
+```javascript
+  console.log('Hello, Cruel World!');
+```
+
+Python:
+```python
+  print("Hello, Cruel World!")
+```
+
+Java:
+```java
+  System.out.println("Hello, Cruel World!")
+```
+
 
 ***
 
