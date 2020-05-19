@@ -149,6 +149,37 @@ Parte do *meu* texto está em _itálico_
 
 Texto ~~riscado~~.
 
+#### Linhas
+
+Linhas podem ser feitas com `***`, ou `---` ou `___`, separando antes, e depois com novas linhas ficando:
+
+```markdown
+Exemplificando
+
+***
+
+Temos uma linha com asteriscos
+
+---
+
+Com hifens
+
+___
+
+Com underline
+```
+
+
+Temos uma linha com asteriscos
+
+---
+
+Com hifens
+
+___
+
+Com underline
+
 #### Listas Desordenadas
 
 Listas desordenadas, podem ser feitas com um `*` ou `+` ou `-`, separando por espaço do texto.
@@ -263,6 +294,11 @@ Ficou:
 
 ![Texto caso a imagem não carregue](img/imagemFundo.jpg)
 
+#### Yotube
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+
+
 #### Código
 
 Códigos podem ser em linha e devem estar contidos em ` `` `, também separando por um espaço do texto:
@@ -279,22 +315,21 @@ Também são permitidos códigos em blocos, identados, que podem ter destaque de
 ```markdown
 
 Javascript:
-```javascript
-  console.log('Hello, Cruel World!');
-```
+    ```javascript
+      console.log('Hello, Cruel World!');
+    ```
 Python:
-```python
-  print("Hello, Cruel World!")
-```
+    ```python
+      print("Hello, Cruel World!")
+    ```
 Java:
-```java
-  System.out.println("Hello, Cruel World!")
-```
+    ```java
+      System.out.println("Hello, Cruel World!")
+    ```
 
 ```
 
 Resultando em:
-
 
 Javascript:
 ```javascript
@@ -310,6 +345,41 @@ Java:
 ```java
   System.out.println("Hello, Cruel World!")
 ```
+
+> Repare que coloquei varias linguagens, podem ser colocadas outras demais, basta colocar ao lado dos  ` ``` `.
+
+#### Observações
+
+Observações podem ser feitas com o `>`, dando um espaço entre o mesmo e o texto:
+
+```markdown
+> observação de exemplo
+```
+
+> observação de exemplo
+
+
+#### Tabelas
+
+Tabelas são criadas com o uso do `|` e do `-` no seguinte formato:
+
+```markdown
+| Nome | O que é | Idade |
+|----|----|----|
+| Gustavo | Filho | 23 |
+| Sônia | Mãe | 51 |
+| Bárbara | Amiga | - |
+```
+
+Que ficou assim:
+
+| Nome | O que é | Idade |
+|----|----|----|
+| Gustavo | Filho | 23 |
+| Sônia | Mãe | 51 |
+| Bárbara | Amiga | - |
+
+
 
 
 ***
