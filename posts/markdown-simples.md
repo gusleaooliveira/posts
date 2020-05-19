@@ -454,7 +454,9 @@ Para converter para html, executamos dentro da pasta (`estudoMarkdown`):
 
 
 > O exempĺo no formato `.md` pode ser encontrado [aqui](estudoMarkdown/exemplo.md).
+>
 > O exempĺo no formato `.html` pode ser encontrado [aqui](estudoMarkdown/exemplo.html).
+>
 > O exempĺo no formato `.pdf` pode ser encontrado [aqui](estudoMarkdown/exemplo.pdf).
 
 ```bash
