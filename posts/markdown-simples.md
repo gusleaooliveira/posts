@@ -149,7 +149,87 @@ Parte do *meu* texto está em _itálico_
 
 Texto ~~riscado~~.
 
+#### Listas Desordenadas
 
+Listas desordenadas, podem ser feitas com um `*` ou `+` ou `-`, separando por espaço do texto.
+
+```markdown
+Lista:
+* Item
+* Item
+* Item
+
+Lista:
++ Item
++ Item
++ Item
+
+Lista:
+- Item
+- Item
+- Item
+```
+
+Demonstrando fica:
+
+Lista:
+* Item
+* Item
+* Item
+
+Lista:
++ Item
++ Item
++ Item
+
+Lista:
+- Item
+- Item
+- Item
+
+#### Listas Ordenadas
+
+Listas desordenadas, podem ser feitas com um `1.` e suas sequências, ou apenas digitando `1.`, separando por espaço do texto.
+
+```markdown
+Lista com Números:
+1. item 1
+2. item 3
+3. item 4
+4. item 5
+
+Lista repitindo o número 1., ficando:
+1. algum item
+1. algum item
+1. algum item
+1. algum item
+```
+
+Demonstrando:
+
+Lista com Números:
+1. item 1
+2. item 3
+3. item 4
+4. item 5
+
+Lista repitindo o número 1., ficando:
+1. algum item
+1. algum item
+1. algum item
+1. algum item
+
+> Para ambos os tipos de lista é possível criar sublistas, que devem ser colocadas em uma nova linha com uma tabulação(`tab`).
+
+#### Links
+
+Temos links simples e com título:
+```markdown
+[link simples](https://www.linktree.com.br/gusleaooliveira)
+
+[link com título](https://www.linktree.com.br/gusleaooliveira "Título")
+
+```
 
 ***
 
