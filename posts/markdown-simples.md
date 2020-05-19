@@ -452,6 +452,9 @@ pandoc -s -o exemplo.html exemplo.md
 
 Para converter para html, executamos dentro da pasta (`estudoMarkdown`):
 
+```bash
+pandoc -s -o exemplo.pdf exemplo.md
+```
 
 > O exempĺo no formato `.md` pode ser encontrado [aqui](estudoMarkdown/exemplo.md).
 >
@@ -459,9 +462,7 @@ Para converter para html, executamos dentro da pasta (`estudoMarkdown`):
 >
 > O exempĺo no formato `.pdf` pode ser encontrado [aqui](estudoMarkdown/exemplo.pdf).
 
-```bash
-pandoc -s -o exemplo.pdf exemplo.md
-```
+
 
 ***
 
