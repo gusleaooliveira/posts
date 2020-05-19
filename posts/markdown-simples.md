@@ -246,6 +246,23 @@ Com título:
 [link com título](https://www.linktree.com.br/gusleaooliveira "Título")
 
 
+#### Imagens
+
+Para adicionar imagens e gifs, basta colocar:
+
+```markdown
+![Texto caso a imagem não carregue](https://www.google.com/url?sa=i&url=https%3A%2F%2Fsocientifica.com.br%2Fnova-imagem-do-hubble-e-a-maior-foto-do-universo-ja-vista%2F&psig=AOvVaw0ja45F_YU_wMxNKmxki8Rl&ust=1590002949319000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLC3l9rUwOkCFQAAAAAdAAAAABAN "Espaço")
+
+
+![Texto caso a imagem não carregue](img/imagem.jpg)
+```
+
+Ficou:
+![Texto caso a imagem não carregue](https://www.google.com/url?sa=i&url=https%3A%2F%2Fsocientifica.com.br%2Fnova-imagem-do-hubble-e-a-maior-foto-do-universo-ja-vista%2F&psig=AOvVaw0ja45F_YU_wMxNKmxki8Rl&ust=1590002949319000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLC3l9rUwOkCFQAAAAAdAAAAABAN "Espaço")
+
+
+![Texto caso a imagem não carregue](img/imagemFundo.jpg)
+
 ***
 
 # Criador
