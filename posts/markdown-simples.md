@@ -223,13 +223,28 @@ Lista repitindo o número 1., ficando:
 
 #### Links
 
-Temos links simples e com título:
+Temos links simples, com redirecionamento relativo e com título:
 ```markdown
+Simples:
 [link simples](https://www.linktree.com.br/gusleaooliveira)
 
+Relativo:
+[link simples](../README.md)
+
+Com título:
+[link com título](https://www.linktree.com.br/gusleaooliveira "Título")
+```
+Ficando:
+
+Simples:
+[link simples](https://www.linktree.com.br/gusleaooliveira)
+
+Relativo:
+[link simples](../README.md)
+
+Com título:
 [link com título](https://www.linktree.com.br/gusleaooliveira "Título")
 
-```
 
 ***
 
