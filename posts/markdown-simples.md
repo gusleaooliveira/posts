@@ -23,8 +23,6 @@ choco install pandoc
 choco install rsvg-convert python miktex
 ```
 
-
-
 * No Mac, via briew:
 ```bash
 brew install pandoc
@@ -43,6 +41,13 @@ brew install librsvg python homebrew/cask/basictex
 > A página de downloads é esta [aqui](https://pandoc.org/installing.html), ondem podem ser encontradas mais maneiras de instalar.
 
 * No linux, baixe o arquivo `.deb` e rode com o gdebi (instalado com o comando `sudo apt install gdebi`).
+
+Com extra instale:
+```bash
+sudo apt-get install texlive-latex-base
+sudo apt-get install texlive-fonts-recommended
+sudo apt-get install texlive-fonts-extra
+```
 
 
 ## Maneiras de criar o Markdown
@@ -294,10 +299,6 @@ Ficou:
 
 ![Texto caso a imagem não carregue](img/imagemFundo.jpg)
 
-#### Yotube
-
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
-
 
 #### Código
 
@@ -380,7 +381,85 @@ Que ficou assim:
 | Bárbara | Amiga | - |
 
 
+#### Código html
 
+Código pode ser adicionado com:
+
+```markdown
+<dl>
+  <dt>Definition list</dt>
+  <dd>Is something people use sometimes.</dd>
+
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl>
+```
+
+Executando ficaria:
+
+<dl>
+  <dt>Definition list</dt>
+  <dd>Is something people use sometimes.</dd>
+
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl>
+
+#### Emojis
+
+Emojis podem ser incorporados quando colocados entre `:` e com espaços antes e depois dos  `:`, como abaixo:
+
+```markdown
+Olá, :earth_americas:. Este é um exemplo de emoji :blush:.
+```
+
+Olá, :earth_americas:. Este é um exemplo de emoji :blush:.
+
+> A lista com todos os esmojis é esta [aqui](https://gist.github.com/rxaviers/7360908).
+
+
+### Convertendo  com o pandoc
+
+Primeiramente coloque os comandos que deseja dentro do arquivo, que em meu caso será:
+
+```markdown
+# Hello, Cruel World!
+
+Este é um exemplo!!!!
+
+***
+
+# Criador
+Olá me chamo Gustavo, e criei este material, para mais informações, clique nos links abaixo:
+
+* [LinkTree](https://www.linktree.com.br/gusleaooliveira)
+
+
+* Disponível em : [Repositório de exercícios](../README.md)
+
+```
+
+#### Para html
+
+Para converter para html, executamos dentro da pasta (`estudoMarkdown`):
+
+
+```bash
+pandoc -s -o exemplo.html exemplo.md
+```
+
+### Para pdf
+
+Para converter para html, executamos dentro da pasta (`estudoMarkdown`):
+
+
+> O exempĺo no formato `.md` pode ser encontrado [aqui](estudoMarkdown/exemplo.md).
+> O exempĺo no formato `.html` pode ser encontrado [aqui](estudoMarkdown/exemplo.html).
+> O exempĺo no formato `.pdf` pode ser encontrado [aqui](estudoMarkdown/exemplo.pdf).
+
+```bash
+pandoc -s -o exemplo.pdf exemplo.md
+```
 
 ***
 
