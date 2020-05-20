@@ -44,6 +44,42 @@ $listaCoresClaro: (
 'raisin-black': #272727, 'tumbleweed': #CEA07E, 'eggplant': #5E4352, 'dark-eggplant': #5E4352, 'indigo': #3F51B5, 'blue': #2196F3, 'green': #4CAF50, 'deep-purple': #673AB7, 'red': #F44336, 'pink': #E91E63, 'purple': #9C27B0, 'teal': #009688, 'deep-orange': #FF5722, 'blue-gray':  #607D8B, 'brown': #795548, 'dark-gray': #616161, 'blue-telegram': #35ADE1, 'blue-twitter': #2AA9E0, 'blue-linkedin': #0274B3);
 ```
 
+## Função para criar
+Faremos um mixin, que é uma função, para criar cor de fundo, de texto, e de borda:
+
+```sass
+@mixin fundo($lista, $corFundo) {
+    @each $nome,
+    $valor in $lista {
+        .#{$nome},
+        .#{$nome}-hover:hover {
+            background-color: $valor !important;
+            color: $corFundo !important;
+        }
+        .border-#{$nome},
+        .border-#{$nome}-hover:hover{
+          border: 1px solid $valor !important;
+        }
+        .text-#{$nome},
+        .text-#{$nome}-hover:hover{
+          color: $valor !important;
+        }
+        .#{$nome}-darker,
+        .#{$nome}-darker:hover {
+            background-color: darken($valor, 10%) !important;
+            color: $corFundo !important;
+        }
+    }
+}
+```
+
+E vamos chamar o a função, que foi chamada de fundo com o `include`:
+
+```sass
+@include fundo($listaCoresEscuro, black);
+@include fundo($listaCoresClaro, white);
+```
+
 # Container
 
 Vamos criar um **container**, que terá em todos os lados `8px`, `10px` e `16px` de **padding**:
@@ -105,6 +141,16 @@ O botão ocupará a tela inteira:
 ```sass
 .btn-block { width: 100%; }
 ```
+
+# Entrada de texto
+
+Teremos na entrada de texto:
+* Espaço para dentro de `8px`
+* Display em bloco
+* Sem borda
+* Borda em baixo, de um tamanho `1px`, solida e com cor cinza
+* Com largura total
+
 
 # Flutuando a esquerda e a direita
 
