@@ -142,6 +142,18 @@ O botão ocupará a tela inteira:
 .btn-block { width: 100%; }
 ```
 
+# Destaque do botão
+O botão terá destaque nas bordas:
+
+```sass
+.btn:hover {
+  box-shadow:
+      0 8px 16px 0 rgba(0, 0, 0, 0.2)
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+```
+
+
 # Entrada de texto
 
 Teremos na entrada de texto:
