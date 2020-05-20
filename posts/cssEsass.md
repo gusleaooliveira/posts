@@ -1,7 +1,5 @@
 [Menu](../README.md)
 
-[Conteúdo adicionado](https://github.com/gusleaooliveira/MRConstrucoesApp/commit/94df7c88be5a397b3b2cd289173b01cc0986cea2)
-
 
 # Pré css
 Primeiro css, será para tirar a margem, o padding e que use o tamanho de borda do box, para todos os elementos:
@@ -58,9 +56,10 @@ Vamos criar um **container**, que terá em todos os lados `8px`, `10px` e `16px`
 
 # Alinhamentos de texto
 
-Adicionar alinhamentos a esquerda, direita, centro e justificado.
+Adicionar identação e alinhamentos a esquerda, direita, centro e justificado.
 
 ```sass
+.text-indent { text-indent: 10px; }
 .text-center { text-align: center; }
 .text-left { text-align: left; }
 .text-justify { text-align: justify; }
