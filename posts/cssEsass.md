@@ -32,16 +32,14 @@ Teremos cor de texto branco e um gradiente da esquerda para a direita com as cor
 Seguem as cores que terão o texto em preto:
 
 ```sass
-  $listaCoresEscuro: (
-  'ecru': #C1AE7C, 'gray-blue': #628395, 'white': #ffff, 'silver-pink': #D5BBB1, 'baby-blue-eyes': #A1C6EA, 'light-blue': #87CEEB, 'cyan': #009688, 'aqua': #00FFFF, 'light-green': #8BC34A, 'lime': #CDDC39, 'khaki': #F0E68C, 'amber': #FFC107, 'orange': #FF9800, 'light-gray': #F1F1F1, 'gray': #9E9E9E, 'pale-red': #FFDDDD, 'pale-yellow': #FFFFCC, 'pale-green': #DDFFDD, 'pale-blue': #FFFFFF);
+  $listaCoresEscuro: ('ecru': #C1AE7C, 'gray-blue': #628395, 'white': #ffff, 'silver-pink': #D5BBB1, 'baby-blue-eyes': #A1C6EA, 'light-blue': #87CEEB, 'cyan': #009688, 'aqua': #00FFFF, 'light-green': #8BC34A, 'lime': #CDDC39, 'khaki': #F0E68C, 'amber': #FFC107, 'orange': #FF9800, 'light-gray': #F1F1F1, 'gray': #9E9E9E, 'pale-red': #FFDDDD, 'pale-yellow': #FFFFCC, 'pale-green': #DDFFDD, 'pale-blue': #FFFFFF);
 ```
 
 ## Lista de cores - Texto branco
 Seguem as cores que terão o texto em preto:
 
 ```sass
-$listaCoresClaro: (
-'raisin-black': #272727, 'tumbleweed': #CEA07E, 'eggplant': #5E4352, 'dark-eggplant': #5E4352, 'indigo': #3F51B5, 'blue': #2196F3, 'green': #4CAF50, 'deep-purple': #673AB7, 'red': #F44336, 'pink': #E91E63, 'purple': #9C27B0, 'teal': #009688, 'deep-orange': #FF5722, 'blue-gray':  #607D8B, 'brown': #795548, 'dark-gray': #616161, 'blue-telegram': #35ADE1, 'blue-twitter': #2AA9E0, 'blue-linkedin': #0274B3);
+$listaCoresClaro: ('raisin-black': #272727, 'tumbleweed': #CEA07E, 'eggplant': #5E4352, 'dark-eggplant': #5E4352, 'indigo': #3F51B5, 'blue': #2196F3, 'green': #4CAF50, 'deep-purple': #673AB7, 'red': #F44336, 'pink': #E91E63, 'purple': #9C27B0, 'teal': #009688, 'deep-orange': #FF5722, 'blue-gray':  #607D8B, 'brown': #795548, 'dark-gray': #616161, 'blue-telegram': #35ADE1, 'blue-twitter': #2AA9E0, 'blue-linkedin': #0274B3);
 ```
 
 ## Função para criar
