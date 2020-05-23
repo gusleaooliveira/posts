@@ -118,6 +118,35 @@ Criando o app express:
 let app = express();
 ```
 
+Vamos usar `json` para receber e enviar dados:
+```javascript
+app.use(bodyParser.json());
+```
+
+## Criando o banco
+
+Criando o banco:
+```sql
+create database api_rest
+```
+Criando a tabela de usuários que terá:
+* **id:** inteiro e not null
+* **nome:**
+
+```sql
+create table tbl_usuario(
+	id int not null primary key,
+    nome varchar(100) not null,
+    email varchar(200) not null,
+    receber boolean not null default 0,
+    duvida varchar(300) not null
+);
+```
+
+```sql
+
+```
+
 ***
 
 # Criador
