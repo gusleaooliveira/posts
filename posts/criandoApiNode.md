@@ -158,6 +158,44 @@ app.get('/usuario', (requisicao, resposta, next) => {
 });
 ```
 
+A rota que vai receber os dados e enviar para o banco:
+
+```javascript
+app.post('/usuario', (requisicao, resposta, next) => {
+  knex('tbl_usuario')
+    .insert(requisicao.body)
+    .then((dados) => {
+      resposta.send(dados);
+    }, next);
+});
+```
+
+A rota para deletar o produto pelo id:
+
+```javascript
+app.delete('/usuario/:id', (requisicao, resposta, next) => {
+  let id = requisicao.params.id;
+  knex('tbl_usuario')
+    .where('id', id)
+    .delete()
+    .then(() => {
+      resposta.send('Apagado o usuário de id: '+id);
+    }, next);
+});
+```
+Alterar os dados do produto pelo id:
+
+```javascript
+app.put('/usuario/:id', (requisicao, resposta, next) => {
+  let id = requisicao.params.id;
+  knex('tbl_usuario')
+    .where('id', id)
+    .update(requisicao.body)
+    .then((dados) => {
+      resposta.send(dados);
+    }, next);
+});
+```
 
 
 
