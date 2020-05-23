@@ -1,0 +1,87 @@
+[Menu](../README.md)
+
+# Projeto
+
+Instalando o nodejs:
+
+```bash
+sudo snap install node --channel=latest/edge --classic
+```
+
+
+Inicializando o xampp pelo terminal:
+```bash
+sudo /opt/lampp/lampp start
+```
+
+Inicializando o projeto:
+
+```bash
+npm init -y
+```
+
+Instalando os pacotes:
+
+* knex
+* mysql
+* nodemon
+* body-parser
+* express
+
+```bash
+npm i --save-dev knex
+npm i --save-dev mysql
+npm i --save-dev nodemon
+npm i --save-dev body-parser
+npm i --save-dev express
+```
+
+Criando o script para rodar o nodemon, adicionando no final do `package.json`:
+
+```json
+"scripts": {
+  "run": "nodemon server.js"
+}
+```
+
+Ficando:
+```json
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "knex": "^0.21.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "run": "nodemon server.js"
+  }
+}
+```
+
+
+
+
+# Criando o servidor
+
+
+***
+
+# Criador
+Olá me chamo Gustavo, e criei este material, para mais informações, clique nos links abaixo:
+
+* [LinkTree](https://www.linktree.com.br/gusleaooliveira)
+
+
+* Disponível em : [Repositório de exercícios](../README.md)
