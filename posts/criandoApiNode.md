@@ -221,11 +221,7 @@ http.createServer(app).listen(9999, () => {
 });
 ```
 
-> Caso não esteja rodando rode o comando:
->
-> ```bash
-npm run dev
-```
+> Caso não esteja rodando rode o comando: `npm run dev`
 
 ***
 
