@@ -40,7 +40,7 @@ Criando o script para rodar o nodemon, adicionando no final do `package.json`:
 
 ```json
 "scripts": {
-  "run": "nodemon server.js"
+  "dev": "nodemon server.js"
 }
 ```
 
@@ -65,16 +65,58 @@ Ficando:
     "nodemon": "^2.0.4"
   },
   "scripts": {
-    "run": "nodemon server.js"
+    "dev": "nodemon server.js"
   }
 }
 ```
 
+Crie o `server.js`:
 
+```bash
+touch server.js
+```
 
+Para rodar o comando criado anteriormente rode:
+
+```bash
+npm run dev
+```
 
 # Criando o servidor
 
+Importando os módulos:
+
+```javascript
+const express = require('express');
+const http = require('http');
+const bodyParser = require('body-parser');
+```
+
+Vamos importar o `knex`, para isso temos:
+* O cliente será o **mysql**
+* A conexão será:
+  * Conectada no  **localhost**
+  * Usuário será o **root**
+  * A senha será **''**
+  * O banco será o **api_rest**
+
+```javascript
+const knex = require('knex')({
+  client: 'mysql',
+  connection: {
+    host: 'localhost',
+    user: 'root',
+    password: '',
+    database: 'api_rest'
+  }
+});
+```
+
+Criando o app express:
+
+```javascript
+let app = express();
+```
 
 ***
 
