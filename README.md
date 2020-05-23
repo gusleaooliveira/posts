@@ -18,5 +18,5 @@
 
 **Meus posts e tutoriais:**
 * [Markdown Simples](/posts/markdown-simples.md)
-* [Framework Css](posts/cssEsass.md)
-* [Api fácil](posts/criandoApiNode.md)
+* [Framework Css](/posts/cssEsass.md)
+* [Api fácil](/posts/criandoApiNode.md)
