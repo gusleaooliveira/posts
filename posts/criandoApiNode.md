@@ -146,9 +146,20 @@ create table tbl_usuario(
 );
 ```
 
-```sql
+## Criando as rotas
 
+A rota que vai retornar os dados pelo json:
+
+```javascript
+app.get('/usuario', (requisicao, resposta, next) => {
+  knex('tbl_usuario').then((dados) => {
+    res.send(dados);
+  }, next);
+});
 ```
+
+
+
 
 ***
 
