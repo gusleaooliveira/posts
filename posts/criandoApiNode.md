@@ -130,15 +130,18 @@ Criando o banco:
 create database api_rest
 ```
 Criando a tabela de usuários que terá:
-* **id:** inteiro e not null
-* **nome:**
+* **id:** do tipo `inteiro`, `chave primaria` e `não nulo`
+* **nome:** do tipo `texto`, com tamanho **100** e `não nulo`
+* **email:** do tipo `texto`, com tamanho **200** e `não nulo`
+* **receber:** do tipo `boleano`, com o padrão **verdadeiro** e `não nulo`.
+* **duvida:** do tipo `texto`, com tamanho **300** e `não nulo`.
 
 ```sql
 create table tbl_usuario(
 	id int not null primary key,
     nome varchar(100) not null,
     email varchar(200) not null,
-    receber boolean not null default 0,
+    receber boolean not null default 1,
     duvida varchar(300) not null
 );
 ```
