@@ -138,7 +138,7 @@ Criando a tabela de usuários que terá:
 
 ```sql
 create table tbl_usuario(
-	id int not null primary key,
+	id int not null primary key auto_increment,
     nome varchar(100) not null,
     email varchar(200) not null,
     receber boolean not null default 1,
@@ -153,7 +153,7 @@ A rota que vai retornar os dados pelo json:
 ```typescript
 app.get('/usuario', (requisicao, resposta, next) => {
   knex('tbl_usuario').then((dados) => {
-    res.send(dados);
+    resposta.send(dados);
   }, next);
 });
 ```
@@ -192,7 +192,7 @@ app.put('/usuario/:id', (requisicao, resposta, next) => {
     .where('id', id)
     .update(requisicao.body)
     .then((dados) => {
-      resposta.send(dados);
+      resposta.sendStatus(dados);
     }, next);
 });
 ```
@@ -222,6 +222,8 @@ http.createServer(app).listen(9999, () => {
 ```
 
 > Caso não esteja rodando rode o comando: `npm run dev`
+
+
 
 ***
 
