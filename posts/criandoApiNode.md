@@ -150,7 +150,7 @@ create table tbl_usuario(
 
 A rota que vai retornar os dados pelo json:
 
-```javascript
+```typescript
 app.get('/usuario', (requisicao, resposta, next) => {
   knex('tbl_usuario').then((dados) => {
     res.send(dados);
@@ -160,7 +160,7 @@ app.get('/usuario', (requisicao, resposta, next) => {
 
 A rota que vai receber os dados e enviar para o banco:
 
-```javascript
+```typescript
 app.post('/usuario', (requisicao, resposta, next) => {
   knex('tbl_usuario')
     .insert(requisicao.body)
@@ -172,7 +172,7 @@ app.post('/usuario', (requisicao, resposta, next) => {
 
 A rota para deletar o produto pelo id:
 
-```javascript
+```typescript
 app.delete('/usuario/:id', (requisicao, resposta, next) => {
   let id = requisicao.params.id;
   knex('tbl_usuario')
@@ -185,7 +185,7 @@ app.delete('/usuario/:id', (requisicao, resposta, next) => {
 ```
 Alterar os dados do produto pelo id:
 
-```javascript
+```typescript
 app.put('/usuario/:id', (requisicao, resposta, next) => {
   let id = requisicao.params.id;
   knex('tbl_usuario')
@@ -197,7 +197,35 @@ app.put('/usuario/:id', (requisicao, resposta, next) => {
 });
 ```
 
+Pegando os dados de um único usuário:
 
+```typescript
+app.get('/usuario/:id', (requisicao, resposta, next) => {
+  let id = requisicao.params.id;
+  knex('tbl_usuario')
+    .where('id', id)
+    .first()
+    .then((dados) => {
+      res.send(dados);
+    }, next);
+});
+```
+
+
+## Servidor
+Criando o servidor:
+
+```typescript
+http.createServer(app).listen(9999, () => {
+  console.log('http://localhost:9999/');
+});
+```
+
+> Caso não esteja rodando rode o comando:
+>
+> ```bash
+npm run dev
+```
 
 ***
 
