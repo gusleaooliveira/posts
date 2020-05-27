@@ -11,11 +11,12 @@
 
 
 # Avaliação Prática II
-## Tarefa 01: Criação de usuários e grupos:
+## Tarefa 01: Criação de usuários e grupos
+
 1. Crie os grupos:
-  - alunos
-  - professores
-  - administrativos:
+  * alunos
+  * professores
+  * administrativos
 
 ```bash
 groupadd alunos
@@ -23,7 +24,7 @@ groupadd professores
 groupadd administrativos
 ```
 
-1. Crie os seguintes usuários, inserindo-os em seus respectivos grupos:
+2. Crie os seguintes usuários, inserindo-os em seus respectivos grupos:
 
 | Grupo primário  | Usuários    |
 |-----------------|-------------|
@@ -47,7 +48,7 @@ useradd joaogomes -g professores -d /home/share/administrativos/joaogomes
 useradd karlasilva -g professores -d /home/share/administrativos/karlasilva
 ```
 
-c) Defina a senha de acesso para os usuários criados:
+2. Defina a senha de acesso para os usuários criados:.
 
 ```bash
 passwd pedrovaz
@@ -61,55 +62,69 @@ passwd karlasilva
 > A senha utilizada foi: `ola123`
 
 
-d) Defina para todos os usuários dos grupos professores e administrativos o Shell “BASH” como padrão.
+3. Defina para todos os usuários dos grupos professores e administrativos o Shell “BASH” como padrão.
+
+```bash
+usermod pedrovaz -s $SHELL
+usermod mariasilva -s $SHELL
+usermod anabraga -s $SHELL
+usermod paulovargas -s $SHELL
+usermod joaogomes -s $SHELL
+usermod karlasilva -s $SHELL
+```
+
+> A variável de ambiente `$SHELL` contém o caminho `/bin/bash` portanto foi utilizada no local de escrever manualmente.
+
+4. Remova a possibilidade de execução de um SHELL para os usuários do grupo alunos.
+
+```bash
+usermod pedrovaz -s /bin/false
+usermod mariasilva -s /bin/false
+```
+
+5. Defina, para os usuários do grupo aluno, a data de 31/12/2020 para Data de expiração da conta:   
+
+```bash
+chage pedrovaz -E 20201231
+chage mariasilva -E 20201231
+```
 
 
+6. Defina para os usuários anabraga e paulovargas o grupo alunos como secundário:
 
-d) Remova a possibilidade de execução de um SHELL para os usuários do grupo alunos.
+```bash
+usermod anabraga -G alunos
+usermod paulovargas -G alunos
+```
 
-e) Defina, para os usuários do grupo aluno, a data de 31/12/2020 para Data de expiração da conta:   
+7. Com o comando cut, crie no diretório /root uma lista contendo somente os nomes dos usuários criados (em ordem alfabética). Defina como usuarios.lst o nome do arquivo:
 
-f) Defina para os usuários anabraga e paulovargas o grupo alunos como secundário:
+```bash
+tail -n 6 /etc/passwd | cut -d ":" -f 1 | sort -d > /root/usuarios.lst
+```
 
-g) Com o comando cut, crie no diretório /root uma lista contendo somente os nomes dos usuários criados (em ordem alfabética). Defina como usuarios.lst o nome do arquivo:
+8. Com o comando cut, crie no diretório /root  uma lista contendo somente os nomes dos  grupos do sistema (em ordem alfabética) com o nome de grupos.lst:
 
-h) Com o comando cut, crie no diretório /root  uma lista contendo somente os nomes dos  grupos do sistema (em ordem alfabética) com o nome de grupos.lst:
+```bash
+tail -n 3 /etc/group | cut -d ":" -f 1 | sort -d > grupos.lst
+```
 
-Tarefa 02: Criação dos compartilhamentos
-    a) Crie a seguinte estrutura de diretórios:
+## Tarefa 02: Criação dos compartilhamentos
+1. Crie a seguinte estrutura de diretórios:
 
+![estrutura de diretórios](img/diretorios.png)
 
+```bash
+mkdir -p /home/share/{alunos,professores,administrativos,aulas}
 
+mkdir -p /home/share/alunos/{pedrovaz,mariasilva}
 
+mkdir -p /home/share/professores/{anabraga,paulovargas}
 
+mkdir -p /home/share/administrativos/{joaogomes,karlasilva}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+mkdir -p /home/share/aulas/{redes,projetos}
+```
 
 
 
