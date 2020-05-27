@@ -38,11 +38,32 @@ groupadd administrativos
 
 ```bash
 useradd pedrovaz -g alunos -d /home/share/alunos/pedrovaz
+useradd mariasilva -g alunos -d /home/share/alunos/mariasilva
+
+useradd anabraga -g professores -d /home/share/professores/anabraga
+useradd paulovargas -g professores -d /home/share/professores/paulovargas
+
+useradd joaogomes -g professores -d /home/share/administrativos/joaogomes
+useradd karlasilva -g professores -d /home/share/administrativos/karlasilva
 ```
 
 c) Defina a senha de acesso para os usuários criados:
 
+```bash
+passwd pedrovaz
+passwd mariasilva
+passwd anabraga
+passwd paulovargas
+passwd joaogomes
+passwd karlasilva
+```
+
+> A senha utilizada foi: `ola123`
+
+
 d) Defina para todos os usuários dos grupos professores e administrativos o Shell “BASH” como padrão.
+
+
 
 d) Remova a possibilidade de execução de um SHELL para os usuários do grupo alunos.
 
