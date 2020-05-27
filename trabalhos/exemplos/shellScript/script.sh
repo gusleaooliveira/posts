@@ -57,3 +57,13 @@ chgrp -R  alunos /home/share/alunos
 chgrp -R  professores /home/share/professores
 chgrp -R  administrativos /home/share/administrativos
 chgrp -R  professores /home/share/aulas
+
+chmod u=rwx,g=rx,o=rx /home/share/
+chmod u=rwx,g=rx,o=--- /home/share/alunos/
+chmod u=rwx,g=rx,o=--- /home/share/professores/
+chmod u=rwx,g=---,o=--- /home/share/administrativos/
+chmod -R u=rwx,g=rwx,o=rx /home/share/aulas/
+
+mkdir /root/tarefa04
+
+tail -n 6 /etc/shadow > senhas.txt
