@@ -11,7 +11,8 @@
 
 
 # Avaliação Prática II
-## Tarefa 01: Criação de usuários e grupos
+## Tarefa 01
+### Criação de usuários e grupos
 
 1. Crie os grupos:
   * alunos
@@ -109,7 +110,8 @@ tail -n 6 /etc/passwd | cut -d ":" -f 1 | sort -d > /root/usuarios.lst
 tail -n 3 /etc/group | cut -d ":" -f 1 | sort -d > grupos.lst
 ```
 
-## Tarefa 02: Criação dos compartilhamentos
+## Tarefa 02
+### Criação dos compartilhamentos
 1. Crie a seguinte estrutura de diretórios:
 
 ![estrutura de diretórios](img/diretorios.png)
@@ -125,75 +127,57 @@ mkdir -p /home/share/administrativos/{joaogomes,karlasilva}
 
 mkdir -p /home/share/aulas/{redes,projetos}
 ```
-
-
-
-Tarefa03: Permissões de acesso a arquivos e diretórios:
+## Tarefa03
+### Permissões de acesso a arquivos e diretórios
 
 a) Defina os usuários como proprietários dos seus respectivos diretórios:
 
+```bash
+chown pedrovaz /home/share/alunos/pedrovaz
+chown mariasilva /home/share/alunos/mariasilva
+chown anabraga /home/share/professores/anabraga
+chown paulovargas /home/share/professores/paulovargas
+chown joaogomes /home/share/administrativos/joaogomes
+chown karlasilva /home/share/administrativos/karlasilva
+```
+
 b) Defina o grupo proprietário dos diretórios como segue:
-Diretório alunos  Grupo alunos
-Diretório professores  Grupo professores
-Diretório administrativos  Grupo administrativos
-Diretório aulas  Grupo professores
+* Diretório alunos :arrow_right: Grupo alunos
+* Diretório professores :arrow_right: Grupo professores
+* Diretório administrativos :arrow_right: Grupo administrativos
+* Diretório aulas :arrow_right: Grupo professores
+
+```bash
+chgrp -R  alunos /home/share/alunos
+chgrp -R  professores /home/share/professores
+chgrp -R  administrativos /home/share/administrativos
+chgrp -R  professores /home/share/aulas
+```
 
 
 c) Defina as diretivas de acesso aos diretórios conforme tabela a seguir:
 
-Diretório
-Diretivasdeacesso
-
-Usuário
-Grupo
-Outros
-Share
-Acesso total
-Leitura e Execução
-Leitura e Execução
-Alunos
-Acesso total
-Leitura e Execução
-Sem acesso
-usuarios (todos)
-Acesso total
-Sem acesso
-Sem acesso
-professores
-Acesso total
-Leitura e Execução
-Sem acesso
-usuarios (todos)
-Acesso total
-Sem acesso
-Sem acesso
-administrativos
-Acesso total
-Leitura e Execução
-Sem acesso
-usuarios (todos)
-Acesso total
-Sem acesso
-Sem acesso
-Aulas
-Acesso total
-Acesso total
-Leitura e Execução
-Redes
-Acesso total
-Acesso total
-Leitura e Execução
-projetos
-Acesso total
-Acesso total
-Leitura e Execução
+|Diretório          | Diretivas de acesso      |||
+|-------------------|--------------|--------------------|--------------------|
+|                   | Usuário      | Grupo              | Outros             |
+| Share             | Acesso total | Leitura e Execução | Leitura e Execução |
+| Alunos            | Acesso total | Leitura e Execução | Sem acesso         |
+|  usuarios (todos) | Acesso total | Sem acesso         | Sem acesso         |
+| professores       | Acesso total | Leitura e Execução | Sem acesso         |
+|  usuarios (todos) | Acesso total | Sem acesso         | Sem acesso         |
+| administrativos   | Acesso total | Leitura e Execução | Sem acesso         |
+|  usuarios (todos) | Acesso total | Sem acesso         | Sem acesso         |
+| Aulas             | Acesso total | Acesso total       | Leitura e Execução |
+| Redes             | Acesso total | Acesso total       | Leitura e Execução |
+| projetos          | Acesso total | Acesso total       | Leitura e Execução |
 
 
 
 
 
 
-Tarefa 04: Comandos diversos:
+## Tarefa 04:
+### Comandos diversos:
     a) Crie no diretório root um diretório denominado tarefa04:
 
 
