@@ -16,6 +16,9 @@
 **Empreendedoerismo:**
 * [Empreendedorismo 1](trabalhos/empreendedoerismo-analise-de-mercado.md)
 
+**Sistemas Operacionais não proprietários:**
+* [Trabalho 2](trabalhos/administracaoDeSistemas.md)
+
 **Meus posts e tutoriais:**
 * [Markdown Simples](/posts/markdown-simples.md)
 * [Framework Css](/posts/cssEsass.md)
