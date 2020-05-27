@@ -118,13 +118,9 @@ tail -n 3 /etc/group | cut -d ":" -f 1 | sort -d > grupos.lst
 
 ```bash
 mkdir -p /home/share/{alunos,professores,administrativos,aulas}
-
 mkdir -p /home/share/alunos/{pedrovaz,mariasilva}
-
 mkdir -p /home/share/professores/{anabraga,paulovargas}
-
 mkdir -p /home/share/administrativos/{joaogomes,karlasilva}
-
 mkdir -p /home/share/aulas/{redes,projetos}
 ```
 ## Tarefa03
@@ -142,10 +138,14 @@ chown karlasilva /home/share/administrativos/karlasilva
 ```
 
 b) Defina o grupo proprietário dos diretórios como segue:
-* Diretório alunos :arrow_right: Grupo alunos
-* Diretório professores :arrow_right: Grupo professores
-* Diretório administrativos :arrow_right: Grupo administrativos
-* Diretório aulas :arrow_right: Grupo professores
+* Diretório alunos
+  - Grupo alunos
+* Diretório professores
+  - Grupo professores
+* Diretório administrativos
+  - Grupo administrativos
+* Diretório aulas
+  - Grupo professores
 
 ```bash
 chgrp -R  alunos /home/share/alunos
@@ -157,58 +157,69 @@ chgrp -R  professores /home/share/aulas
 
 c) Defina as diretivas de acesso aos diretórios conforme tabela a seguir:
 
-|Diretório          | Diretivas de acesso      |||
-|-------------------|--------------|--------------------|--------------------|
-|                   | Usuário      | Grupo              | Outros             |
-| Share             | Acesso total | Leitura e Execução | Leitura e Execução |
-| Alunos            | Acesso total | Leitura e Execução | Sem acesso         |
-|  usuarios (todos) | Acesso total | Sem acesso         | Sem acesso         |
-| professores       | Acesso total | Leitura e Execução | Sem acesso         |
-|  usuarios (todos) | Acesso total | Sem acesso         | Sem acesso         |
-| administrativos   | Acesso total | Leitura e Execução | Sem acesso         |
-|  usuarios (todos) | Acesso total | Sem acesso         | Sem acesso         |
-| Aulas             | Acesso total | Acesso total       | Leitura e Execução |
-| Redes             | Acesso total | Acesso total       | Leitura e Execução |
-| projetos          | Acesso total | Acesso total       | Leitura e Execução |
+|Diretório          |              | Diretivas de acesso |                    |
+|-------------------|--------------|---------------------|--------------------|
+|                   | **Usuário**  | **Grupo**           | **Outros**         |
+| Share             | Acesso total | Leitura e Execução  | Leitura e Execução |
+| Alunos            | Acesso total | Leitura e Execução  | Sem acesso         |
+|  usuarios (todos) | Acesso total | Sem acesso          | Sem acesso         |
+| professores       | Acesso total | Leitura e Execução  | Sem acesso         |
+|  usuarios (todos) | Acesso total | Sem acesso          | Sem acesso         |
+| administrativos   | Acesso total | Leitura e Execução  | Sem acesso         |
+|  usuarios (todos) | Acesso total | Sem acesso          | Sem acesso         |
+| Aulas             | Acesso total | Acesso total        | Leitura e Execução |
+| Redes             | Acesso total | Acesso total        | Leitura e Execução |
+| projetos          | Acesso total | Acesso total        | Leitura e Execução |
+
+
+```bash
+chmod u=rwx,g=rx,o=rx /home/share/
+chmod u=rwx,g=rx,o=--- /home/share/alunos/
+chmod u=rwx,g=rx,o=--- /home/share/professores/
+chmod u=rwx,g=---,o=--- /home/share/administrativos/
+chmod -R u=rwx,g=rwx,o=rx /home/share/aulas/
+```
+
+## Tarefa 04
+### Comandos diversos
+1. Crie no diretório root um diretório denominado tarefa04:
+
+```bash
+mkdir /root/tarefa04
+```
+
+2. Crie no diretório tarefa04 um arquivo denominado senhas.txt contendo as últimas 06 linhas do arquivo shadow:
+
+```bash
+tail -n 6 /etc/shadow > senhas.txt
+```
+
+3. Desabilite a conta dos usuários pedrovaz e karlasilva:
 
 
 
+4. Crie no diretório tarefa04 um arquivo denominado shell.txt contendo as últimas 10 linhas do arquivo passwd.
+
+5. Defina para o usuário joaogomes o grupo professores como grupo secundário:
+
+6. Defina o grupo administrativos como novo grupo primário do usuário paulovargas:
+
+7. Expire a senha dos usuários anabraga e pedrovaz:
 
 
+8. Crie um grupo chamado formandos:
 
-## Tarefa 04:
-### Comandos diversos:
-    a) Crie no diretório root um diretório denominado tarefa04:
-
-
-    b) Crie no diretório tarefa04 um arquivo denominado senhas.txt contendo as últimas 06 linhas do arquivo shadow:
+9. Defina o grupo formandos como grupo primário dos usuários pedrovaz e mariasilva:
 
 
-    c) Desabilite a conta dos usuários pedrovaz e karlasilva:
+10. Exclua o usuário anabraga, incluindo seu diretório home:
+
+11. Altere a máscara do modo de acesso padrão para 0027:
 
 
-    d) Crie no diretório tarefa04 um arquivo denominado shell.txt contendo as últimas 10 linhas do arquivo passwd.
+12. Retorne a máscara padrão do sistema para 0022.
 
-    e) Defina para o usuário joaogomes o grupo professores como grupo secundário:
-
-    f) Defina o grupo administrativos como novo grupo primário do usuário paulovargas:
-
-    g) Expire a senha dos usuários anabraga e pedrovaz:
-
-
-    h) Crie um grupo chamado formandos:
-
-    i) Defina o grupo formandos como grupo primário dos usuários pedrovaz e mariasilva:
-
-
-    j) Exclua o usuário anabraga, incluindo seu diretório home:
-
-    k) Altere a máscara do modo de acesso padrão para 0027:
-
-
-n) Retorne a máscara padrão do sistema para 0022.
-
-q) Faça uma cópia completa dos seguintes arquivos dentro do diretório /root/tarefa04, com os seguintes nomes:
+13. Faça uma cópia completa dos seguintes arquivos dentro do diretório /root/tarefa04, com os seguintes nomes:
     • passwd    users.txt
     • group   groups.txt
     • shadow   1senhas.txt
