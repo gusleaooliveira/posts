@@ -196,15 +196,32 @@ tail -n 6 /etc/shadow > senhas.txt
 
 3. Desabilite a conta dos usuários pedrovaz e karlasilva:
 
-
+```bash
+usermod -L pedrovaz
+usermod -L karlasilva
+```
 
 4. Crie no diretório tarefa04 um arquivo denominado shell.txt contendo as últimas 10 linhas do arquivo passwd.
 
+```bash
+tail -n 10 /etc/passwd > shell.txt
+```
+
+
 5. Defina para o usuário joaogomes o grupo professores como grupo secundário:
+
+```bash
+ usermod  joaogomes -G professores
+```
 
 6. Defina o grupo administrativos como novo grupo primário do usuário paulovargas:
 
+```bash
+usermod  paulovargas -g administrativos
+```
+
 7. Expire a senha dos usuários anabraga e pedrovaz:
+
 
 
 8. Crie um grupo chamado formandos:
@@ -220,9 +237,12 @@ tail -n 6 /etc/shadow > senhas.txt
 12. Retorne a máscara padrão do sistema para 0022.
 
 13. Faça uma cópia completa dos seguintes arquivos dentro do diretório /root/tarefa04, com os seguintes nomes:
-    • passwd    users.txt
-    • group   groups.txt
-    • shadow   1senhas.txt
+    • passwd  
+        users.txt
+    • group
+        groups.txt
+    • shadow
+        1senhas.txt
 
 
 
