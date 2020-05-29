@@ -259,7 +259,7 @@ c) Inicialize o sistema;
 d) Configure o arquivo interfaces como segue:
 
             ▪ Interface eth0: Obter IP automaticamente
-
+    
             ▪ Interface eth1: IP estático: 172.16.1.1/26
 
 
@@ -277,4 +277,4 @@ Olá me chamo Gustavo, e criei este material, para mais informações, clique no
 * [LinkTree](https://www.linktree.com.br/gusleaooliveira)
 
 
-* Disponível em : [Repositório de exercícios](../README.md)
+* Disponível em : [Repositório de exercícios](https://gusleaooliveira.github.io/posts/)

@@ -4,9 +4,9 @@
 
 # Politica de Segurança
 
+## Empresa
 
-
-Teste
+A empresa que foi escolhida para criar as políticas de segurança foi a **Sinapse Digital Ltda.**, que é uma empresa destinada a desenvolver softwares, tais como um projeto de uma plataforma para frelancers, fácil de usar, e que mostre projetos em que o frelancer está participando. 
 
 
 
@@ -18,4 +18,4 @@ Olá me chamo Gustavo, e criei este material, para mais informações, clique no
 * [LinkTree](https://www.linktree.com.br/gusleaooliveira)
 
 
-* Disponível em : [Repositório de exercícios](../README.md)
+* Disponível em : [Repositório de exercícios](https://gusleaooliveira.github.io/posts/)

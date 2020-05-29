@@ -144,7 +144,7 @@ Meu texto de exemplo, __parte__ está em **negrito**.
 Parte do *meu* texto está em _itálico_
 
 Texto ~~riscado~~.
-```  
+```
 
 Com o resultado ficando:
 
@@ -318,7 +318,7 @@ Também são permitidos códigos em blocos, identados, que podem ter destaque de
 Javascript:
     ```javascript
       console.log('Hello, Cruel World!');
-    ```
+```
 Python:
     ```python
       print("Hello, Cruel World!")
@@ -333,7 +333,7 @@ Java:
 Resultando em:
 
 Javascript:
-```javascript
+​```javascript
   console.log('Hello, Cruel World!');
 ```
 
@@ -472,4 +472,4 @@ Olá me chamo Gustavo, e criei este material, para mais informações, clique no
 * [LinkTree](https://www.linktree.com.br/gusleaooliveira)
 
 
-* Disponível em : [Repositório de exercícios](../README.md)
+* Disponível em : [Repositório de exercícios](https://gusleaooliveira.github.io/posts/)

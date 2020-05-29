@@ -51,7 +51,6 @@ Em vista dos argumentos apresentados, entende-se que é necessário primeirament
 
 O ponto crucial para uma empresa de sucesso, como a rede de lojas Renner, é a de se adequar ao público, conseguir boas parcerias (tanto empregados, quanto fornecedores) e saber o que pode ser seu diferencial em referência as outras empresas.  
 
-
 ***
 **Bibliografia**
 
@@ -81,4 +80,4 @@ Olá me chamo Gustavo, e criei este material, para mais informações, clique no
 * [LinkTree](https://www.linktree.com.br/gusleaooliveira)
 
 
-* Disponível em : [Repositório de exercícios](../README.md)
+* Disponível em : [Repositório de exercícios](https://gusleaooliveira.github.io/posts/)

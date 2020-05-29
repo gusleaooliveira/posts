@@ -10,4 +10,4 @@ Olá me chamo Gustavo, e criei este material, para mais informações, clique no
 * [LinkTree](https://www.linktree.com.br/gusleaooliveira)
 
 
-* Disponível em : [Repositório de exercícios](../README.md)
+* Disponível em : [Repositório de exercícios](https://gusleaooliveira.github.io/posts/)
