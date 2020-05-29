@@ -12,12 +12,14 @@
 * [Exercício cid](trabalhos/exercicio-aula-09.md)
 * [Exercício cid no linux](trabalhos/exercicio-aula-09-refeito.md)
 * [Exercício cid 2](trabalhos/cid.md)
+* [Trabalho Politica de Segurança](trabalhos/politicaDeSeguranca.md)
 
 **Empreendedoerismo:**
 * [Empreendedorismo 1](trabalhos/empreendedoerismo-analise-de-mercado.md)
 
 **Sistemas Operacionais não proprietários:**
 * [Trabalho 2](trabalhos/administracaoDeSistemas.md)
+
 
 **Meus posts e tutoriais:**
 * [Markdown Simples](/posts/markdown-simples.md)
