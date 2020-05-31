@@ -1,4 +1,4 @@
-[Menu](../README.md)
+[Menu](https://gusleaooliveira.github.io/posts/)
 
 # Politica de Segurança
 
@@ -9,6 +9,10 @@ A empresa que foi escolhida para criar as políticas de segurança foi a **Sinap
 ### Política de senhas
 
 As senhas utilizadas devem conter de 6 a 12 caracteres alfa numéricos, variando entre maiúsculas e minúsculas, evitando padrões. As senhas **não** devem ser repassadas para outras pessoas.
+
+Devem ser permitidas apenas senhas como descritas acima, e que sejam diferentes para desenvolvimento, homologação e produção.
+
+Senhas não devem **nunca** serem utilizadas dentro do código.
 
 ### Política  de e-mail
 
@@ -46,6 +50,14 @@ Filmes e músicas, em qualquer formato, ou qualquer tipo de pirataria são proib
 - Não usar e trazer cd's de fora da empresa.
 - Quaisquer atitudes estranhas, chame a equipe técnica.
 
+### Autorização e autenticação de usuários
+
+As senhas não podem ser armazenadas sem alrotimos de hash seguro. Deve-se, também, haver controle de senha e usuário para determinar o usuário que está utilizando o sistema.
+
+Ferramentas como `0Auth2` devem, sempre que possível, ser utilizadas.
+
+Cetificados digitais (como o `ssl`) devem ser adotados.
+
 ### Padrões de desenvolvimento
 
 Para segurança, tanto dos clientes, quanto dos desenvolvedores, padrões de desenvolvimento como:
@@ -54,7 +66,21 @@ Para segurança, tanto dos clientes, quanto dos desenvolvedores, padrões de des
 * Informações (devem preferencialmente) ser salvas de criptografadas.
 * Proibir maneiras de **SQL Injection** (que são comandos Data Definition Language), que pode inserir ou alterar dados, portanto maneiras como parametrizar consultas, evitar entradas desnecessárias do usuário, limitanto privilégios de acesso e usando **"stored procedures"**.
 * O acesso banco não pode ser acessado utilizando um usuário com permissões de root. Devem ser permitidos acessos extremamente necessários para o uso do sistema.
-*
+
+
+### Outras medidas
+Outras medidas que devem ser aplicadas:
+
+#### Backups
+* Criar e fazer a manutenção de backups, tanto de dados, quanto de códigos-fonte, tendo inclusive, políticas de acesso aos mesmos. Devem haver versionamento dos mesmos, e responsáveis capacitados responsáveis pela recuperação.
+
+#### Testes
+* Testes devem sempre ocorrer, antes de cada versão que modifique a estrutura (como telas de login, serviços não autenticados).
+* Além dos anteriormente citados, testes automatizados para averiguar se os dados sigilosos estão indo corretamente só para o detentor da informação.
+* Outra metodologia que deve ser utilizada é a de ter uma equipe focada em segurança, que faça testes, assim evitando possíveis erros deixados pelos programadores.
+* Cenários de testes, como versões de banco de dados, servidores de aplicações, versões de browser, ou de sistemas operacionais, devem ser averiguadas para testar possíveis erros, e vulnerabilidades.
+
+
 
 ***
 
