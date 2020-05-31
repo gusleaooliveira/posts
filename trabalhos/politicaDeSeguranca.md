@@ -4,15 +4,15 @@
 
 ## Empresa
 
-A empresa que foi escolhida para criar as políticas de segurança foi a **Sinapse Digital Ltda.**, que é uma empresa destinada a desenvolver softwares, tais como um projeto de uma plataforma para freelancer, fácil de usar, e que mostre projetos em que o freelancer está participando. 
+A empresa que foi escolhida para criar as políticas de segurança foi a **Sinapse Digital Ltda.**, que é uma empresa destinada a desenvolver softwares, tais como um projeto de uma plataforma para freelancer, fácil de usar, e que mostre projetos em que o freelancer está participando.
 
 ### Política de senhas
 
-As senhas utilizadas devem conter de 6 a 12 caracteres alfa numéricos, variando entre maiúsculas e minúsculas, evitando padrões. As senhas **não** devem ser repassadas para outras pessoas. 
+As senhas utilizadas devem conter de 6 a 12 caracteres alfa numéricos, variando entre maiúsculas e minúsculas, evitando padrões. As senhas **não** devem ser repassadas para outras pessoas.
 
 ### Política  de e-mail
 
-Proibir a abertura de e-mail com extensões de anexos dos tipos `.bat`, `.exe`, `.lnk` e `.com`, exceto, se esse conteúdo foi solicitado. 
+Proibir a abertura de e-mail com extensões de anexos dos tipos `.bat`, `.exe`, `.lnk` e `.com`, exceto, se esse conteúdo foi solicitado.
 
 E-mail que não forem estritamente sobre os trabalhos, ou demais necessidades da empresa, devem ser evitados.
 
@@ -39,7 +39,7 @@ Filmes e músicas, em qualquer formato, ou qualquer tipo de pirataria são proib
 - Aceitar somente de membros  da equipe identificados.
 - Não fazer procedimentos técnicos vindos de emails.
 
-### Vírus 
+### Vírus
 
 - Proibido instalar programas que não voltados para o desenvolvimento dos softwares.
 - Manter os antivírus atualizados.
@@ -50,10 +50,11 @@ Filmes e músicas, em qualquer formato, ou qualquer tipo de pirataria são proib
 
 Para segurança, tanto dos clientes, quanto dos desenvolvedores, padrões de desenvolvimento como:
 
-* Informações sensíveis devem ser criptografadas.
-* Proibir maneiras de **SQL Injection**, que pode inserir ou alterar dados, portanto maneiras como parametrizar consultas, evitar entradas desnecessárias do usuário, limitanto privilégios de acesso e usando **"stored procedures"**.
-
-
+* A escrita em armazenamento não pode ser acessado por outras maneiras diferentes do que senhas.
+* Informações (devem preferencialmente) ser salvas de criptografadas.
+* Proibir maneiras de **SQL Injection** (que são comandos Data Definition Language), que pode inserir ou alterar dados, portanto maneiras como parametrizar consultas, evitar entradas desnecessárias do usuário, limitanto privilégios de acesso e usando **"stored procedures"**.
+* O acesso banco não pode ser acessado utilizando um usuário com permissões de root.
+* 
 
 ***
 
