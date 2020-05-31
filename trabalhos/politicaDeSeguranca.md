@@ -64,9 +64,26 @@ Para segurança, tanto dos clientes, quanto dos desenvolvedores, padrões de des
 
 * A escrita em armazenamento não pode ser acessado por outras maneiras diferentes do que senhas.
 * Informações (devem preferencialmente) ser salvas de criptografadas.
-* Proibir maneiras de **SQL Injection** (que são comandos Data Definition Language), que pode inserir ou alterar dados, portanto maneiras como parametrizar consultas, evitar entradas desnecessárias do usuário, limitanto privilégios de acesso e usando **"stored procedures"**.
+* Proibir maneiras de **SQL Injection** (que são comandos Data Definition Language injetados e rodados no sistema), que pode inserir ou alterar dados, portanto maneiras como parametrizar consultas, evitar entradas desnecessárias do usuário, limitanto privilégios de acesso e usando **"stored procedures"**.
 * O acesso banco não pode ser acessado utilizando um usuário com permissões de root. Devem ser permitidos acessos extremamente necessários para o uso do sistema.
+* Assim como ataques de **SQL Injection** são evitados, injeção de HTML e Javascript, e do tipo cross-site scripting ​(XSS) também deve ser prevenidos.
+* Outros tipos de ataques a serem testados são os de quebra de autinticação e de gerenciamento de sessão.
 
+
+
+#### Comunicação servidor-cliente
+
+A comunicação entre servidor e cliente deve ocorrer de maneira segura, portanto, certicados digitais, controle de perda e duplicação de informações devem ser utilizados.
+
+O armazenamento dos dados em ambos os lados (cliente-servidor) deve ocorrer de maneira segura, e transmitidos de igual forma.
+
+Podem ser utilizados logs confiáveis para confirmação de entrega e recepção de dados.
+
+Os logs também podem ser aplicados em situações como:
+- Login e logout do sistema
+- Acesso a determinadas telas do sistema
+- Acesso a informações sigilosas
+- Inclusão, alterações, ou exclusão de dados do banco de dados.
 
 ### Outras medidas
 Outras medidas que devem ser aplicadas:
@@ -79,6 +96,12 @@ Outras medidas que devem ser aplicadas:
 * Além dos anteriormente citados, testes automatizados para averiguar se os dados sigilosos estão indo corretamente só para o detentor da informação.
 * Outra metodologia que deve ser utilizada é a de ter uma equipe focada em segurança, que faça testes, assim evitando possíveis erros deixados pelos programadores.
 * Cenários de testes, como versões de banco de dados, servidores de aplicações, versões de browser, ou de sistemas operacionais, devem ser averiguadas para testar possíveis erros, e vulnerabilidades.
+
+#### Ocorrências
+
+Caso ocorram falhas mesmo aplicando as politicas anteriormente citadas, devem haver manutenção corretiva e acompanhamento pós-invasão.
+
+Essas ocorrências devem ser anotadas, de maneira a revisar a politica, ocorrendo posteriormente, testes e novas praticas incrementais para a segurança do sistema.
 
 
 
