@@ -1,11 +1,11 @@
 [Menu](https://gusleaooliveira.github.io/posts/)
 
-# Politica de Segurança
 
-## Empresa
+# Empresa
 
 A empresa que foi escolhida para criar as políticas de segurança foi a **Sinapse Digital Ltda.**, que é uma empresa destinada a desenvolver softwares, tais como um projeto de uma plataforma para freelancer, fácil de usar, e que mostre projetos em que o freelancer está participando.
 
+# Politica de Segurança
 ### Política de senhas
 
 As senhas utilizadas devem conter de 6 a 12 caracteres alfa numéricos, variando entre maiúsculas e minúsculas, evitando padrões. As senhas **não** devem ser repassadas para outras pessoas.
