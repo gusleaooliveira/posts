@@ -53,8 +53,8 @@ Para segurança, tanto dos clientes, quanto dos desenvolvedores, padrões de des
 * A escrita em armazenamento não pode ser acessado por outras maneiras diferentes do que senhas.
 * Informações (devem preferencialmente) ser salvas de criptografadas.
 * Proibir maneiras de **SQL Injection** (que são comandos Data Definition Language), que pode inserir ou alterar dados, portanto maneiras como parametrizar consultas, evitar entradas desnecessárias do usuário, limitanto privilégios de acesso e usando **"stored procedures"**.
-* O acesso banco não pode ser acessado utilizando um usuário com permissões de root.
-* 
+* O acesso banco não pode ser acessado utilizando um usuário com permissões de root. Devem ser permitidos acessos extremamente necessários para o uso do sistema.
+*
 
 ***
 
