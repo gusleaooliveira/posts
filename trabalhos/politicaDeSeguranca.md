@@ -69,7 +69,13 @@ Para segurança, tanto dos clientes, quanto dos desenvolvedores, padrões de des
 * Assim como ataques de **SQL Injection** são evitados, injeção de HTML e Javascript, e do tipo cross-site scripting ​(XSS) também deve ser prevenidos.
 * Outros tipos de ataques a serem testados são os de quebra de autinticação e de gerenciamento de sessão.
 
+#### Código fonte
 
+O código fonte do sistema deve estar em um versionamento, preferencialmente em um sistema de versionamento distribuído, para recuperação de possíveis falhas.
+
+#### Ambientes
+
+Para cada ambiente (desenvolvimento, testes e homologação) devem ser utilizados banco de dados e servidores de aplicação/testes distintos para cada ambiente.
 
 #### Comunicação servidor-cliente
 
