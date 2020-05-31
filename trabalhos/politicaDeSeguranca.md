@@ -6,7 +6,7 @@
 A empresa que foi escolhida para criar as políticas de segurança foi a **Sinapse Digital Ltda.**, que é uma empresa destinada a desenvolver softwares, tais como um projeto de uma plataforma para freelancer, fácil de usar, e que mostre projetos em que o freelancer está participando.
 
 # Politica de Segurança
-### Política de senhas
+## Política de senhas
 
 As senhas utilizadas devem conter de 6 a 12 caracteres alfa numéricos, variando entre maiúsculas e minúsculas, evitando padrões. As senhas **não** devem ser repassadas para outras pessoas.
 
@@ -14,13 +14,13 @@ Devem ser permitidas apenas senhas como descritas acima, e que sejam diferentes 
 
 Senhas não devem **nunca** serem utilizadas dentro do código.
 
-### Política  de e-mail
+## Política  de e-mail
 
 Proibir a abertura de e-mail com extensões de anexos dos tipos `.bat`, `.exe`, `.lnk` e `.com`, exceto, se esse conteúdo foi solicitado.
 
 E-mail que não forem estritamente sobre os trabalhos, ou demais necessidades da empresa, devem ser evitados.
 
-### Politicas de acesso a internet
+## Politicas de acesso a internet
 
 Os sites acessados devem ser relacionados a documentações,  tutorias e downloads de dados relacionados somente a programação dos produtos.
 
@@ -28,7 +28,7 @@ Sites que envolvam pornografia, jogos, bate-papo, apostas, não poderão ser ace
 
 Ferramentas P2P também são proibídas.
 
-### Politica de estação de trabalho
+## Politica de estação de trabalho
 
 Fazer logoff sempre que sair da máquina.
 
@@ -36,21 +36,21 @@ Não instalar softwares que não sejam restritos ao desenvolvimento dos software
 
 Filmes e músicas, em qualquer formato, ou qualquer tipo de pirataria são proibidos.
 
-### Política social
+## Política social
 
 - Não comentar sobre as políticas de seguranças para terceiros, ou em locais públicos.
 - Nó divulgar ou usar as senhas em outros locais.
 - Aceitar somente de membros  da equipe identificados.
-- Não fazer procedimentos técnicos vindos de emails.
+- Não fazer procedimentos técnicos vindos de e-mails.
 
-### Vírus
+## Vírus
 
 - Proibido instalar programas que não voltados para o desenvolvimento dos softwares.
 - Manter os antivírus atualizados.
 - Não usar e trazer cd's de fora da empresa.
 - Quaisquer atitudes estranhas, chame a equipe técnica.
 
-### Autorização e autenticação de usuários
+## Autorização e autenticação de usuários
 
 As senhas não podem ser armazenadas sem alrotimos de hash seguro. Deve-se, também, haver controle de senha e usuário para determinar o usuário que está utilizando o sistema.
 
@@ -58,7 +58,7 @@ Ferramentas como `0Auth2` devem, sempre que possível, ser utilizadas.
 
 Cetificados digitais (como o `ssl`) devem ser adotados.
 
-### Padrões de desenvolvimento
+## Padrões de desenvolvimento
 
 Para segurança, tanto dos clientes, quanto dos desenvolvedores, padrões de desenvolvimento como:
 
@@ -69,15 +69,15 @@ Para segurança, tanto dos clientes, quanto dos desenvolvedores, padrões de des
 * Assim como ataques de **SQL Injection** são evitados, injeção de HTML e Javascript, e do tipo cross-site scripting ​(XSS) também deve ser prevenidos.
 * Outros tipos de ataques a serem testados são os de quebra de autinticação e de gerenciamento de sessão.
 
-#### Código fonte
+### Código fonte
 
 O código fonte do sistema deve estar em um versionamento, preferencialmente em um sistema de versionamento distribuído, para recuperação de possíveis falhas.
 
-#### Ambientes
+### Ambientes
 
 Para cada ambiente (desenvolvimento, testes e homologação) devem ser utilizados banco de dados e servidores de aplicação/testes distintos para cada ambiente.
 
-#### Comunicação servidor-cliente
+### Comunicação servidor-cliente
 
 A comunicação entre servidor e cliente deve ocorrer de maneira segura, portanto, certicados digitais, controle de perda e duplicação de informações devem ser utilizados.
 
@@ -91,19 +91,19 @@ Os logs também podem ser aplicados em situações como:
 - Acesso a informações sigilosas
 - Inclusão, alterações, ou exclusão de dados do banco de dados.
 
-### Outras medidas
+## Outras medidas
 Outras medidas que devem ser aplicadas:
 
-#### Backups
+### Backups
 * Criar e fazer a manutenção de backups, tanto de dados, quanto de códigos-fonte, tendo inclusive, políticas de acesso aos mesmos. Devem haver versionamento dos mesmos, e responsáveis capacitados responsáveis pela recuperação.
 
-#### Testes
+### Testes
 * Testes devem sempre ocorrer, antes de cada versão que modifique a estrutura (como telas de login, serviços não autenticados).
 * Além dos anteriormente citados, testes automatizados para averiguar se os dados sigilosos estão indo corretamente só para o detentor da informação.
 * Outra metodologia que deve ser utilizada é a de ter uma equipe focada em segurança, que faça testes, assim evitando possíveis erros deixados pelos programadores.
 * Cenários de testes, como versões de banco de dados, servidores de aplicações, versões de browser, ou de sistemas operacionais, devem ser averiguadas para testar possíveis erros, e vulnerabilidades.
 
-#### Ocorrências
+### Ocorrências
 
 Caso ocorram falhas mesmo aplicando as politicas anteriormente citadas, devem haver manutenção corretiva e acompanhamento pós-invasão.
 
