@@ -2,3 +2,4 @@ theme: jekyll-theme-architect
 title: Posts
 descriptions: Post de trabalhos, exercícios, e estudos para  fácil acesso.
 show_downloads: true
+permalink: README.md
