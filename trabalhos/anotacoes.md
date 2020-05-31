@@ -1,0 +1,5 @@
+- [x] Trabalho de segurança
+- [ ] Trabalho de Linux
+- [ ] Trabalho de empreendedoerismo
+- [ ] Trabalho de web mobile
+- [ ] Trabalho de web 2
