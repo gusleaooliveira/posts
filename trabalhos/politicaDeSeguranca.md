@@ -91,8 +91,6 @@ Os logs também podem ser aplicados em situações como:
 - Acesso a informações sigilosas
 - Inclusão, alterações, ou exclusão de dados do banco de dados.
 
-## Outras medidas
-Outras medidas que devem ser aplicadas:
 
 ### Backups
 * Criar e fazer a manutenção de backups, tanto de dados, quanto de códigos-fonte, tendo inclusive, políticas de acesso aos mesmos. Devem haver versionamento dos mesmos, e responsáveis capacitados responsáveis pela recuperação.
