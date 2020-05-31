@@ -1,6 +1,3 @@
-[Menu](https://gusleaooliveira.github.io/posts/)
-
-
 # Empresa
 
 A empresa que foi escolhida para criar as políticas de segurança foi a **Sinapse Digital Ltda.**, que é uma empresa destinada a desenvolver softwares, tais como um projeto de uma plataforma para freelancer, fácil de usar, e que mostre projetos em que o freelancer está participando.
@@ -26,13 +23,13 @@ Proibir a abertura de e-mail com extensões de anexos dos tipos `.bat`, `.exe`, 
 
 E-mail que não forem estritamente sobre os trabalhos, ou demais necessidades da empresa, devem ser evitados.
 
-## Politicas de acesso a internet
+## Politicas de acesso à internet
 
 Os sites acessados devem ser relacionados a documentações,  tutorias e downloads de dados relacionados somente a programação dos produtos.
 
 Sites que envolvam pornografia, jogos, bate-papo, apostas, não poderão ser acessados.
 
-Ferramentas P2P também são proibídas.
+Ferramentas P2P também são proibidas.
 
 ## Politica de estação de trabalho
 
@@ -40,7 +37,7 @@ Fazer logoff sempre que sair da máquina.
 
 Não instalar softwares que não sejam restritos ao desenvolvimento dos softwares.
 
-Filmes e músicas, em qualquer formato, ou qualquer tipo de pirataria são proibidos.
+Filmes e músicas, em qualquer formato, ou qualquer pirataria são proibidos.
 
 ## Política social
 
@@ -58,11 +55,11 @@ Filmes e músicas, em qualquer formato, ou qualquer tipo de pirataria são proib
 
 ## Autorização e autenticação de usuários
 
-As senhas não podem ser armazenadas sem alrotimos de hash seguro. Deve-se, também, haver controle de senha e usuário para determinar o usuário que está utilizando o sistema.
+As senhas não podem ser armazenadas sem algoritimos de hash seguro. Deve-se, também, haver controle de senha e usuário para determinar o usuário que está utilizando o sistema.
 
 Ferramentas como `0Auth2` devem, sempre que possível, ser utilizadas.
 
-Cetificados digitais (como o `ssl`) devem ser adotados.
+Certificados digitais (como o `ssl`) devem ser adotados.
 
 ## Padrões de desenvolvimento
 
@@ -70,14 +67,14 @@ Para segurança, tanto dos clientes, quanto dos desenvolvedores, padrões de des
 
 * A escrita em armazenamento não pode ser acessado por outras maneiras diferentes do que senhas.
 * Informações (devem preferencialmente) ser salvas de criptografadas.
-* Proibir maneiras de **SQL Injection** (que são comandos Data Definition Language injetados e rodados no sistema), que pode inserir ou alterar dados, portanto maneiras como parametrizar consultas, evitar entradas desnecessárias do usuário, limitanto privilégios de acesso e usando **"stored procedures"**.
+* Proibir maneiras de **SQL Injection** (que são comandos Data Definition Language injetados e rodados no sistema), que pode inserir ou alterar dados, portanto maneiras como parametrizar consultas, evitar entradas desnecessárias do usuário, limitando privilégios de acesso e usando **"stored procedures"**.
 * O acesso banco não pode ser acessado utilizando um usuário com permissões de root. Devem ser permitidos acessos extremamente necessários para o uso do sistema.
 * Assim como ataques de **SQL Injection** são evitados, injeção de HTML e Javascript, e do tipo cross-site scripting ​(XSS) também deve ser prevenidos.
-* Outros tipos de ataques a serem testados são os de quebra de autinticação e de gerenciamento de sessão.
+* Outras categorias de ataques a serem testados são os de quebra de autinticação e de gerenciamento de sessão.
 
-### Código fonte
+### Código-fonte
 
-O código fonte do sistema deve estar em um versionamento, preferencialmente em um sistema de versionamento distribuído, para recuperação de possíveis falhas.
+O código-fonte do sistema deve estar em um versionamento, preferencialmente em um sistema de versionamento distribuído, para recuperação de possíveis falhas.
 
 ### Ambientes
 
@@ -85,7 +82,7 @@ Para cada ambiente (desenvolvimento, testes e homologação) devem ser utilizado
 
 ### Comunicação servidor-cliente
 
-A comunicação entre servidor e cliente deve ocorrer de maneira segura, portanto, certicados digitais, controle de perda e duplicação de informações devem ser utilizados.
+A comunicação entre servidor e cliente deve ocorrer de maneira segura, portanto, certificados digitais, controle de perda e duplicação de informações devem ser utilizados.
 
 O armazenamento dos dados em ambos os lados (cliente-servidor) deve ocorrer de maneira segura, e transmitidos de igual forma.
 
@@ -109,9 +106,9 @@ Os logs também podem ser aplicados em situações como:
 
 ### Ocorrências
 
-Caso ocorram falhas mesmo aplicando as politicas anteriormente citadas, devem haver manutenção corretiva e acompanhamento pós-invasão.
+Caso ocorram falhas mesmo aplicando as políticas anteriormente citadas, devem haver manutenção corretiva e acompanhamento pós-invasão.
 
-Essas ocorrências devem ser anotadas, de maneira a revisar a politica, ocorrendo posteriormente, testes e novas praticas incrementais para a segurança do sistema.
+Essas ocorrências devem ser anotadas, de maneira a revisar a política, ocorrendo posteriormente, testes e novas práticas incrementais para a segurança do sistema.
 
 
 
