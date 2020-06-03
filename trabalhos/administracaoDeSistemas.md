@@ -260,9 +260,9 @@ usermod  paulovargas -g administrativos
 ```
 
 13. Faça uma cópia completa dos seguintes arquivos dentro do diretório /root/tarefa04, com os seguintes nomes:
-  - passwd :arrow_right: users.txt
-  - group :arrow_right: groups.txt
-  - shadow :arrow_right: 1senhas.txt
+  - **passwd:** users.txt
+  - **group:** groups.txt
+  - **shadow:** 1senhas.txt
 
 ```bash
 
