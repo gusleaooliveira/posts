@@ -222,19 +222,42 @@ usermod  paulovargas -g administrativos
 
 7. Expire a senha dos usuários anabraga e pedrovaz:
 
+```bash
 
+```
 
 8. Crie um grupo chamado formandos:
+
+```bash
+
+
+```
 
 9. Defina o grupo formandos como grupo primário dos usuários pedrovaz e mariasilva:
 
 
+```bash
+
+```
+
 10. Exclua o usuário anabraga, incluindo seu diretório home:
+
+```bash
+
+```
 
 11. Altere a máscara do modo de acesso padrão para 0027:
 
 
+```bash
+
+```
+
 12. Retorne a máscara padrão do sistema para 0022.
+
+```bash
+
+```
 
 13. Faça uma cópia completa dos seguintes arquivos dentro do diretório /root/tarefa04, com os seguintes nomes:
     • passwd  
@@ -244,30 +267,43 @@ usermod  paulovargas -g administrativos
     • shadow
         1senhas.txt
 
+```bash
 
+```
 
 Tarefa 05: Configuração básica de rede
 
 a) Desligue a máquina virtual;
+
+```bash
+
+```
+
 b) Adicione duas novas interfaces de rede em modo rede interna.
 As configurações das interfaces de rede devem ficar como segue:
 	- Interface 1 = Modo Bridge
 	- Interface 2 = Rede Interna
 	- Interface 3 = Rede Interna
 
+```bash
+
+```
+
 c) Inicialize o sistema;
+
+```bash
+
+```
+
 d) Configure o arquivo interfaces como segue:
 
-            ▪ Interface eth0: Obter IP automaticamente
-    
-            ▪ Interface eth1: IP estático: 172.16.1.1/26
+  - Interface eth0: Obter IP automaticamente
+  - Interface eth1: IP estático: 172.16.1.1/26
+  - Interface eth2: IP estático 2001:db8:dad0:cafe::aaaa/64
 
+```bash
 
-            ▪ Interface eth2: IP estático 2001:db8:dad0:cafe::aaaa/64
-
-
-
-
+```
 
 ***
 
