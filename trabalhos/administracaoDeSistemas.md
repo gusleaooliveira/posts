@@ -157,7 +157,7 @@ chgrp -R  professores /home/share/aulas
 
 c) Defina as diretivas de acesso aos diretórios conforme tabela a seguir:
 
-||| **Diretivas de acesso** ||
+||**Diretivas de acesso**|||
 |-------------------||-------------------------||
 | **Diretório**     | **Usuário**  | **Grupo**           | **Outros**         |
 | Share             | Acesso total | Leitura e Execução  | Leitura e Execução |
