@@ -270,10 +270,8 @@ usermod  paulovargas -g administrativos
 
 Tarefa 05: Configuração básica de rede
 
-a) Desligue a máquina virtual:
-- [ x ]
-- [ x ]
-- [ x ]
+14. Desligue a máquina virtual:
+- [x]
 
 b) Adicione duas novas interfaces de rede em modo rede interna.
 As configurações das interfaces de rede devem ficar como segue:
