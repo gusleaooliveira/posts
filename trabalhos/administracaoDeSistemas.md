@@ -30,11 +30,11 @@ groupadd administrativos
 | **Grupo primário**  | **Usuários**    |
 |---------------------|-----------------|
 | alunos              |     pedrovaz    |
-|                     |     mariasilva  |
+||     mariasilva  |
 | professores         |     anabraga    |
-|                     |     paulovargas |
+||     paulovargas |
 | administrativos     |     joaogomes   |
-|                     |     karlasilva  |
+||     karlasilva  |
 
 > O diretório home dos usuários deverá ser: /home/share/grupo/nome_usuario onde <grupo> deve ser o grupo que o usuário pertence, para isso utilize a opção -d, não utilize a opção -m, pois os diretórios serão criados posteriormente
 
