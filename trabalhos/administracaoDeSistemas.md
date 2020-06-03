@@ -27,14 +27,14 @@ groupadd administrativos
 
 2. Crie os seguintes usuários, inserindo-os em seus respectivos grupos:
 
-| Grupo primário  | Usuários    |
-|-----------------|-------------|
-| alunos          | pedrovaz    |
-|                 | mariasilva  |
-| professores     | anabraga    |
-|                 | paulovargas |
-| administrativos | joaogomes   |
-|                 | karlasilva  |
+| **Grupo primário**  | **Usuários**    |
+|---------------------|-----------------|
+| alunos              |     pedrovaz    |
+|                     |     mariasilva  |
+| professores         |     anabraga    |
+|                     |     paulovargas |
+| administrativos     |     joaogomes   |
+|                     |     karlasilva  |
 
 > O diretório home dos usuários deverá ser: /home/share/grupo/nome_usuario onde <grupo> deve ser o grupo que o usuário pertence, para isso utilize a opção -d, não utilize a opção -m, pois os diretórios serão criados posteriormente
 
