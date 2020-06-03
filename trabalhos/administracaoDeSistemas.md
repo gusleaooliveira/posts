@@ -63,7 +63,7 @@ passwd karlasilva
 > A senha utilizada foi: `ola123`
 
 
-3. Defina para todos os usuários dos grupos professores e administrativos o Shell “BASH” como padrão.
+3. Defina para todos os usuários dos grupos **professores** e **administrativos** o Shell **"BASH"** como padrão.
 
 ```bash
 usermod pedrovaz -s $SHELL
@@ -76,7 +76,7 @@ usermod karlasilva -s $SHELL
 
 > A variável de ambiente `$SHELL` contém o caminho `/bin/bash` portanto foi utilizada no local de escrever manualmente.
 
-4. Remova a possibilidade de execução de um SHELL para os usuários do grupo alunos.
+4. Remova a possibilidade de execução de um SHELL para os usuários do grupo **alunos**.
 
 ```bash
 usermod pedrovaz -s /bin/false
@@ -91,20 +91,20 @@ chage mariasilva -E 20201231
 ```
 
 
-6. Defina para os usuários anabraga e paulovargas o grupo alunos como secundário:
+6. Defina para os usuários **anabraga** e **paulovargas** o grupo alunos como secundário:
 
 ```bash
 usermod anabraga -G alunos
 usermod paulovargas -G alunos
 ```
 
-7. Com o comando cut, crie no diretório /root uma lista contendo somente os nomes dos usuários criados (em ordem alfabética). Defina como usuarios.lst o nome do arquivo:
+7. Com o comando cut, crie no diretório **/root** uma lista contendo somente os nomes dos usuários criados (em ordem alfabética). Defina como **usuarios.lst** o nome do arquivo:
 
 ```bash
 tail -n 6 /etc/passwd | cut -d ":" -f 1 | sort -d > /root/usuarios.lst
 ```
 
-8. Com o comando cut, crie no diretório /root  uma lista contendo somente os nomes dos  grupos do sistema (em ordem alfabética) com o nome de grupos.lst:
+8. Com o comando cut, crie no diretório **/root**  uma lista contendo somente os nomes dos  grupos do sistema (em ordem alfabética) com o nome de **grupos.lst**:
 
 ```bash
 tail -n 3 /etc/group | cut -d ":" -f 1 | sort -d > grupos.lst
@@ -157,8 +157,8 @@ chgrp -R  professores /home/share/aulas
 
 c) Defina as diretivas de acesso aos diretórios conforme tabela a seguir:
 
-|Diretório          |              | Diretivas de acesso |                    |
-|-------------------|--------------|---------------------|--------------------|
+| **Diretório**     || **Diretivas de acesso** ||
+|-------------------||-------------------------||
 |                   | **Usuário**  | **Grupo**           | **Outros**         |
 | Share             | Acesso total | Leitura e Execução  | Leitura e Execução |
 | Alunos            | Acesso total | Leitura e Execução  | Sem acesso         |
