@@ -260,12 +260,9 @@ usermod  paulovargas -g administrativos
 ```
 
 13. Faça uma cópia completa dos seguintes arquivos dentro do diretório /root/tarefa04, com os seguintes nomes:
-    • passwd  
-        users.txt
-    • group
-        groups.txt
-    • shadow
-        1senhas.txt
+  - passwd :arrow_right: users.txt
+  - group :arrow_right: groups.txt
+  - shadow :arrow_right: 1senhas.txt
 
 ```bash
 
@@ -273,11 +270,7 @@ usermod  paulovargas -g administrativos
 
 Tarefa 05: Configuração básica de rede
 
-a) Desligue a máquina virtual;
-
-```bash
-
-```
+a) Desligue a máquina virtual: - [ x ]
 
 b) Adicione duas novas interfaces de rede em modo rede interna.
 As configurações das interfaces de rede devem ficar como segue:
