@@ -286,24 +286,20 @@ cat /etc/group > tarefa04/s.txt
 Tarefa 05: Configuração básica de rede
 
 14. Desligue a máquina virtual:
-
-[x] Feito
+- [x] Feito
 
 b) Adicione duas novas interfaces de rede em modo rede interna.
 As configurações das interfaces de rede devem ficar como segue:
-	- Interface 1 = Modo Bridge
-	- Interface 2 = Rede Interna
-	- Interface 3 = Rede Interna
+	* **Interface 1** = Modo Bridge
+	* **Interface 2** = Rede Interna
+	* **Interface 3** = Rede Interna
 
 ```bash
 
 ```
 
 c) Inicialize o sistema;
-
-```bash
-
-```
+- [x] Feito
 
 d) Configure o arquivo interfaces como segue:
 
