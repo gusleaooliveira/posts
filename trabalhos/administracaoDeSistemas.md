@@ -60,6 +60,18 @@ passwd joaogomes
 passwd karlasilva
 ```
 
+Em um shell script uma maneira para colocar seria:
+
+```bash
+senha="ola123"
+echo "pedrovaz:$senha" | chpasswd
+echo "mariasilva:$senha" | chpasswd
+echo "anabraga:$senha" | chpasswd
+echo "paulovargas:$senha" | chpasswd
+echo "joaogomes:$senha" | chpasswd
+echo "karlasilva:$senha" | chpasswd
+```
+
 > A senha utilizada foi: `ola123`
 
 
