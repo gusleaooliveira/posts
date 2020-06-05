@@ -203,10 +203,10 @@ mkdir /root/tarefa04
 2. Crie no diretório tarefa04 um arquivo denominado senhas.txt contendo as últimas 06 linhas do arquivo shadow:
 
 ```bash
-tail -n 6 /etc/shadow > senhas.txt
+tail -n 6 /etc/shadow > /root/tarefa04/senhas.txt
 ```
 
-3. Desabilite a conta dos usuários pedrovaz e karlasilva:
+3. Desabilite a conta dos usuários **pedrovaz** e karlasilva:
 
 ```bash
 usermod -L pedrovaz
@@ -216,7 +216,7 @@ usermod -L karlasilva
 4. Crie no diretório tarefa04 um arquivo denominado shell.txt contendo as últimas 10 linhas do arquivo passwd.
 
 ```bash
-tail -n 10 /etc/passwd > shell.txt
+tail -n 10 /etc/passwd > /root/tarefa04/shell.txt
 ```
 
 
@@ -235,27 +235,28 @@ usermod  paulovargas -g administrativos
 7. Expire a senha dos usuários anabraga e pedrovaz:
 
 ```bash
-
+passwd -e anabraga
+passwd -e pedrovaz
 ```
 
 8. Crie um grupo chamado formandos:
 
 ```bash
-
-
+groupadd formandos
 ```
 
 9. Defina o grupo formandos como grupo primário dos usuários pedrovaz e mariasilva:
 
 
 ```bash
-
+usermod -g formandos pedrovaz
+usermod -g formandos mariasilva
 ```
 
 10. Exclua o usuário anabraga, incluindo seu diretório home:
 
 ```bash
-
+sudo userdel -r anabraga
 ```
 
 11. Altere a máscara do modo de acesso padrão para 0027:
