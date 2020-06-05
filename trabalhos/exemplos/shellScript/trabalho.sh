@@ -86,4 +86,5 @@ passwd -e pedrovaz
 usermod -g formandos pedrovaz
 usermod -g formandos mariasilva
 
+
 sudo userdel -r anabraga

@@ -185,11 +185,11 @@ c) Defina as diretivas de acesso aos diretórios conforme tabela a seguir:
 
 
 ```bash
-chmod u=rwx,g=rx,o=rx /home/share/
-chmod u=rwx,g=rx,o=--- /home/share/alunos/
-chmod u=rwx,g=rx,o=--- /home/share/professores/
-chmod u=rwx,g=---,o=--- /home/share/administrativos/
-chmod -R u=rwx,g=rwx,o=rx /home/share/aulas/
+chmod u=rwx,g=rx,o=rx,a=rwx /home/share/
+chmod u=rwx,g=rx,o=---,a=rwx /home/share/alunos/
+chmod u=rwx,g=rx,o=---,a=rwx /home/share/professores/
+chmod u=rwx,g=---,o=---,a=rwx /home/share/administrativos/
+chmod -R u=rwx,g=rwx,o=rx,a=rwx /home/share/aulas/
 ```
 
 ## Tarefa 04
@@ -263,13 +263,13 @@ sudo userdel -r anabraga
 
 
 ```bash
-
+umask 0027
 ```
 
 12. Retorne a máscara padrão do sistema para 0022.
 
 ```bash
-
+umask 0022
 ```
 
 13. Faça uma cópia completa dos seguintes arquivos dentro do diretório /root/tarefa04, com os seguintes nomes:
