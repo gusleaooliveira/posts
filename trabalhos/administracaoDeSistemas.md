@@ -256,7 +256,7 @@ usermod -g formandos mariasilva
 10. Exclua o usuário anabraga, incluindo seu diretório home:
 
 ```bash
-sudo userdel -r anabraga
+userdel -r anabraga
 ```
 
 11. Altere a máscara do modo de acesso padrão para 0027:
@@ -278,13 +278,15 @@ umask 0022
   - **shadow:** 1senhas.txt
 
 ```bash
-
+cat /etc/passwd > tarefa04/users.txt
+cat /etc/group > tarefa04/groups.txt
+cat /etc/group > tarefa04/s.txt
 ```
 
 Tarefa 05: Configuração básica de rede
 
 14. Desligue a máquina virtual:
-- [x]
+- [ x ]
 
 b) Adicione duas novas interfaces de rede em modo rede interna.
 As configurações das interfaces de rede devem ficar como segue:
