@@ -30,3 +30,6 @@
 
 ## Instalando programas no Linux
 * [Instalando o Node](posts/linux/instalando-o-nodejs.md)
+
+
+<script data-ad-client="ca-pub-3232624848043560" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
