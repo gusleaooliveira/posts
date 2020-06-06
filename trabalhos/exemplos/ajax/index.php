@@ -35,6 +35,15 @@
 
     </section>
 
+    <footer class="raisin-black padding-16 margin-10">
+      <p class="text-justify text-indent">Site criado por Gustavo Leão, para mais acesse:</p>
+      <ul class="hcw-ul raisin-black">
+        <li>Link para <a href="https://github.com/gusleaooliveira" class="btn blue-twitter">Github</a></li>
+        <li>Link para <a href="https://www.linktree.com.br/gusleaooliveira" class="btn blue-twitter">Linktree</a></li>
+        <li>Link para <a href="https://twitter.com/gusleaooliveira" class="btn blue-twitter">Twitter</a></li>
+      </ul>
+    </footer>
+
     <script src="js/escript.js"></script>
 
   </body>
