@@ -6,6 +6,8 @@ Os arquivos estão localizados em:
 - A função de sortear está no [sorteador.php](https://github.com/gusleaooliveira/posts/blob/master/trabalhos/exemplos/ajax/php/sorteador.php).
 - A função para executar via ajax está no [escript.js](https://github.com/gusleaooliveira/posts/blob/master/trabalhos/exemplos/ajax/js/escript.js).
 
+O site está sendo executado no seguinte link:
+- [Exercício](https://mrconstrucoes.000webhostapp.com/formularioSorteador.php)
 
 ***
 
