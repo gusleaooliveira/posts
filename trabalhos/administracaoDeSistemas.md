@@ -280,7 +280,7 @@ umask 0022
 ```bash
 cat /etc/passwd > tarefa04/users.txt
 cat /etc/group > tarefa04/groups.txt
-cat /etc/group > tarefa04/s.txt
+cat /etc/shadown > tarefa04/1ssenha.txt
 ```
 
 Tarefa 05: Configuração básica de rede
@@ -307,10 +307,42 @@ d) Configure o arquivo interfaces como segue:
   - Interface eth1: IP estático: 172.16.1.1/26
   - Interface eth2: IP estático 2001:db8:dad0:cafe::aaaa/64
 
+
+No computador servidor foi adicionado:
 ```bash
+$ nano /etc/network/interfaces
+
+auto enp0s3
+iface enp0s3 inet dhcp
+
+auto enp0s8
+iface enp0s8 inet static
+address 127.16.1.1
+netmask 26
+```
+
+No computador cliente:
+```bash
+$ nano /etc/network/interfaces
+
+auto enp0s3
+iface enp0s3 inet6 static
+address 2001:db8:dad0:cafe::aaaa
+netmask 64
 
 ```
 
+Comandos utilizados para ativar:
+
+Servidor:
+```bash
+ip a flush enp0s3 && ip a flush enp0s8 && ifdown enp0s3 && ifdown enp0s8 && ifup enp0s3 && ifup enp0s8
+```
+
+Cliente:
+```bash
+ip a flush enp0s3 && ifdown enp0s3 && ifup enp0s3
+```
 ***
 
 # Criador
