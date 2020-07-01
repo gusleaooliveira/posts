@@ -7,6 +7,7 @@
 * [Api parte 1](trabalhos/o-que-eh-uma-api.md)
 * [Api parte 2](trabalhos/regra-para-criar-api.md)
 * [Trabalho de Ajax](trabalhos/trabalhoDeAjax.md)
+* [Trabalho Final](trabalhos/trabalhoFinalWeb2.md)
 
 
 ## Segurança:
@@ -34,6 +35,6 @@
 
 ## Projetos
 * [Framework banco em php](https://gusleaooliveira.github.io/manipulaBanco/)
-* [HCW.min.css](https://gusleaooliveira.github.io/hcw/) 
+* [HCW.min.css](https://gusleaooliveira.github.io/hcw/)
 
 <script data-ad-client="ca-pub-3232624848043560" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
