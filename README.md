@@ -21,6 +21,7 @@
 
 ## Sistemas Operacionais não proprietários:
 * [Trabalho 2](trabalhos/administracaoDeSistemas.md)
+* [Trabalho Final](trabalhos/trabalhoFinalLinux.md)
 
 
 ## Meus posts e tutoriais:
