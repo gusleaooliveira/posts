@@ -11,10 +11,7 @@
 
 
 # Avaliação Prática III
-
-Exercício Avaliativo Prático III
-
-Tarefa 01: Configuração de Rede:
+## Tarefa 01: Configuração de Rede:
 
     a) Antes de iniciar a sua VM, nas configurações do VirtualBox, adicione uma interface de rede com modo de operação definida como Rede Interna.
 
@@ -32,29 +29,37 @@ Enp0s8 (rede interna): IP: 10.10.10.1/24
 # ping  www.google.com
 
 
-Tarefa 02: Instalação de Pacotes:
+## Tarefa 02: Instalação de Pacotes:
 
-    a) Verifique a configuração dos repositórios para instalação de pacotes via APT:
+1. Verifique a configuração dos repositórios para instalação de pacotes via APT:
 
-    b) Atualize a lista de pacotes disponíveis no repositório com o comando “update”:
+```bash
 
-    c) Com o gerenciador de pacotes APT, instale os utilitários g++, gcc e make :
+```
+
+2. Atualize a lista de pacotes disponíveis no repositório com o comando “update”:
+
+```bash
+apt update
+```
+
+3. Com o gerenciador de pacotes APT, instale os utilitários g++, gcc e make :
 
 ```bash
 apt install g++ gcc make -y
 ```
 
-    d) Com o gerenciador de pacotes APT, instale o software Apache:
+4. Com o gerenciador de pacotes APT, instale o software Apache:
 ```bash
 apt install apache2 -y
 ```
 
-    e) Com o gerenciador de pacotes APT, instale a aplicação OpenSSH Server:
+5. Com o gerenciador de pacotes APT, instale a aplicação OpenSSH Server:
 ```bash
 apt install openssh-server -y
 ```
 
-    f) Baixe o utilitário iptraf a partir do seguinte endereço:
+6. Baixe o utilitário iptraf a partir do seguinte endereço:
 
 http://sft.if.usp.br/debian/pool/main/i/iptraf/iptraf_3.0.0-8.1_amd64.deb
 
@@ -64,13 +69,13 @@ http://sft.if.usp.br/debian/pool/main/i/iptraf/iptraf_3.0.0-8.1_amd64.deb
 wget -c http://sft.if.usp.br/debian/pool/main/i/iptraf/iptraf_3.0.0-8.1_amd64.deb
 ```
 
-    g) Instale o pacote .deb baixado:
+7. Instale o pacote .deb baixado:
 
 ```bash
 dpkg -i iptraf_3.0.0-8.1_amd64.deb
 ```
 
-    h) Baixe o software nmap a partir do seguinte endereço:
+8. Baixe o software nmap a partir do seguinte endereço:
 
 https://nmap.org/dist/nmap-7.50.tar.bz2
 
@@ -80,36 +85,55 @@ https://nmap.org/dist/nmap-7.50.tar.bz2
 wget -c https://nmap.org/dist/nmap-7.50.tar.bz2
 ```
 
-    i) Descompacte, compile e instale a ferramenta nmap:
+9. Descompacte, compile e instale a ferramenta nmap:
 
 ```bash
 tar -jxvf nmap-7.50.tar.bz2
 cd nmap-7.50/
 ./configure
-
+make
+make install
 ```
 
-Tarefa 03: Gerenciamento de Processo:
+## Tarefa 03: Gerenciamento de Processo:
+
+1. Com o comando ps liste os processos de todos usuários:
+
+```bash
+
+```
+2. Com o comando ps liste somente os processos não conectados a terminais:
+
+```bash
+
+```
+3. Liste a hierarquia de processos (árvore de processos) ativos no sistema:
+
+```bash
+
+```
+4. Liste a hierarquia de processos (árvore de processos) ativos no sistema de forma que o comando mostre além dos nomes, os números que identificam os processos (PID) :
+
+```bash
+
+```
+5. Verifique o PID do processo denominado  “login”:
+
+```bash
+
+```
+6. Abra o “vi” em segundo plano executando o comando:  
+    * Identifique o valor que identifica o processo aberto pelo aplicativo VI em segundo plano:
+    
+    ```bash
+
+    ```
+    * Traga o processo do VI para primeiro plano:
 
 
-a) Com o comando ps liste os processos de todos usuários:
+    ```bash
 
-b) Com o comando ps liste somente os processos não conectados a terminais:
-
-c) Liste a hierarquia de processos (árvore de processos) ativos no sistema:
-
-d) Liste a hierarquia de processos (árvore de processos) ativos no sistema de forma que o comando mostre além dos nomes, os números que identificam os processos (PID) :
-
-e) Verifique o PID do processo denominado  “login”:
-
-f) Abra o “vi” em segundo plano executando o comando:  
-    • Identifique o valor que identifica o processo aberto pelo aplicativo VI em segundo plano:
-
-    • Traga o processo do VI para primeiro plano:
-
-
-
-
+    ```
 Tarefa 04: Gerenciamento de dispositivos:
 Antes de iniciar a tarefa crie o diretório /home/atividade03/tarefa04/
     a) Desligue a máquina virtual e crie um novo disco rígido contendo o tamanho de 1Gb:
