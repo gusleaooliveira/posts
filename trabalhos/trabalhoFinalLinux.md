@@ -18,6 +18,15 @@
 
 ![Captura 8](img/captura8.png)
 
+```bash
+$ nano /etc/network/interfaces
+auto enp0s3
+iface enp0s3 inet6 static
+address 10.0.0.1
+netmask 24
+```
+
+
 2. Configure (no arquivo interfaces) as interfaces de rede conforme segue:
 
 enp0s3 (bridge):  Defina a configuração para obter IPautomaticamente.
@@ -27,15 +36,63 @@ Enp0s8 (rede interna): IP: 10.10.10.1/24
 
 ![Captura 7](img/captura7.png)
 
+
+```bash
+$ nano /etc/network/interfaces
+auto enp0s3
+iface enp0s3 inet dhcp
+auto enp0s8
+iface enp0s8 inet static
+address 10.0.0.1
+netmask 24
+```
+
 3. Habilite o NAT definindo a interface enp0s3 como saída:
+
+Servidor:
+
+```bash
+ip a flush enp0s3 && ip a flush enp0s8 && ifdown enp0s3 && ifdown enp0s8 && ifupenp0s3 && ifup enp0s8
+```
+
+Cliente:
+
+```bash
+ip a flush enp0s3 && ifdown enp0s3 && ifup enp0s3
+```
 
 4. Ative o ip_forward para definir que o kernel irá encaminhar pacotes (deverá ser ativado no arquivo de configuração):
 
+```bash
+$ nano /etc/sysctl.conf
+net.ipv4.ip_forward=1
+```
+
+> Foi descomentado: net.ipv4.ip_forward=1
+
 5. Teste a conexão da máquina com a internet:
 
-ping  8.8.8.8
-ping  www.google.com
+```bash
+$  ping  8.8.8.8
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=117 time=16.5 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=117 time=16.8 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=117 time=16.7 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=117 time=16.4 ms
+64 bytes from 8.8.8.8: icmp_seq=5 ttl=117 time=14.9 ms
+64 bytes from 8.8.8.8: icmp_seq=6 ttl=117 time=14.9 ms
+```
 
+```bash
+$ ping  www.google.com
+PING www.google.com(2800:3f0:4001:809::2004 (2800:3f0:4001:809::2004)) 56 data bytes
+64 bytes from 2800:3f0:4001:809::2004 (2800:3f0:4001:809::2004): icmp_seq=1 ttl=118 time=16.9 ms
+64 bytes from 2800:3f0:4001:809::2004 (2800:3f0:4001:809::2004): icmp_seq=2 ttl=118 time=15.6 ms
+64 bytes from 2800:3f0:4001:809::2004 (2800:3f0:4001:809::2004): icmp_seq=3 ttl=118 time=17.0 ms
+64 bytes from 2800:3f0:4001:809::2004 (2800:3f0:4001:809::2004): icmp_seq=4 ttl=118 time=17.0 ms
+64 bytes from 2800:3f0:4001:809::2004 (2800:3f0:4001:809::2004): icmp_seq=5 ttl=118 time=17.2 ms
+
+```
 
 ## Tarefa 02: Instalação de Pacotes:
 
