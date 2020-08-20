@@ -2,6 +2,10 @@
 
 ## Posts
 
+## Comunicação profissional
+
+* [Aula 2](trabalho/aula-02.md) 
+
 ## Desenvolvimento Web 2:
 * [Trabalho de web](trabalhos/trabalho-web.md)
 * [Api parte 1](trabalhos/o-que-eh-uma-api.md)
