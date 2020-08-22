@@ -15,7 +15,7 @@ Peguei como exemplo as seguintes frases:
 
 Também peguei como exemplo o seguinte vídeo:
 
-[Criatividade | Nerdologia Ensina 10 ](https://www.youtube.com/watch?v=OVza8jdMXXo)
+[Criatividade - Nerdologia Ensina 10 ](https://www.youtube.com/watch?v=OVza8jdMXXo)
 
 ---
 
