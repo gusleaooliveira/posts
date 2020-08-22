@@ -2,6 +2,14 @@
 
 ## Posts
 
+## Qualidade de software
+* [Aula 1](trabalho/qualidade-01.md)
+
+
+## Engenharia de Software 3
+* [Aula 1](trabalho/engenharia-01.md)
+
+
 ## Comunicação profissional
 
 * [Aula 2](trabalho/aula-02.md) 
