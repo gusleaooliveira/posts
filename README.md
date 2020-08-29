@@ -13,6 +13,7 @@
 ## Comunicação profissional
 
 * [Aula 2](trabalhos/aula-02.md) 
+* [Aula 3](trabalhos/comunicacao-03.md)
 
 ## Desenvolvimento Web 2:
 * [Trabalho de web](trabalhos/trabalho-web.md)
