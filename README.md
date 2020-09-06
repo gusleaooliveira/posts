@@ -2,7 +2,13 @@
 
 ## Posts
 
+### Gerência de TI
+
+* [Aula 01](trabalhos/gerencia-01.md)
+* [Aula 03](trabalhos/gerencia-02.md)
+
 ### Gerência de Projetos
+
 * [Project Charter](trabalhos/project-charter.md)
 * [Ata](trabalhos/ataGerenciaProjetos.md)
 
@@ -18,6 +24,7 @@
 
 * [Aula 2](trabalhos/aula-02.md) 
 * [Aula 3](trabalhos/comunicacao-03.md)
+* [Aula 4](trabalhos/comunicacao-04.md)
 
 ### Desenvolvimento Web 2:
 * [Trabalho de web](trabalhos/trabalho-web.md)

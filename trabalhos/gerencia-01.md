@@ -3,8 +3,8 @@
 
 1. Qual é o problema mais comum encontrado nas organizações durante a tentativa de alinhar a TI e os negócios?
 * [ ] a) Utilização de um consultor externo de TI para fazer o alinhamento necessários
-* [ ]  b) As falhas de comunicação entre o negócio e a TI
-* [x] c) Inadequação das práticas de gestão de problemas
+* [x]  b) As falhas de comunicação entre o negócio e a TI
+* [ ] c) Inadequação das práticas de gestão de problemas
 * [ ] d)  Desenvolver um sistema muito rapidamente
 
 2. Qual das seguintes opções é um princípio de Governança de TI?
@@ -32,15 +32,15 @@ risco
 
 5. Qual das seguintes opções é um dos principais benefícios da Governança de TI?
 
-* [x]  a) Reduzir os custos de TI
-* [ ]  b) Definir claramente a responsabilidade da TI
+* [ ]  a) Reduzir os custos de TI
+* [x]  b) Definir claramente a responsabilidade da TI
 * [ ]  c) Fazer mais uso de tecnologia
 * [ ] d) Aumentar o orçamento para projetos de TI
 
 6. Qual problema pode ser encontrado quando se
 tenta alinhar a TI aos negócios?
 
-* [ ]  a) Os projetos são muito complexos 
+* [ ]  **a) Os projetos são muito complexos **
 * [ ]  b) Utilização de prestadores de serviços externos
 * [x]  c) As mudanças tendem a ser sempre urgentes
 * [ ]  d) A implementação do processo é inadequada
@@ -62,10 +62,10 @@ tenta alinhar a TI aos negócios?
 
 9. Como a Tecnologia de Informação (TI) auxilia as organizações públicas e privadas?
 
-* [ ]  a) Na obtenção de dados confiáveis e íntegros para auxiliar a tomada de decisão.
+* [x]  a) Na obtenção de dados confiáveis e íntegros para auxiliar a tomada de decisão.
 * [ ]  b) Manter contato com o público externo e não com o público interno.
 * [ ]  c) Exige poucos investimentos e não proporciona ajuda dentro das organizações
-* [x] d) Direciona os objetivos de negócios da organização
+* [ ] d) Direciona os objetivos de negócios da organização
 
 10. A principal tarefa para se ter uma boa Governança de TI alinhada ao negócio é:
 

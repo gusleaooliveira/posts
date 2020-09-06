@@ -82,3 +82,7 @@ Divulgação digital da ONG , fazer treinamento.
 
 ----
 
+estudar taxa selic
+
+
+

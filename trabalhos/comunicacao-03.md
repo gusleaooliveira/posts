@@ -1,6 +1,6 @@
 [Menu](../README.md)
 
-# Aula 03 
+# Semana 04
 
 Leia novamente a reportagem e usando as técnicas aprendidas na semana 04, faça um breve resumo do conteúdo lido. Você terá que dividir o seu texto em 02 parágrafos com no máximo 10 linhas cada.  
 
@@ -23,7 +23,7 @@ Por ser complexo **gerenciar pessoas**, é fato que podem ocorrer determinados *
 
 # Criador
 
-Olá me chamo Gustavo, e criei este material, para mais informações, clique nos links abaixo:
+Olá me chamo Gustavo Leão Nogueira de Oliveira, e criei este material, para mais informações, clique nos links abaixo:
 
 * [LinkTree](https://www.linktree.com.br/gusleaooliveira)
 
