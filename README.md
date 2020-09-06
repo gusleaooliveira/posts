@@ -4,6 +4,7 @@
 
 ### Gerência de Projetos
 * [Project Charter](trabalhos/project-charter.md)
+* [Ata](trabalhos/ataGerenciaProjetos.md)
 
 ### Qualidade de software
 * [Aula 1](trabalhos/qualidade-01.md)
