@@ -37,6 +37,7 @@ Esta é a  ata que lista o que foi produzido pelo grupo:
 
 ## 01/09/2020
 
+* Foi entregue o [Project Charter](project-charter.md) para o professor.
 * Foi feito em aula o exercício de avaliação dos projetos de um dos grupos, no caso do grupo 3, em conjunto com o desenvolvido por nós.
 
 ---
