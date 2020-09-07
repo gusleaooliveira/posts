@@ -19,6 +19,7 @@ Esta é a  ata que lista o que foi produzido pelo grupo:
 * O grupo for formado pelos integrantes citados no cabeçalho desta ata.
 * O tema escolhido foi o de aumentar a **divulgação da ONG Amigos do Reino**.
 * Criamos o documento: [Project Charter](project-charter.md)
+* A ata foi criada pelos membros da equipe.
 
 ---
 
@@ -34,9 +35,9 @@ Esta é a  ata que lista o que foi produzido pelo grupo:
 
 ---
 
-## 02/09/2020
+## 01/09/2020
 
-* A ata foi criada pelos membros da equipe.
+* Foi feito em aula o exercício de avaliação dos projetos de um dos grupos, no caso do grupo 3, em conjunto com o desenvolvido por nós.
 
 ---
 

@@ -29,7 +29,7 @@ Em minha área possui um conceito que pode ser considerado relativamente parecid
 * [Sua empresa é precavida?](https://financasemquestao.blogs.sapo.pt/2012/09/30/) 
 * [Descrição](https://www.sitedoescritor.com.br/sitedoescritor_professor_virtual_assuntos_descricao.html)
 * [Conheca 8 caracteristicas que compoem o perfil do administrador/](https://blog.ucl.br/conheca-8-caracteristicas-que-compoem-o-perfil-do-administrador/)
-* [](https://administradores.com.br/artigos/multifuncionalidade-o-novo-perfil-do-funcionario-do-seculo-xxi)
+* [Multifuncionalidade o novo perfil do funcionario do seculo xxi](https://administradores.com.br/artigos/multifuncionalidade-o-novo-perfil-do-funcionario-do-seculo-xxi)
 
 ---
 
