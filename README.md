@@ -14,6 +14,8 @@
 
 ### Qualidade de software
 * [Aula 1](trabalhos/qualidade-01.md)
+* [Aula 2]()
+* [Aula 3](trabalho/qualidade-03.md)
 
 
 ### Engenharia de Software 3
@@ -57,9 +59,14 @@
 ### Instalando programas no Linux
 * [Instalando o Node](posts/linux/instalando-o-nodejs.md)
 
-
 ## Projetos
+
+#### MRConstruções :house:
+
+* [MR Construções](https://mrconstrucao.000webhostapp.com/)
+* [MR Construções - Admin](http://mrconstrucao.000webhostapp.com/admin.php)
+
+#### Frameworks :memo:
+
 * [Framework banco em php](https://gusleaooliveira.github.io/manipulaBanco/)
 * [HCW.min.css](https://gusleaooliveira.github.io/hcw/)
-
-<script data-ad-client="ca-pub-3232624848043560" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
