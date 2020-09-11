@@ -84,5 +84,69 @@ Divulgação digital da ONG , fazer treinamento.
 
 estudar taxa selic
 
+---
+
+
+
+material d pagina 4
+
+características *
+
+o q é escopo?
+
+
+
+
+
+
+
+escopo:
+
+requisitos do projeto e do produto, coletar as ideias
+
+1 - caminhada; descrever o projeto.
+
+2 - objetivo em uma frase
+
+
+
+requisitos em tópicos do mais para o menos (priorizados) *
+
+3 - requisitos funcionais - funcionalidade 
+
+4 - requisitos não funcional - base para funcionais / técnico / retaguarda
+
+5 - requisitos qualidade - percepção de valor agregado do cliente
+
+
+
+criterios de aceitação *
+
+para validar os requisitos
+
+ coisas q consigo mensurar 
+
+
+
+potenciais impactos
+
+
+
+restriçoes ****
+
+restrições são limitações do projeto
+
+tempo e custo (cronograma e )
+
+
+
+premisssas ****
+
+são fatores externos ao projeto, por consequencia eu não controlo os fatores, mas impactam no projeto
+
+
+
+
+
 
 
