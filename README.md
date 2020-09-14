@@ -16,7 +16,7 @@
 ### Qualidade de software
 * [Aula 1](trabalhos/qualidade-01.md)
 * [Aula 2]()
-* [Aula 3](trabalho/qualidade-03.md)
+* [Aula 3](trabalhos/qualidade-03.md)
 
 
 ### Engenharia de Software 3
