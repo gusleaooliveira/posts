@@ -20,31 +20,31 @@ Gustavo Leão, Bruni Renato e Antonio Tiez
 
 ---
 
-* Quais aspectos devem ser considerados na criação de uma norma? 
+#### Quais aspectos devem ser considerados na criação de uma norma? 
 
 ![Como elaborar uma norma](img/como_elaborar_norma.jpg)
 
 Como pode ser visto na imagem acima, é fundamental, primeiramente, ter uma **demanda** (apresentada por um pessoa, empresa, entidade, organismo regulamentador ou entidade) na forma de um **Documento Técnico ABNT**. Sendo esta demanda válida, é analisado pela ABNT, 
 
-* Apresente e comente algumas normas correspondentes a software. 
+#### Apresente e comente algumas normas correspondentes a software. 
 
 
 
-* Aponte os grupos brasileiros que trabalham com os seguintes tópicos relacionados a software: 
+#### Aponte os grupos brasileiros que trabalham com os seguintes tópicos relacionados a software: 
 
-  * ergonomia;
+##### Ergonomia
 
-   
+ 
 
-  * métricas; 
+##### Métricas
 
-  
+#####  
 
-  * verificação e validação. 
+##### Verificação e validação. 
 
 
 
-* Pesquise e apresente um exemplo de Histogramas (página 9).
+#### Pesquise e apresente um exemplo de Histogramas (página 9).
 
 
 
