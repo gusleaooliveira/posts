@@ -10,6 +10,7 @@
 ### Gerência de Projetos
 
 * [Project Charter](trabalhos/project-charter.md)
+* [](trabalhos/documento-requisitos.md)
 * [Ata](trabalhos/ataGerenciaProjetos.md)
 
 ### Qualidade de software
@@ -50,7 +51,7 @@
 * [Trabalho Final](trabalhos/trabalhoFinalLinux.md)
 
 
-#### Meus posts e tutoriais:
+# Meus posts e tutoriais:
 * [Markdown Simples](/posts/markdown-simples.md)
 * [Framework Css](/posts/cssEsass.md)
 * [Api fácil](/posts/criandoApiNode.md)
@@ -58,6 +59,7 @@
 
 ### Instalando programas no Linux
 * [Instalando o Node](posts/linux/instalando-o-nodejs.md)
+* [Instalador](posts/linux/instalador.md)
 
 ## Projetos
 
