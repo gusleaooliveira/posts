@@ -5,7 +5,7 @@
 
 Cafeteria de um shopping:
 * O cliente faz o pedido no caixa informando o tipo de café que ele quer. 
-*Em seguida ele entrega um cupom para o próximo atendente, que irá preparar o café e entregar na mesa.
+* Em seguida ele entrega um cupom para o próximo atendente, que irá preparar o café e entregar na mesa.
 
 
 ![Imagem do exercicio](img/diagram.svg)
