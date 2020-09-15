@@ -2,10 +2,11 @@
 
 ## Posts
 
-### Gerência de TI
+### gestao de TI
 
 * [Aula 01](trabalhos/gerencia-01.md)
 * [Aula 03](trabalhos/gerencia-02.md)
+* [Aula 05](trabalhos/gerencia-05.md)
 
 ### Gerência de Projetos
 

@@ -2,18 +2,22 @@
 
 cd $HOME/Downloads
 
+
+
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 wget https://az764295.vo.msecnd.net/stable/e790b931385d72cf5669fcefc51cdf65990efa5d/code_1.49.0-1599744551_amd64.deb
 wget https://github.com/shiftkey/desktop/releases/download/release-2.5.4-linux1/GitHubDesktop-linux-2.5.4-linux1.deb
 wget https://downloadsapachefriends.global.ssl.fastly.net/7.4.10/xampp-linux-x64-7.4.10-0-installer.run
 wget -qO - https://typora.io/linux/public-key.asc | sudo apt-key add -
-
+wget -nc https://dl.winehq.org/wine-builds/winehq.key | sudo apt-key add -
 
 sudo chmod +x xampp-linux-x64-7.4.10-0-installer.run 
 sudo chmod +x PacketTracer-7.2.2-ubuntu-setup.run 
 sudo chmod 777 PacketTracer_731_amd64.deb   
 
 sudo ./xampp-linux-x64-7.4.10-0-installer.run 
+
+sudo dpkg --add-architecture i386 
 
 sudo gdebi google-chrome-stable_current_amd64.deb  -n
 sudo gdebi code_1.49.0-1599744551_amd64.deb  -n
@@ -23,7 +27,10 @@ sudo gdebi PacketTracer_731_amd64.deb  -n
 
 sudo add-apt-repository ppa:nilarimogard/webupd8 -y
 sudo add-apt-repository ppa:alexlarsson/flatpak -y
+sudo apt-add-repository https://dl.winehq.org/wine-builds/ubuntu/ -y
+sudo add-apt-repository ppa:tehnick/q4wine -y
 sudo add-apt-repository 'deb https://typora.io/linux ./' -y
+sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ artful main' -y
 sudo apt-get update
 sudo apt-get install typora -y
 sudo apt-get install youtube-dl -y
@@ -33,6 +40,11 @@ sudo apt install flatpak -y
 sudo apt install gnome-software-plugin-flatpak -y
 sudo apt install gdebi -y
 sudo apt install unrar -y
+sudo apt-get install --install-recommends winehq-stable -y
+sudo apt-get install --install-recommends winehq-devel -y
+sudo apt install wine64 wine32 -y
+sudo apt-get install q4wine -y
+sudo apt-get install q4wine-unstable -y
 
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
