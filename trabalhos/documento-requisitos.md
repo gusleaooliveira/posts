@@ -14,7 +14,7 @@
 
 O presente projeto tem como objetivo fazer melhorias na divulgação por meio das **redes sociais** da **ONG Amigos do Reino**, assim, conquistando mais engajamento e contato com o público.
 
-Para que seja realizada tal divulgação, serão criados um canal no **YouTube**, uma conta no **Instagram** e no **Facebook**. Após o termino da criação destas, em conjunto com os funcionários, serão escolhidas uma palheta de cores, uma fonte e um estilo para a mesma; além destes, também serão criados os logotipos e demais necessidades básicas de design para uma melhor comunicação visual da ONG.
+Para que seja realizada tal divulgação, será criado o canal no **YouTube**. Após o termino da criação deste, em conjunto com os funcionários, serão feitas as devidas melhorias de design para uma melhor comunicação visual da ONG. As redes sociais **Facebook** e **Instagram**, criadas anteriormente pelos funcionários da organização, também terão melhorias em conjunto com o canal, consequentemente, ampliando a quantidade e a satisfação dos seguidores das redes. 
 
 De mesma forma, serão criadas **vaquinhas** para **arrecadação de fundos** para a organização. Estas, após serem criadas, deverão ser divulgadas nas redes sociais criadas. Em conjunto a isso, serão criadas **campanhas de marketing digital** e **anúncios** para arrecadação de mais engajamento e público. As vaquinhas, campanhas e anúncios, serão feitas em conjunto com os integrantes da entidade.
 
