@@ -8,7 +8,7 @@ Cafeteria de um shopping:
 *Em seguida ele entrega um cupom para o próximo atendente, que irá preparar o café e entregar na mesa.
 
 
-![Imagem do exercicio](img/diagram.png)
+![Imagem do exercicio](img/diagram.svg)
 
 
 ***
