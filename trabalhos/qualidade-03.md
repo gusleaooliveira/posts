@@ -8,6 +8,12 @@
 
 **Professora:** Sirlei Sulzbach
 
+# Etapas na criação de uma norma
+
+## Grupo
+
+Gustavo Leão Nogueira de Oliveira, Marcus Badiale, Antonio Tietz e Bruno
+
 ## Sumário
 
 [TOC]
