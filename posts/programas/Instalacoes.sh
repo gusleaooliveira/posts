@@ -149,6 +149,7 @@ flatpak install flathub com.play0ad.zeroad -y
 flatpak install flathub org.armagetronad.ArmagetronAdvanced -y
 flatpak install flathub com.viewizard.AstroMenace -y
 flatpak install flathub net.sourceforge.atanks -y
+flatpak install flathub com.sublimemerge.App -y
 
 sudo snap install htop
 

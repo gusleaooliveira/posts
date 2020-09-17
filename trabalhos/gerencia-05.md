@@ -11,6 +11,8 @@ Cafeteria de um shopping:
 ![Imagem do exercicio](img/diagram.svg)
 
 
+**TODO:** fazer proposta de melhoria, instalar e usar o bisagi
+
 ***
 
 # Criador
