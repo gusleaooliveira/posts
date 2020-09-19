@@ -10,13 +10,19 @@
 
 # Etapas na criação de uma norma
 
+
+
 ## Grupo
 
 Gustavo Leão Nogueira de Oliveira, Marcus Badiale, Antonio Tietz e Bruno
 
+
+
 ## Sumário
 
 [TOC]
+
+
 
 ## Desenvolvimento
 
@@ -77,11 +83,13 @@ Se, por ventura, houver necessidade da criação de um comitê relativo ao trato
 O Laboratório de Utilizabilidade (LabIUtil) foi o primeiro laboratório de ergonomia do Brasil, A ABERGO também é responsável por publicar materiais sobre a ergonomia na concepção de software, disponibilizando vários materiais para análise.
 
 
-#### **Métricas:**
+#### Métricas:
 
-Grupo SISO é composto de servidores compromissados no conhecimento e na consolidação das atividades relacionadas a métricas de software, objetivando troca de informações e definição de padrões de métricas de software.  
+Grupo SISO é composto de servidores comprometidos no conhecimento e na consolidação das atividades relacionadas a métricas de software, objetivando troca de informações e definição de padrões de métricas de software. 
 
-#### **Verificação e validação:**
+Outro grupo é o ISBSG (International Software Benchmarking Standards Group) é uma organização sem fins lucrativos que possuem um banco de dados de métricas de projetos de software, para ajudar na administração de recursos na T.I
+
+#### Verificação e validação:
 
 O Grupo de Validação, Verificação e Teste de Sistema Computacionais do Instituto de Informática da UFRGS  pesquisa métodos cujo propósito é a melhoria da qualidade de software. Como exemplo, podemos citar:
 
@@ -101,7 +109,7 @@ O Grupo de Validação, Verificação e Teste de Sistema Computacionais do Insti
 
 Um **histograma** é um gráfico de frequência que tem como objetivo ilustrar como uma determinada amostra ou população de dados está distribuída.
 
-##### Um exemplo
+#### Um exemplo
 
 Caso fosse necessário contabilizar, de forma gráfica, a altura de alunos em uma faculdade/colégio. Poderíamos fazer com um histograma.
 
@@ -117,13 +125,13 @@ Convertendo para o gráfico desse tipo, ficamos com um gráfico:
 
 ## Conclusão
 
-Dessa forma, compreendemos como uma norma, segundo a ABNT é criada. Vimos a gradual validação do projeto de norma, que inicializa com uma demanda, passando Comitês e Comissões. Após avaliações do projeto, criado anteriromente, passando pela consulta nacional.
+Dessa forma, compreendemos como uma norma, segundo a ABNT é criada. Vimos a gradual validação do projeto de norma, que inicializa com uma demanda, passando Comitês e Comissões. Após avaliações do projeto, criado anteriormente, passando pela consulta nacional.
 
 Vimos as série  de normas 9000, NBR 13596 e NBR 13596. Essas, respectivamente, focam em:
 
 * Garantir a qualidade do software.
 * Definir as características para um software com qualidade.
-* Definir o ciclo de vída de um sistema.
+* Definir o ciclo de vida de um sistema.
 
 Vimos também grupos que trabalham com a ergonomia de um software, como a ABERGO. O grupo SISP para métricas de software. E, também, o Grupo de Validação, Verificação e Teste de Sistema Computacionais do Instituto de Informática da UFRGS, que pesquisa métodos de melhoria da qualidade de software.
 
@@ -131,24 +139,25 @@ Por fim, vimos o exemplo de histogramas aplicado em um colégio/faculdade para m
 
 ---
 
-## Referências
+## Referências bibliográficas
 
-* http://www.abnt.org.br/normalizacao/elaboracao-e-participacao/como-se-elaboram
-* http://www.abntonline.com.br/consultanacional/
-* https://www.abntcatalogo.com.br/
-* http://www.abnt.org.br/normalizacao/comites-tecnicos
-* https://www.cb26.org.br/pan
-* https://www.cb26.org.br/comissoes-de-estudo
-* https://www.in.gov.br/
-* https://www.abntcatalogo.com.br/norma.aspx?ID=345041
-* https://www.tiespecialistas.com.br/analise-sobre-iso-9126-nbr-13596/
-* https://pt.wikipedia.org/wiki/ISO/IEC_9126
-* https://pt.wikipedia.org/wiki/ISO/IEC_12207
-* http://www.abergo.org.br/internas.php?pg=grupos_tecnicos
-* http://www.sisp.gov.br/ver-comunidade?community_id=10483894
-* http://www.ufrgs.br/verites/front-page
-* https://www.fm2s.com.br/histograma/
-* https://www.voitto.com.br/blog/artigo/o-que-e-um-histograma
+* ABNT. **Como Elaborar Normas**. Disponível em: http://www.abnt.org.br/normalizacao/elaboracao-e-participacao/como-se-elaboram
+* ABNTONLINE. **Consulta Nacional**. Disponível em: http://www.abntonline.com.br/consultanacional/
+*  ABNTCATÁLOGO. **ABNTCatálogo**. Disponível em: https://www.abntcatalogo.com.br/
+* ABNT. **Comitês Técnicos**. Disponível em: http://www.abnt.org.br/normalizacao/comites-tecnicos
+* ABNT / CB-26. **PNS (Programa de Normalização Setorial)**. Disponível em: https://www.cb26.org.br/pan
+*  ABNT / CB-26. **Comissões de Estudo**. Disponível em: https://www.cb26.org.br/comissoes-de-estudo
+*  DIÁRIO OFICIAL DA UNIÃO. **Diário Oficial da União**. Disponível em: https://www.in.gov.br/
+* ABNTCATÁLOGO. **Norma ABNT NBR ISO 9001:2015**. Disponível em: https://www.abntcatalogo.com.br/norma.aspx?ID=345041
+* TI ESPECIALISTAS. **Análise sobre a ISO 9126 – NBR 13596**. Disponível em: https://www.tiespecialistas.com.br/analise-sobre-iso-9126-nbr-13596/
+* WIKIPEDIA. **ISO/IEC 9126**. Disponível em: https://pt.wikipedia.org/wiki/ISO/IEC_9126 *Acesso em:  de junho de 2020*
+* WIKIPEDIA. **ISO/IEC 12207**. Disponível em: https://pt.wikipedia.org/wiki/ISO/IEC_12207 *Acesso em:  de junho de 2020*
+* ABERGO. **Grupos Técnicos**. Disponível em: http://www.abergo.org.br/internas.php?pg=grupos_tecnicos *Acesso em:  de junho de 2020*
+* SISP. **Grupo de Trabalho - Métricas**. Disponível em: http://www.sisp.gov.br/ver-comunidade?community_id=10483894 *Acesso em:  de junho de 2020*
+* UFRGS. **Grupo de Validação, Verificação e Teste**. Disponível em: http://www.ufrgs.br/verites/front-page *Acesso em:  de junho de 2020*
+* FM2S. **O que é histograma? Quando utilizar? Como construir?**. Disponível em: https://www.fm2s.com.br/histograma/ *Acesso em:  de junho de 2020*
+* COUTINHO, THIAGO. **Histograma: o que é, quais tipos existem e como montar um**. Disponível em: https://www.voitto.com.br/blog/artigo/o-que-e-um-histograma *Acesso em:  de junho de 2020*
+
 
 
 
