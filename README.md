@@ -12,12 +12,15 @@
 
 * [Project Charter](trabalhos/project-charter.md)
 * [Documento de requisitos](trabalhos/documento-requisitos.md)
+* [Documento de escopo](trabalhos/documento-escopo.md)
 * [Ata](trabalhos/ataGerenciaProjetos.md)
 
 ### Qualidade de software
 * [Aula 1](trabalhos/qualidade-01.md)
 * [Aula 2]()
 * [Aula 3](trabalhos/qualidade-03.md)
+* [Aula 4](trabalhos/qualidade-04.md)
+* [Aula 5](trabalhos/qualidade-05.md)
 
 
 ### Engenharia de Software 3
@@ -29,6 +32,7 @@
 * [Aula 2](trabalhos/aula-02.md) 
 * [Aula 3](trabalhos/comunicacao-03.md)
 * [Aula 4](trabalhos/comunicacao-04.md)
+* [Aula 4](trabalhos/comunicacao-05.md)
 
 ### Desenvolvimento Web 2:
 * [Trabalho de web](trabalhos/trabalho-web.md)
