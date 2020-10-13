@@ -17,13 +17,13 @@
  
 ### Qualidade de software
 * [Aula 1](trabalhos/qualidade/qualidade-01.md)
-* [Aula 2](trabalhos/qualidade/)
+* [Aula 2](trabalhos/qualidade/qualidade-02.md)
 * [Aula 3](trabalhos/qualidade/qualidade-03.md)
 * [Aula 4](trabalhos/qualidade/qualidade-04.md)
 * [Aula 5](trabalhos/qualidade/qualidade-05.md)
-* [Aula 6](trabalhos/qualidade/)
-* [Aula 7](trabalhos/qualidade/)
-* [Aula 8](trabalhos/qualidade/)
+* [Aula 6](trabalhos/qualidade/qualidade-06.md)
+* [Aula 7](trabalhos/qualidade/qualidade-07.md)
+* [Aula 8](trabalhos/qualidade/qualidade-08.md)
 
 
 ### Engenharia de Software 3
