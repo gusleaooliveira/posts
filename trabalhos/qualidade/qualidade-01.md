@@ -1,6 +1,6 @@
-[Menu](../README.md)
+[Menu](../../README.md)
 
-![Logotipo Senac](img/senac.png)
+![Logotipo Senac](../img/senac.png)
 
 **Faculdade Senac Porto Alegre**
 
@@ -13,7 +13,7 @@
 # Exercicio aula 01
 
 Formulário de avaliação do aplicativo/sistema 
-
+ 
 ---
 
 ## Instruções
@@ -68,37 +68,37 @@ Tendo em vista o cenário citado no enunciado,  foi escolhido o aplicativo **Con
 
 Abaixo mostra a conversão de **real** para **libra**.
 
-![Tela conversão Brasil :arrow_right: Libra](img/conversor/tela1.jpg)
+![Tela conversão Brasil :arrow_right: Libra](../img/conversor/tela1.jpg)
 
 ##### Brasil :arrow_right: Dólar
 
 Abaixo mostra a conversão de **real** para **dolar**.
 
-![Tela conversão Brasil :arrow_right: Dólar](img/conversor/tela2.jpg)
+![Tela conversão Brasil :arrow_right: Dólar](../img/conversor/tela2.jpg)
 
 ##### Brasil :arrow_right: Euro
 
 Abaixo mostra a conversão de **real** para **euro**.
 
-![Tela conversão Brasil :arrow_right: Euro](img/conversor/tela3.jpg)
+![Tela conversão Brasil :arrow_right: Euro](../img/conversor/tela3.jpg)
 
 ##### Escolha da moeda
 
 Podemos escolher uma moeda quando clicamos na bandeira como acima. Pode-se também favoritar clicando nas estrelas :star:. Clicando em mais moedas é possível selecionar mais moedas.
 
-![Tela ](img/conversor/tela4.jpg)
+![Tela ](../img/conversor/tela4.jpg)
 
 ##### Trocando a quantidade
 
 Clicando nas caixas de texto é possível calcular e selecionar a quantidade a ser caulculada.
 
-![Tela ](img/conversor/tela7.jpg)
+![Tela ](../img/conversor/tela7.jpg)
 
 ##### Notícias
 
 Clicando em notícias é possível ler notícias sobre a moeda, podendo ser selecionada, e compartilhar as imagens.
 
-![Tela ](img/conversor/tela8.jpg)
+![Tela ](../img/conversor/tela8.jpg)
 
 ##### Favoritos
 
@@ -106,7 +106,7 @@ Pode-se ver a lista de favoritos, que mostra pelos ultimos selecionados, e ainda
 
 > Nota-se, que no local onde estava o item da lista (botão favorito), troca pelo botão para mostrar o gráfico.
 
-![Tela ](img/conversor/tela9.jpg)
+![Tela ](../img/conversor/tela9.jpg)
 
 #### Perguntas
 

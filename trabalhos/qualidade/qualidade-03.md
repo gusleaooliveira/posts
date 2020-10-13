@@ -1,4 +1,6 @@
-![Logotipo Senac](img/senac.png)
+[Menu](../../README.md)
+
+![Logotipo Senac](../img/senac.png)
 
 **Faculdade Senac Porto Alegre**
 
@@ -15,7 +17,7 @@
 ## Grupo
 
 Gustavo Leão Nogueira de Oliveira, Marcus Badiale, Antonio Tietz e Bruno
-
+ 
 
 
 ## Sumário
@@ -43,7 +45,7 @@ Se, por ventura, houver necessidade da criação de um comitê relativo ao trato
 
  Na **Consulta Nacional** são envidados comentários e sugestões, que são avaliados pela Comissão de Estudo. Por fim, com o consenso de todos, o projeto torna-se um **Documento Técnico ABNT** que é homologado e publicado no [ABNTCatálogo](http://www.abntcatalogo.com.br/).    
 
-![Elaboração de uma norma](img/como_elaborar_norma.jpg)   
+![Elaboração de uma norma](../img/como_elaborar_norma.jpg)   
 
 > A cima tem um esquema de como é feita uma norma. Incluindo o processo de avaliação, de homologação e publicação do **Documento Técnico ABNT**.
 
@@ -115,11 +117,11 @@ Caso fosse necessário contabilizar, de forma gráfica, a altura de alunos em um
 
 Primeiramente façamos uma tabela:
 
-![tabela antes do histograma](img/Grafico-histograma.jpg)
+![tabela antes do histograma](../img/Grafico-histograma.jpg)
 
 Convertendo para o gráfico desse tipo, ficamos com um gráfico:
 
-![Histograma](img/histograma.jpg)
+![Histograma](../img/histograma.jpg)
 
 ---
 

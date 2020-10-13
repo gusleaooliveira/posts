@@ -1,6 +1,6 @@
-[Menu](../README.md)
+[Menu](../../README.md)
 
-![Logotipo Senac](/home/gustavo/Documentos/posts/trabalhos/img/senac.png)
+![Logotipo Senac](../img/senac.png)
 
 **Faculdade Senac Porto Alegre**
 
@@ -13,7 +13,7 @@
 # Exercicio aula 01
 
 Formulário de avaliação do aplicativo/sistema 
-
+ 
 ---
 
 ## Instruções

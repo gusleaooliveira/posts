@@ -1,4 +1,6 @@
-![Logotipo Senac](/home/gustavo/Documentos/GitHub/posts/trabalhos/img/senac.png)
+[Menu](../../README.md)
+
+![Logotipo Senac](../img/senac.png)
 
 **Faculdade Senac Porto Alegre**
 
@@ -16,7 +18,7 @@
 
 Gustavo Leão Nogueira de Oliveira, Marcus Badiale, Antonio Tietz e Bruno
 
-
+ 
 
 ## Sumário
 
@@ -54,7 +56,7 @@ Em virtude dos fatos sitados, podemos compreender que o GQM, criado nos anos 80,
 
 ## Referências bibliográficas
 
-*  Carlos Vinícius Pereira  da  Silva, Déborah  Carvalho  de  Moura, Danylo  de  Castro  Campos, Paulo  Nery. **GQM - Parte Escrita**. Disponível em:  *Acesso em: https://www.cin.ufpe.br/~scbs/metricas/seminarios/GQM_texto.pdf  de junho de 2020*
+*  CarlosViníciusPereira da Silva, Déborah Carvalho de Moura, Danylo de Castro Campos, Paulo Nery. **GQM - Parte Escrita**. Disponível em:  *Acesso em: https://www.cin.ufpe.br/~scbs/metricas/seminarios/GQM_texto.pdf  de junho de 2020*
 
 *  WIKPEDIA. **GQM**. Disponível em:  *Acesso em:  https://pt.wikipedia.org/wiki/GQM de junho de 2020*
 

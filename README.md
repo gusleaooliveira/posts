@@ -14,13 +14,16 @@
 * [Documento de requisitos](trabalhos/documento-requisitos.md)
 * [Documento de escopo](trabalhos/documento-escopo.md)
 * [Ata](trabalhos/ataGerenciaProjetos.md)
-
+ 
 ### Qualidade de software
-* [Aula 1](trabalhos/qualidade-01.md)
-* [Aula 2]()
-* [Aula 3](trabalhos/qualidade-03.md)
-* [Aula 4](trabalhos/qualidade-04.md)
-* [Aula 5](trabalhos/qualidade-05.md)
+* [Aula 1](trabalhos/qualidade/qualidade-01.md)
+* [Aula 2](trabalhos/qualidade/)
+* [Aula 3](trabalhos/qualidade/qualidade-03.md)
+* [Aula 4](trabalhos/qualidade/qualidade-04.md)
+* [Aula 5](trabalhos/qualidade/qualidade-05.md)
+* [Aula 6](trabalhos/qualidade/)
+* [Aula 7](trabalhos/qualidade/)
+* [Aula 8](trabalhos/qualidade/)
 
 
 ### Engenharia de Software 3
