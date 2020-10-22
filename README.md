@@ -32,10 +32,11 @@
 
 ### Comunicação profissional
 
-* [Aula 2](trabalhos/aula-02.md) 
-* [Aula 3](trabalhos/comunicacao-03.md)
-* [Aula 4](trabalhos/comunicacao-04.md)
-* [Aula 4](trabalhos/comunicacao-05.md)
+* [Aula 2](trabalhos/comunicacao/aula-02.md) 
+* [Aula 3](trabalhos/comunicacao/comunicacao-03.md)
+* [Aula 4](trabalhos/comunicacao/comunicacao-04.md)
+* [Aula 4](trabalhos/comunicacao/comunicacao-05.md)
+* [Aula 11](trabalhos/comunicacao/comunicacao-11.md)
 
 ### Desenvolvimento Web 2:
 * [Trabalho de web](trabalhos/trabalho-web.md)
