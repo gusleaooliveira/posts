@@ -1,13 +1,9 @@
 1. Quais dos seguintes são os protocolos de camada de link de dados? (Escolha três)
 
 - [x] 802.11
-
 - [x] Ethernet
-
 - [ ] IP
-
 - [x] PPP
-
 - [ ] UDP
 
 2. Qual outro nome que poderia ser dado a camada de enlace de dados OSI ? 
@@ -59,9 +55,7 @@
 8. Qual é a finalidade da camada física do modelo OSI?
 
 - [ ] Controle de acesso ao meio
-
 - [ ] Detecção de erros nos quadros recebidos
-
 - [x] Transmissão de bits no meio físico local
 - [ ] Troca de quadros entre nós no meio físico de rede física
 
