@@ -2,6 +2,10 @@
 
 ## Posts
 
+### Redes
+
+- [Prova de redes](trabalhos/redes/redes.md)
+
 ### gestao de TI
 
 * [Aula 01](trabalhos/gerencia-01.md)
@@ -14,7 +18,7 @@
 * [Documento de requisitos](trabalhos/documento-requisitos.md)
 * [Documento de escopo](trabalhos/documento-escopo.md)
 * [Ata](trabalhos/ataGerenciaProjetos.md)
- 
+
 ### Qualidade de software
 * [Aula 1](trabalhos/qualidade/qualidade-01.md)
 * [Aula 2](trabalhos/qualidade/qualidade-02.md)

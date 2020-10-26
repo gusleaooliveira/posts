@@ -1,4 +1,4 @@
- Quais dos seguintes são os protocolos de camada de link de dados? (Escolha três)
+1. Quais dos seguintes são os protocolos de camada de link de dados? (Escolha três)
 
 - [x] 802.11
 
@@ -10,7 +10,7 @@
 
 - [ ] UDP
 
-Qual outro nome que poderia ser dado a camada de enlace de dados OSI ? 
+2. Qual outro nome que poderia ser dado a camada de enlace de dados OSI ? 
 
 - [ ] camada 1
 - [x] camada 2
@@ -18,7 +18,7 @@ Qual outro nome que poderia ser dado a camada de enlace de dados OSI ?
 - [ ] camada 4
 - [ ] camada 5
 
-Quais são os três acrônimos/siglas que representam as organizações padronizadoras? (Escolha três.)
+3. Quais são os três acrônimos/siglas que representam as organizações padronizadoras? (Escolha três.)
 
 - [ ] mac
 - [x] iana
@@ -27,14 +27,14 @@ Quais são os três acrônimos/siglas que representam as organizações padroniz
 - [x] ietf
 - [ ] osi
 
-Que tipo de comunicação enviará uma mensagem para um grupo de destinos de host simultaneamente? 
+4. Que tipo de comunicação enviará uma mensagem para um grupo de destinos de host simultaneamente? 
 
 - [ ] BROADCAST
 - [x] MULTICAST
 - [ ] UNICAST
 - [ ] ANYCAST
 
-Quais duas opções de conexão com a Internet não exigem que os cabos físicos sejam executados para o prédio? (Escolha duas.)
+5. Quais duas opções de conexão com a Internet não exigem que os cabos físicos sejam executados para o prédio? (Escolha duas.)
 
 - [ ] DSL
 - [x] CELULAR
@@ -42,22 +42,21 @@ Quais duas opções de conexão com a Internet não exigem que os cabos físicos
 - [ ] DIAL-UP
 - [ ] LINHA DEDICADA PRIVADA
 
-Qual dispositivo executa a função de determinar o caminho que as mensagens devem tomar através das Inter networks;
+6. Qual dispositivo executa a função de determinar o caminho que as mensagens devem tomar através das Inter networks;
 
 - [x] Roteador
 - [ ] Firewall
 - [ ] Servidor WEB
 - [ ] Modem DSL
 
-
-O que é feito com um pacote IP antes de ser transmitido por um meio físico? 
+7. O que é feito com um pacote IP antes de ser transmitido por um meio físico? 
 
 - [ ] É marcado com informações que garantam a confiabilidade da entrega
 - [ ] É segmentado em partes individuais menores
 - [ ] É encapsulado em um segmento TCP/IP
 - [x] É encapsulado em um quadro da camada 2
 
-Qual é a finalidade da camada física do modelo OSI?
+8. Qual é a finalidade da camada física do modelo OSI?
 
 - [ ] Controle de acesso ao meio
 
@@ -66,7 +65,7 @@ Qual é a finalidade da camada física do modelo OSI?
 - [x] Transmissão de bits no meio físico local
 - [ ] Troca de quadros entre nós no meio físico de rede física
 
-Qual organização de padrões supervisiona o desenvolvimento de padrões de LAN sem fio ?
+9. Qual organização de padrões supervisiona o desenvolvimento de padrões de LAN sem fio ?
 
 - [x] Iana
 - [ ] tia
@@ -74,7 +73,7 @@ Qual organização de padrões supervisiona o desenvolvimento de padrões de LAN
 - [ ] iso
 - [ ] mac
 
-No modelo OSI, em qual camada ocorre o processo de roteamento ?
+10. No modelo OSI, em qual camada ocorre o processo de roteamento ?
 
 - [ ] camada 1
 - [ ] camada 2
