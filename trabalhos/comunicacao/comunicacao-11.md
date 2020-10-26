@@ -8,13 +8,13 @@ O autor Paulo Angelin no seu texto “Dicas para Falar melhor em público” htt
 
 | Dicas | Explicações |
 |:-----:|:-----------:|
-| 1. Desenvolva: **inicio**, **meio** e **fim** |  |
-| 2. Tenha postura correta | |
-| 3. Fale com boa velocidade | |
-| 4. Use um vocabulário adequado | |
+| 1. Desenvolver: **inicio**, **meio** e **fim** | Estudar seu assunto, de maneira a desenvolver um **início**, **meio** e uma boa **conclusão**, de maneira concisa e elucidativa é desejável para uma boa apresentação. |
+| 2. Ter uma postura correta | |
+| 3. Falar com boa velocidade | |
+| 4. Usar um vocabulário adequado | |
 | 5. | |
 | 6. Pronuncie bem as palavras | |
-| 7. Fale com entusiasmo |  | 
+| 7. Fale com entusiasmo |  |
 ---
 
 # Criador
