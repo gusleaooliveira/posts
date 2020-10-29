@@ -47,10 +47,10 @@
 
 7. O que é feito com um pacote IP antes de ser transmitido por um meio físico? 
 
-- [ ] É marcado com informações que garantam a confiabilidade da entrega
+- [x] É marcado com informações que garantam a confiabilidade da entrega
 - [ ] É segmentado em partes individuais menores
 - [ ] É encapsulado em um segmento TCP/IP
-- [x] É encapsulado em um quadro da camada 2
+- [ ] É encapsulado em um quadro da camada 2 **TODO:** acho que é este, mas marquei o primeiro
 
 8. Qual é a finalidade da camada física do modelo OSI?
 
@@ -61,9 +61,9 @@
 
 9. Qual organização de padrões supervisiona o desenvolvimento de padrões de LAN sem fio ?
 
-- [x] Iana
+- [ ] Iana
 - [ ] tia
-- [ ] ieee
+- [x] ieee
 - [ ] iso
 - [ ] mac
 
