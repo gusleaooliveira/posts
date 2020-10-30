@@ -41,6 +41,7 @@
 * [Aula 4](trabalhos/comunicacao/comunicacao-04.md)
 * [Aula 4](trabalhos/comunicacao/comunicacao-05.md)
 * [Aula 11](trabalhos/comunicacao/comunicacao-11.md)
+* [Aula 12](trabalhos/comunicacao/comunicacao-12.md)
 
 ### Desenvolvimento Web 2:
 * [Trabalho de web](trabalhos/trabalho-web.md)
