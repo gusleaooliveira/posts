@@ -1,3 +1,5 @@
+[Menu](../../README.md)
+
 1. Quais dos seguintes são os protocolos de camada de link de dados? (Escolha três)
 
 - [x] 802.11
@@ -75,5 +77,16 @@
 - [ ] camada 4
 
 
+
+---
+
+# Criador
+
+Olá me chamo Gustavo, e criei este material, para mais informações, clique nos links abaixo:
+
+* [LinkTree](https://www.linktree.com.br/gusleaooliveira)
+
+
+* Disponível em : [Repositório de exercícios](https://gusleaooliveira.github.io/posts/)
 
  
