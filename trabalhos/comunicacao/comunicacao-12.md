@@ -1,3 +1,5 @@
+[Menu](../README.md)
+
 ### Pergunta 1
 
 É na ____ que ocorre análise do posicionamento pessoal junto com as leituras realizadas.
@@ -97,3 +99,14 @@ A revisão bibliográfica corre no momento do  ____ .
 - [ ] c. Hipótese 
 - [x] d. Desenvolvimento
 - [ ] e. Conclusão
+
+---
+
+# Criador
+
+Olá me chamo Gustavo Leão Nogueira de Oliveira, e criei este material, para mais informações, clique nos links abaixo:
+
+* [LinkTree](https://www.linktree.com.br/gusleaooliveira)
+
+
+* Disponível em : [Repositório de exercícios](https://gusleaooliveira.github.io/posts/)
