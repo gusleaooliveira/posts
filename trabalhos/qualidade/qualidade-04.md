@@ -19,7 +19,7 @@
 Gustavo Leão Nogueira de Oliveira, Marcus Badiale, Antonio Tietz e Bruno
 
 
- 
+
 ## Sumário
 
 [TOC]
@@ -94,4 +94,17 @@ Levando em consideração esses aspectos é possível compreender os **atributos
 
 *  SOFTEX. **MPS.BR - Melhoria de Processo do Software Brasileiro **. Disponível em: https://www.softex.br/wp-content/uploads/2013/07/MPS.BR_Guia_Geral_Software_2012-c-ISBN-1.pdf *Acesso em:  23 de junho de 2020*
 * WIKIPEDIA. **ISO/IEC 12207**. Disponível em: https://pt.wikipedia.org/wiki/ISO/IEC_12207 *Acesso em:  23 de junho de 2020*
+
+
+
+---
+
+# Criador
+
+Olá me chamo Gustavo, e criei este material, para mais informações, clique nos links abaixo:
+
+* [LinkTree](https://www.linktree.com.br/gusleaooliveira)
+
+
+* Disponível em : [Repositório de exercícios](
 

@@ -17,7 +17,7 @@
 ## Grupo
 
 Gustavo Leão Nogueira de Oliveira, Marcus Badiale, Antonio Tietz e Bruno
- 
+
 
 
 ## Sumário
@@ -161,5 +161,16 @@ Por fim, vimos o exemplo de histogramas aplicado em um colégio/faculdade para m
 * COUTINHO, THIAGO. **Histograma: o que é, quais tipos existem e como montar um**. Disponível em: https://www.voitto.com.br/blog/artigo/o-que-e-um-histograma *Acesso em:  de junho de 2020*
 
 
+
+---
+
+# Criador
+
+Olá me chamo Gustavo, e criei este material, para mais informações, clique nos links abaixo:
+
+* [LinkTree](https://www.linktree.com.br/gusleaooliveira)
+
+
+* Disponível em : [Repositório de exercícios](
 
 

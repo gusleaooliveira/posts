@@ -66,3 +66,16 @@ Em virtude dos fatos sitados, podemos compreender que o GQM, criado nos anos 80,
 
 *  GEVENES MARTINS, ALEXANDRE. **O uso do GQM nas medições da qualidade de software: um roteiro para definições de indicadores.** Disponível em:  http://cassiopea.ipt.br/teses/2011_EC_Alexandre_Gevenez.pdf *Acesso em:  24 de junho de 2020*
 
+
+
+---
+
+# Criador
+
+Olá me chamo Gustavo, e criei este material, para mais informações, clique nos links abaixo:
+
+* [LinkTree](https://www.linktree.com.br/gusleaooliveira)
+
+
+* Disponível em : [Repositório de exercícios](
+

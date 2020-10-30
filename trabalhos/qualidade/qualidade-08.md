@@ -24,7 +24,7 @@
 
 ## Apresntação 3:
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSOc13rczECL3a81H9TMu6xC2QevlxaG622-nfPZd1DR_F56zUgkNUVOGogltaZhF9WyOZr5Y1arSkf/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>	
-	
+
 ### Trabalho escrito
 
 
@@ -39,3 +39,17 @@
 ### Trabalho escrito
 
 [Qualidade 7](qualidade-07.md)
+
+
+
+---
+
+# Criador
+
+Olá me chamo Gustavo, e criei este material, para mais informações, clique nos links abaixo:
+
+* [LinkTree](https://www.linktree.com.br/gusleaooliveira)
+
+
+* Disponível em : [Repositório de exercícios](
+

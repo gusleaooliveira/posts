@@ -1,3 +1,5 @@
+[Menu](../../README.md)
+
 Olá, tudo bem?
 
 Como ferramenta de auxílio para o **aprendizado**, o celular, pode ser empregado de diversas formas uteis, como: 
@@ -43,3 +45,14 @@ As redes sociais, pelo fato de serem “passaportes para o mundo”, possibilita
 * https://www.youtube.com/watch?v=itKgV5K2M8M
 * https://portalintercom.org.br/anais/sul2013/resumos/R35-0425-1.pdf
 * https://novaescola.org.br/conteudo/240/redes-sociais-ajudam-interacao-professores-alunos
+
+---
+
+# Criador
+
+Olá me chamo Gustavo Leão Nogueira de Oliveira, e criei este material, para mais informações, clique nos links abaixo:
+
+* [LinkTree](https://www.linktree.com.br/gusleaooliveira)
+
+
+* Disponível em : [Repositório de exercícios](

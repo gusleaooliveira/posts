@@ -1,3 +1,5 @@
+[Menu](../../README.md)
+
 ![Logotipo Senac](../img/senac.png)
 
 **Faculdade Senac Porto Alegre**
@@ -166,3 +168,17 @@ CMMI INSTITUTE. **CMMI V2.0 Upgrade Training**. Disponível em: https://cmmiinst
 CMMI INSTITUTE. **Foundations of Capability**. Disponível em: https://cmmiinstitute.com/store/foundations-of-capability  Acesso em: 14 de outubro de 2020
 
 ISDBRASIL. **Como comprovar a autenticidade de uma “certificação CMMI”**. Disponível em: http://www.isdbrasil.com.br/artigos/como-comprovar-a-autenticidade-de-uma-certificacao-cmmi.php Acesso em: 14 de outubro de 2020
+
+
+
+---
+
+# Criador
+
+Olá me chamo Gustavo, e criei este material, para mais informações, clique nos links abaixo:
+
+* [LinkTree](https://www.linktree.com.br/gusleaooliveira)
+
+
+* Disponível em : [Repositório de exercícios](
+
