@@ -1,95 +1,99 @@
-1. É na ____ que ocorre análise do posicionamento pessoal junto com as leituras realizadas.
-- [ ]  Introdução  
-- [ ]  Situação de pesquisa
-- [ ]  Hipótese  
-- [ ]  Desenvolvimento  
-- [ ]  Conclusão  
+### Pergunta 1
 
-2. Na ____  há a necessidade de uma breve retomada ao tema e as questões iniciais da pesquisa. 
-- [ ]  Introdução  
-- [ ]  Situação de pesquisa
-- [ ]  Hipótese  
-- [ ]  Desenvolvimento  
-- [ ]  Conclusão  
+É na ____ que ocorre análise do posicionamento pessoal junto com as leituras realizadas.
 
-3. A contextualização do cenário e da pesquisa ocorre na ____.
+- [ ] a. Introdução 
+- [ ] b. Situação de pesquisa
+- [ ] c. Hipótese 
+- [ ] d. Desenvolvimento
+- [ ] e. Conclusão
+### Pergunta 2
 
-- [ ]  Introdução  
-- [ ]  Situação de pesquisa
-- [ ]  Hipótese  
-- [ ]  Desenvolvimento  
-- [ ]  Conclusão  
+Na  ____ há a necessidade de uma breve retomada ao tema e as questões iniciais da pesquisa. 
 
+- [ ] a. Introdução 
+- [ ] b. Situação de pesquisa
+- [ ] c. Hipótese 
+- [ ] d. Desenvolvimento
+- [ ] e. Conclusão
+### Pergunta 3
 
-4. É no momento da ____ onde há a apresentação da pergunta que guiará o trabalho.
+A contextualização do cenário e da pesquisa ocorre na  ____ . 
 
-- [ ]  Introdução  
-- [ ]  Situação de pesquisa
-- [ ]  Hipótese  
-- [ ]  Desenvolvimento  
-- [ ]  Conclusão  
+- [ ] a. Introdução 
+- [ ] b. Situação de pesquisa
+- [ ] c. Hipótese 
+- [ ] d. Desenvolvimento
+- [ ] e. Conclusão
+### Pergunta 4
 
+É no momento da  ____ onde há a apresentação da pergunta que guiará o trabalho.
 
-5. A apresentação do tema a ser pesquisado ocorre na ____. 
+- [ ] a. Introdução 
+- [ ] b. Situação de pesquisa
+- [ ] c. Hipótese 
+- [ ] d. Desenvolvimento
+- [ ] e. Conclusão
+### Pergunta 5
 
-- [ ]  Introdução  
-- [ ]  Situação de pesquisa
-- [ ]  Hipótese  
-- [ ]  Desenvolvimento  
-- [ ]  Conclusão  
+A apresentação do tema a ser pesquisado ocorre na  ____ . 
 
+- [ ] a. Introdução 
+- [ ] b. Situação de pesquisa
+- [ ] c. Hipótese 
+- [ ] d. Desenvolvimento
+- [ ] e. Conclusão
+### Pergunta 6
 
-6. É no ____ em que ocorre a revisão das obras sobre este tema.
+É no  ____ em que ocorre a revisão das obras sobre este tema.
 
-- [ ]  Introdução  
-- [ ]  Situação de pesquisa
-- [ ]  Hipótese  
-- [ ]  Desenvolvimento  
-- [ ]  Conclusão  
+- [ ] a. Introdução 
+- [ ] b. Situação de pesquisa
+- [ ] c. Hipótese 
+- [ ] d. Desenvolvimento
+- [ ] e. Conclusão
+### Pergunta 7
 
+Já na  ____ há a explicação e justificativa da possível resposta da pesquisa. 
 
-7. Já na ____ há a explicação e justificativa da possível resposta da pesquisa. 
+- [ ] a. Introdução 
+- [ ] b. Situação de pesquisa
+- [ ] c. Hipótese 
+- [ ] d. Desenvolvimento
+- [ ] e. Conclusão
+### Pergunta 8
 
-- [ ]  Introdução  
-- [ ]  Situação de pesquisa
-- [ ]  Hipótese  
-- [ ]  Desenvolvimento  
-- [ ]  Conclusão  
+Já na  ____ há a explicação e justificativa da possível resposta da pesquisa. 
 
+- [ ] a. Introdução 
+- [ ] b. Situação de pesquisa
+- [ ] c. Hipótese 
+- [ ] d. Desenvolvimento
+- [ ] e. Conclusão
+### Pergunta 9
 
-8. Já na ____ há a explicação e justificativa da possível resposta da pesquisa.
+A dedução da pergunta levantada ocorre na  ____ . 
 
-- [ ]  Introdução  
-- [ ]  Situação de pesquisa
-- [ ]  Hipótese  
-- [ ]  Desenvolvimento  
-- [ ]  Conclusão  
+- [ ] a. Introdução 
+- [ ] b. Situação de pesquisa
+- [ ] c. Hipótese 
+- [ ] d. Desenvolvimento
+- [ ] e. Conclusão
+### Pergunta 10
 
+É na  ____ onde o pesquisador levanta a possível resposta à pergunta feita.
 
-9. A dedução da pergunta levantada ocorre na .
+- [ ] a. Introdução 
+- [ ] b. Situação de pesquisa
+- [ ] c. Hipótese 
+- [ ] d. Desenvolvimento
+- [ ] e. Conclusão
+### Pergunta 11
 
-- [ ]  Introdução  
-- [ ]  Situação de pesquisa
-- [ ]  Hipótese  
-- [ ]  Desenvolvimento  
-- [ ]  Conclusão  
+A revisão bibliográfica corre no momento do  ____ . 
 
-
-10. É na  onde o pesquisador levanta a possível resposta à pergunta feita.
-
-- [ ]  Introdução  
-- [ ]  Situação de pesquisa
-- [ ]  Hipótese  
-- [ ]  Desenvolvimento  
-- [ ]  Conclusão  
-
-
-11. A revisão bibliográfica corre no momento do ____.
-
-- [ ]  Introdução  
-- [ ]  Situação de pesquisa
-- [ ]  Hipótese  
-- [ ]  Desenvolvimento  
-- [ ]  Conclusão  
-
----
+- [ ] a. Introdução 
+- [ ] b. Situação de pesquisa
+- [ ] c. Hipótese 
+- [ ] d. Desenvolvimento
+- [ ] e. Conclusão
