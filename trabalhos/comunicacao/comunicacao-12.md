@@ -6,21 +6,21 @@
 - [ ] b. Situação de pesquisa
 - [ ] c. Hipótese 
 - [ ] d. Desenvolvimento
-- [ ] e. Conclusão
+- [x] e. Conclusão
 ### Pergunta 2
 
 Na  ____ há a necessidade de uma breve retomada ao tema e as questões iniciais da pesquisa. 
 
 - [ ] a. Introdução 
-- [ ] b. Situação de pesquisa
+- [ ] b. Situação de pesquisa 
 - [ ] c. Hipótese 
 - [ ] d. Desenvolvimento
-- [ ] e. Conclusão
+- [x] e. Conclusão
 ### Pergunta 3
 
 A contextualização do cenário e da pesquisa ocorre na  ____ . 
 
-- [ ] a. Introdução 
+- [x] a. Introdução 
 - [ ] b. Situação de pesquisa
 - [ ] c. Hipótese 
 - [ ] d. Desenvolvimento
@@ -30,7 +30,7 @@ A contextualização do cenário e da pesquisa ocorre na  ____ .
 É no momento da  ____ onde há a apresentação da pergunta que guiará o trabalho.
 
 - [ ] a. Introdução 
-- [ ] b. Situação de pesquisa
+- [x] b. Situação de pesquisa
 - [ ] c. Hipótese 
 - [ ] d. Desenvolvimento
 - [ ] e. Conclusão
@@ -38,7 +38,7 @@ A contextualização do cenário e da pesquisa ocorre na  ____ .
 
 A apresentação do tema a ser pesquisado ocorre na  ____ . 
 
-- [ ] a. Introdução 
+- [x] a. Introdução 
 - [ ] b. Situação de pesquisa
 - [ ] c. Hipótese 
 - [ ] d. Desenvolvimento
@@ -50,7 +50,7 @@ A apresentação do tema a ser pesquisado ocorre na  ____ .
 - [ ] a. Introdução 
 - [ ] b. Situação de pesquisa
 - [ ] c. Hipótese 
-- [ ] d. Desenvolvimento
+- [x] d. Desenvolvimento
 - [ ] e. Conclusão
 ### Pergunta 7
 
@@ -60,14 +60,14 @@ Já na  ____ há a explicação e justificativa da possível resposta da pesquis
 - [ ] b. Situação de pesquisa
 - [ ] c. Hipótese 
 - [ ] d. Desenvolvimento
-- [ ] e. Conclusão
+- [x] e. Conclusão
 ### Pergunta 8
 
 Já na  ____ há a explicação e justificativa da possível resposta da pesquisa. 
 
 - [ ] a. Introdução 
 - [ ] b. Situação de pesquisa
-- [ ] c. Hipótese 
+- [x] c. Hipótese 
 - [ ] d. Desenvolvimento
 - [ ] e. Conclusão
 ### Pergunta 9
@@ -78,14 +78,14 @@ A dedução da pergunta levantada ocorre na  ____ .
 - [ ] b. Situação de pesquisa
 - [ ] c. Hipótese 
 - [ ] d. Desenvolvimento
-- [ ] e. Conclusão
+- [x] e. Conclusão
 ### Pergunta 10
 
 É na  ____ onde o pesquisador levanta a possível resposta à pergunta feita.
 
 - [ ] a. Introdução 
 - [ ] b. Situação de pesquisa
-- [ ] c. Hipótese 
+- [x] c. Hipótese 
 - [ ] d. Desenvolvimento
 - [ ] e. Conclusão
 ### Pergunta 11
@@ -95,5 +95,5 @@ A revisão bibliográfica corre no momento do  ____ .
 - [ ] a. Introdução 
 - [ ] b. Situação de pesquisa
 - [ ] c. Hipótese 
-- [ ] d. Desenvolvimento
+- [x] d. Desenvolvimento
 - [ ] e. Conclusão
