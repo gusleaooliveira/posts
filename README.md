@@ -28,6 +28,7 @@
 * [Aula 6](trabalhos/qualidade/qualidade-06.md)
 * [Aula 7](trabalhos/qualidade/qualidade-07.md)
 * [Aula 8](trabalhos/qualidade/qualidade-08.md)
+* [Aula 9](trabalhos/qualidade/qualidade-09.md)
 
 
 ### Engenharia de Software 3
