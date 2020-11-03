@@ -1,3 +1,5 @@
+### Pergunta  
+
 BPMN (Business Process Modeling Notation) é uma notação para representar processos de negócios através de diagramas de processos de negócio (Business Process Diagram – BPD). Baseado em flow chart , possibilita que os elementos básicos sejam facilmente interpretados, visando fornecer uma notação que possa ser entendida tanto pelo pessoal de negócio como de TI, eliminando a lacuna entre o desenho do processo e a implementação do processo.
 
 No BPD abaixo, quais as inconsistências de acordo com a BPMN:
@@ -6,7 +8,30 @@ No BPD abaixo, quais as inconsistências de acordo com a BPMN:
 
 
 
-![](C:\Users\Gustavo\Documents\GitHub\posts\trabalhos\img\bpd1.png)
+![](../img/bpd1.png)
+
+---
+
+A tarefa 2 está incorretamente ligada, visto que para ligar tarefas é utilizada a linha contínua. 
+
+A linha tracejada é utilizada para representar uma mensagem e/ou sinal, sendo utilizada para representar quando temos mensagens entre processos  ou participantes (piscinas). Esta linha não deve estar dentro de uma piscina, por exemplo ligando duas tarefas.
+
+
+
+
+Neste caso, como estamos ligando as atividades para geral um fluxo de sequência (que utiliza a seta comum para ligar duas tarefas). O correto para este caso seria ligar a tarefa 1 e a tarefa 2, bem como a tarefa 2 e 3, com uma linha reta.
+
+Além disso, as duas piscinas deveriam ser transformadas em duas raias, pois dessa maneira teríamos as ligações entre as tarefas (e  ter um fluxo correto) e teríamos o processo com os papeis corretamente organizados. Ficaria assim o processo:
+
+![](../img/exemplo.png)
+
+Imagem
+
+Usa-se piscinas diferentes, para representar ou participantes, ou uma entidade de negócio.
+
+
+
+
 
 ---
 
@@ -49,7 +74,7 @@ Qual das alternativas abaixo pode ser representada através de diagramas de proc
 
 - [ ] a Estratégia
 - [ ] b .Estrutura e recursos organizacionais
-- [x] c Regras de negócio *
+- [ ] c Regras de negócio * errada
 - [ ] d Rotinas departamentais
 - [ ] e  Modelos de dados e informação
 
@@ -80,8 +105,17 @@ Das alternativas abaixo, assinale a única correta:
 Escreva brevemente a respeito dos processos TO-BE e AS-IS, e  o que você sabe sobre processos privados, processos públicos e processos colaborativos.
 
 Para ambas, seria pertinente responder:
-- O que são? - Quando utilizá-los? - Quais as suas principais diferenças? 
+#### **O que são?**
 
+**As is** é a representação de um processo no momento inicial, contendo erros e acertos, de maneira que pode ser alterado. Quando modificamos e alteramos a representação de um processo, esse torna-se **To be,** pois são incluídas melhorias, inovações e modificações. O **to be** também pode ser desenvolvido diretamente, entretanto, esse não possuirá apenas o **caminho do final feliz**, que é o fluxo básico do início até o final, como o **as is**.
+
+#### Quando utilizá-los?
+
+Devemos usar o **As-Is** quando estamos compreendendo como é o processo, ou quando ele é de importância estratégica, e já o **to-be**, quando já sabemos e identificamos melhorias possíveis e/ou quando podemos escrever um novo processo. 
+
+#### Quais as suas principais diferenças?
+
+O **As-is** tem apenas o **caminho feliz**, ou seja, o caminho inicial /básico, sem detalhes. Já o **To-be** já é mais detalhado, e possui subprocessos, o caminho feliz, e é uma melhora do as-is, sabendo-se que esse já é conhecido e já foi desenvolvido.
 
 ---
 
@@ -101,6 +135,6 @@ Qual das seguintes opções pode ser considerada um benefício do alinhamento es
 
 - [ ] a Entregar um serviço dentro do tempo e orçamento previstos
 - [ ] b Utilização das últimas tecnologias do mercado
-- [x] c Ser o primeiro para o mercado
+- [ ] c Ser o primeiro para o mercado * errado
 - [ ] d Melhor administração dos investimentos em TI
 - [ ] e Nenhuma das alternativas está correta
