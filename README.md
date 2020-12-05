@@ -12,6 +12,7 @@
 * [Aula 03](trabalhos/gerencia-02.md)
 * [Aula 05](trabalhos/gerencia-05.md)
 * [Prova](trabalhos/gestao-ti/prova.md)
+* [Aula 15](trabalhos/gestao-ti/gerencia-15.md)
 
 ### Gerência de Projetos
 
@@ -44,8 +45,8 @@
 * [Aula 4](trabalhos/comunicacao/comunicacao-05.md)
 * [Aula 11](trabalhos/comunicacao/comunicacao-11.md)
 * [Aula 12](trabalhos/comunicacao/comunicacao-12.md)
-
 * [Aula 15](trabalhos/comunicacao/comunicacao-15.md)
+* [Aula 17](trabalhos/comunicacao/comunicacao-17.md)
 
 ### 
 
