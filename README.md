@@ -5,6 +5,7 @@
 ### Redes
 
 - [Prova de redes](trabalhos/redes/redes.md)
+- [Aula 17](trabalhos/redes/redes-17.md)
 
 ### gestao de TI
 
@@ -48,9 +49,7 @@
 * [Aula 15](trabalhos/comunicacao/comunicacao-15.md)
 * [Aula 17](trabalhos/comunicacao/comunicacao-17.md)
 
-### 
-
-* Desenvolvimento Web 2:
+### Desenvolvimento Web 2:
 
 * [Trabalho de web](trabalhos/trabalho-web.md)
 * [Api parte 1](trabalhos/o-que-eh-uma-api.md)
