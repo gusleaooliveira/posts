@@ -48,6 +48,7 @@
 * [Aula 12](trabalhos/comunicacao/comunicacao-12.md)
 * [Aula 15](trabalhos/comunicacao/comunicacao-15.md)
 * [Aula 17](trabalhos/comunicacao/comunicacao-17.md)
+* [Aula 19](trabalhos/comunicacao/comunicacao-19.md)
 
 ### Desenvolvimento Web 2:
 
@@ -84,6 +85,9 @@
 * [Instalador](posts/linux/instalador.md)
 
 ## Projetos
+
+#### Aceleradora PUC 2021
+* [Energéticos Accelerator](https://gusleaooliveira.github.io/energeticos-accelerator/)
 
 #### MRConstruções :house:
 
