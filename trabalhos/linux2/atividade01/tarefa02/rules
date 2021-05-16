@@ -1,0 +1,61 @@
+#!/bin/bash
+
+iptables -t filter -F
+iptables -t mangle -F
+iptables -r nat -F
+
+#====[Bloqueita tudo]====
+iptables -P INPUT DROP
+iptables -P OUTPUT DROP
+iptables -P FORWARD DROP
+
+#====[Habilita o NAT]====
+iptables -t nat -A POSTROUTING -o enp0s3 -j MASQUERADE
+
+#====[Regras de acesso a VM Security]====
+#====[Libera conexões já estabelecidas]====
+iptables -t filter -A INPUT -m conntrack --ctstate ESTABILISHED,RELATED -j ACCEPT
+iptables -t filter -A OUTPUT -m conntrack --ctstate ESTABILISHED,RELATED -j ACCEPT
+iptables -t filter -A FORWARD -m conntrack --ctstate ESTABILISHED,RELATED -j ACCEPT
+
+#====[Libera acessp SSH da WAN para o Firewall]====
+iptables -t filter -A INPUT -p tcp --dport 22 -j ACCEPT
+
+#====[Libera o Loopback]====
+iptables -t filter -I INPUT -i lo -j ACCEPT
+
+#====[Libera o ICMP a partir do Firewall e Rede LAN virtualizada]====
+iptables -t filter -A OUTPUT -p icmp -s 0/0 -d 0/0 -j ACCEPT
+iptables -t filter -A INPUT -p icmp --icmp-type 8 -s 172.16.1.0/24 -d 0/0 -j ACCEPT
+iptables -t filter -A INPUT -p icmp --icmp-type 8 -s 10.10.10.0/24 -d 0/0 -j ACCEPT
+iptables -t filter -A INPUT -p icmp --icmp-type 8 -s X.X.X.X/XX -d 0/0 -j ACCEPT
+
+#====[Libera  DNS a partir do Firewall]====
+iptables -t filter -A OUTPUT -p udp -d 0/0 --dport 53 -j ACCEPT
+
+#====[Libera HTTO e HTTPS a partir do Firewall]====
+iptables -t filter  -A OUTPUT -p tcp -m multport -d 0/0 --dport 80,443 -j ACCEPT
+
+#====[Regras basicas para a rede local 172.16.1.0/24]====
+#--->[Libera ICMP a partir da LAN]
+iptables -t filter -A FORWARD -p icmp --icmp-type 0 -s 172.16.1.0/24 -d 0/0 -j ACCEPT
+iptables -t filter -A FORWARD -p icmp --icmp-type 8 -s 172.16.1.0/24 -d 0/0 -j ACCEPT
+#--->[Libera consulta DNS a partir da LAN]
+iptables -A FORWARD -p udp -s 172.16.1.0/24 -d 0/0 --dport 53 -j ACCEPT
+#--->[Libera HTTP e HTTPS a partir da LAN]
+iptables -A FORWARD -p tcp -m multport -s 172.16.1.0/24 -d 0/0 --dport 80,443 -j ACCEPT
+#--->[Redireciona SSH da WAN par a LAN virtualizada]
+iptables -t nat -A PREROUTING -p tcp -s 0/0 -d X.X.X.X --dport 22 -j DNAT -to 172.16.1.X:22
+iptables -t filter -A FORWARD -p tcp -s 0/0 -d 172.16.1.X --dport 22 -j ACCEPT
+
+#====[Regras basicas para a rede local 10.10.10.0/24]====
+#--->[Libera ICMP a partir da LAN]
+iptables -t filter -A FORWARD -p icmp --icmp-type 0 -s 10.10.10.0/24 -d 0/0 -j ACCEPT
+iptables -t filter -A FORWARD -p icmp --icmp-type 8 -s 10.10.10.0/24 -d 0/0 -j ACCEPT
+#--->[Libera consulta DNS a partir da LAN]
+iptables -A FORWARD -p udp -s 10.10.10.0/24 -d 0/0 --dport 53 -j ACCEPT
+#--->[Libera HTTP e HTTPS a partir da LAN]
+iptables -A FORWARD -p tcp -m multport -s 10.10.10.0/24 -d 0/0 --dport 80,443 -j ACCEPT
+#--->[Redireciona SSH da WAN par a LAN virtualizada]
+iptables -t nat -A PREROUTING -p tcp -s 0/0 -d X.X.X.X --dport 22 -j DNAT -to 10.10.10.X:22
+iptables -t filter -A FORWARD -p tcp -s 0/0 -d 10.10.10.X --dport 22 -j ACCEPT

@@ -1,0 +1,27 @@
+Chain INPUT (policy DROP)
+target	prop opt source		destination
+ACCEPT	all  --  anywhere	anywhere	  	
+ACCEPT	all  --  anywhere	anywhere	ctstate RELATED,ESTABILISHED  
+ACCEPT	tcp  --  anywhere	anywhere	tcp dpt:ssh  
+ACCEPT	icmp  -- 172.16.1.0/24	anywhere	icmp echo-request  
+ACCEPT	icmp  -- 10.10.10.0/24 	anywhere	icmp echo-request  
+
+Chain FORWARD (policy DROP)
+target	prop opt source		destination
+ACCEPT	all  --  anywhere	anywhere	ctstate RELATED,ESTABILISHED
+ACCEPT	icmp --  172.16.1.0/24	anywhere	icmp echo-reply  
+ACCEPT	icmp --  172.16.1.0/24	anywhere	icmp echo-request  
+ACCEPT	udp  --  172.16.1.0/24	anywhere	udp dpt:domain  
+ACCEPT	tcp  --  172.16.1.0/24	anywhere	multiport dport http,https  
+ACCEPT	icmp --  10.10.10.0/24	anywhere	icmp echo-reply  
+ACCEPT	icmp --  10.10.10.0/24	anywhere	icmp echo-request  
+ACCEPT	udp  --  10.10.10.0/24	anywhere	udp dpt:domain  
+ACCEPT	tcp  --  10.10.10.0/24	anywhere	multiport dport http,https  
+
+Chain OUTPUT (policy DROP)
+target	prop opt source		destination
+ACCEPT	all  --  anywhere	anywhere	ctstate RELATED,ESTABILISHED
+ACCEPT	icmp --  anywhere	anywhere	  
+ACCEPT	udp  --  anywhere	anywhere	udp dpt:domain  
+ACCEPT	tcp  --  anywhere	anywhere	multiport dport http,https  
+

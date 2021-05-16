@@ -1,0 +1,7 @@
+source /etc/network/interface.d/*
+
+#====[Interna - LAN IPv4(enp0s3)]====
+auto enp0s3
+iface enp0s3 inet static address 10.10.10.2
+netmask 24
+gateway 10.10.10.1
