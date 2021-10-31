@@ -2,6 +2,8 @@
 
 ## Posts
 
+## Organização de computadores
+- [Artigo ](trabalhos/Artigo-Organizacao.pdf)
 
 ## Engenharia de software 3
 
